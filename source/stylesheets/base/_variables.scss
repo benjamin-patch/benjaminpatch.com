@@ -1,6 +1,7 @@
 // Typography
-$base-font-family: $helvetica;
-$heading-font-family: $base-font-family;
+@import url(https://fonts.googleapis.com/css?family=Roboto:300|Open+Sans:400);
+$base-font-family: 'Open Sans', sans-serif;
+$heading-font-family: 'Roboto', sans-serif;
 
 // Small screen font sizes
 $base-small-font-size: 1.1em;
@@ -22,7 +23,7 @@ $h6-font-size: 1em;
 
 // Font weights
 $base-font-weight: 400;
-$heading-font-weight: 400;
+$heading-font-weight: 300;
 
 // Line height
 $base-line-height: 1.5;
