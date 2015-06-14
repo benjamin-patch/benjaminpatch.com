@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title><%= title_tag %></title>
+    <meta name="description" content="<%= meta_description %>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <%= stylesheet_link_tag "benjamin-patch" %>
+  </head>
+  
+  <body>
+    <%= partial "header" %>
+    <article>
+      <%= yield %>
+    </article>
+    <%= partial "twitter" %>
+    <%= partial "footer" %>
+  </body>
+</html>

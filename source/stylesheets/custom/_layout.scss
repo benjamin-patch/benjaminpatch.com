@@ -1,0 +1,23 @@
+header,
+article,
+aside,
+footer {
+  padding: 1em;
+}
+
+header,
+footer {
+  background-color: $action-color;
+  color: #fff;
+  text-align: center;
+}
+
+article {
+  margin: 0 auto;
+  max-width: 50em;
+}
+
+aside {
+  @extend article;
+  text-align: center;
+}
