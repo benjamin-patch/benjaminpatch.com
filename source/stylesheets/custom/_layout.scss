@@ -7,9 +7,15 @@ footer {
 
 header,
 footer {
-  background-color: $action-color;
+  background-color: $primary-color;
   color: #fff;
   text-align: center;
+
+  @include selection {
+    background-color: $secondary-color;
+    color: $base-font-color;
+  }
+
 }
 
 article {

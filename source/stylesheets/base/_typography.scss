@@ -6,7 +6,7 @@ body {
   font-weight: $base-font-weight;
   line-height: $base-line-height;
   @include selection {
-    background-color: $action-color;
+    background-color: $primary-color;
     color: #fff;
   }
   font-size: $base-small-font-size;
