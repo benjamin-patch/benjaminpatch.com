@@ -18,12 +18,23 @@ footer {
 
 }
 
+header {
+  padding-bottom: 12em;
+}
+
 article {
+  max-width: $article-max-width;
   margin: 0 auto;
-  max-width: 50em;
+  margin-top: -11em;
+
+  @include media($desktop-article) {
+    @include border-top-radius($base-border-radius);
+  }
+
 }
 
 aside {
   @extend article;
   text-align: center;
+  margin-top: 0;
 }
