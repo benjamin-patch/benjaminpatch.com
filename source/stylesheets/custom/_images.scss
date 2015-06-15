@@ -1,0 +1,12 @@
+img#benjamin-patch {
+  border: 1px solid #fff;
+  border-radius: $base-border-radius;
+
+  // retina sizing
+  height: auto;
+  width: 140px;
+
+  @include media($medium-viewport-plus) {
+    width: 209px;
+  }
+}

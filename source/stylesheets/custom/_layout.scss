@@ -15,17 +15,20 @@ footer {
     background-color: $secondary-color;
     color: $base-font-color;
   }
-
 }
 
 header {
   padding-bottom: 12em;
+
+  h1 {
+    padding-bottom: 0.1em;
+  }
 }
 
 article {
   max-width: $article-max-width;
   margin: 0 auto;
-  margin-top: -11em;
+  margin-top: -13em;
 
   @include media($desktop-article) {
     border-radius: $base-border-radius;
