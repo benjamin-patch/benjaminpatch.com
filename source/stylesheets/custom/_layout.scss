@@ -28,13 +28,13 @@ article {
   margin-top: -11em;
 
   @include media($desktop-article) {
-    @include border-top-radius($base-border-radius);
+    border-radius: $base-border-radius;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
   }
 
 }
 
 aside {
-  @extend article;
   text-align: center;
-  margin-top: 0;
 }
