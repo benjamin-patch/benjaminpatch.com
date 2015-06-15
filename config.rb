@@ -17,7 +17,8 @@ set :partials_dir, 'partials'
 #
 # With no layout
 # page "/path/to/file.html", :layout => false
-#
+page "404.html", :layout => false
+
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout
 #
@@ -71,7 +72,7 @@ set :images_dir, 'images'
 configure :build do
   # Enable gzip
   activate :gzip
-  
+
   # Minify HTML on build
   activate :minify_html, remove_input_attributes: false
 
