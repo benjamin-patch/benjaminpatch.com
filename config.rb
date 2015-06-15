@@ -69,6 +69,12 @@ set :images_dir, 'images'
 
 # Build-specific configuration
 configure :build do
+  # Enable gzip
+  activate :gzip
+  
+  # Minify HTML on build
+  activate :minify_html, remove_input_attributes: false
+
   # For example, change the Compass output style for deployment
   activate :minify_css
 
