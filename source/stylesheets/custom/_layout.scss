@@ -7,7 +7,6 @@ footer {
 
 header,
 footer {
-  background-color: $primary-color;
   color: #fff;
   text-align: center;
 
@@ -20,9 +19,15 @@ footer {
 header {
   padding-bottom: 12em;
 
+  @include linear-gradient($primary-color, $secondary-color);
+
   h1 {
     padding-bottom: 0.1em;
   }
+}
+
+footer {
+  background-color: $primary-color;
 }
 
 article {
