@@ -1,3 +1,7 @@
+set :url_root, 'https://benjaminpatch.com'
+
+activate :search_engine_sitemap
+
 set :partials_dir, 'partials'
 
 ###
