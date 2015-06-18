@@ -14,3 +14,5 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 gem 'middleman-minify-html', '~> 3.4'
 
 gem 'middleman-search_engine_sitemap', '~> 1.3'
+
+gem 'middleman-deploy', '~> 1.0'
