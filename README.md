@@ -3,6 +3,11 @@ Public website for benjaminpatch.com, built with [Middleman](https://middlemanap
 
 ## Release Notes
 
+### 1.0.1
+* 26 June 2015.
+* Minor content edits.
+* Activate clean URLs.
+
 ### 1.0.0
 * 18 June 2015.
 * Initial public release.
