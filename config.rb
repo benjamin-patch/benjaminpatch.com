@@ -17,11 +17,10 @@ set :partials_dir, 'partials'
 # Page options, layouts, aliases and proxies
 ###
 
-# Per-page layout changes:
-#
-# With no layout
-# page "/path/to/file.html", :layout => false
-page "404.html", :layout => false
+# no layout
+page "/404.html", :layout => false
+page "/robots.txt", :layout => false
+page "/sitemap.xml", :layout => false
 
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout
@@ -71,6 +70,10 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
+
+# Clean URLs
+activate :directory_indexes
+page "404.html", :directory_index => false
 
 # Build-specific configuration
 configure :build do
