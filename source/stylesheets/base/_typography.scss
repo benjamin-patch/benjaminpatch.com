@@ -29,6 +29,10 @@ h6 {
 
 h1 {
   font-size: $h1-font-size;
+  line-height: 1.8em;
+  @include media($small-viewport-only) {
+    line-height: 1.2em;
+  }
 }
 h2 {
   font-size: $h2-font-size;
