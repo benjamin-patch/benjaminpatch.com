@@ -17,7 +17,12 @@ footer {
 }
 
 header {
+  padding-top: 0;
   padding-bottom: 12em;
+
+  @include media($small-viewport-only) {
+    padding-top: 0.5em;
+  }
 
   @include linear-gradient($primary-color, $secondary-color);
 
