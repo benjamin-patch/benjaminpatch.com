@@ -3,6 +3,11 @@ Public website for benjaminpatch.com, built with [Middleman](https://middlemanap
 
 ## Release Notes
 
+### 1.1.0
+* 22 January 2016.
+* Rewrite copy to express cinema major and history minor.
+* Refine typography and layout.
+
 ### 1.0.1
 * 26 June 2015.
 * Minor content edits.
