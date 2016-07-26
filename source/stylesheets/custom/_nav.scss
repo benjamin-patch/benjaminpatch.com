@@ -1,18 +1,15 @@
 /*! responsive-nav.js 1.0.39 by @viljamis */
 
-nav {
-  text-align: center;
-}
-
 .nav-collapse ul {
   margin: 0;
   padding: 0;
   width: 100%;
   display: block;
   list-style: none;
+  text-align: center;
 }
 
-.nav-collapse li {
+nav li {
   width: 100%;
   display: inline;
   padding: 0 1em;

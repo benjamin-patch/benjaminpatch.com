@@ -71,6 +71,16 @@ a {
   }
 }
 
+footer a {
+  color: #fff;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: $secondary-color;
+  }
+}
+
 hr {
   border-bottom: $base-border;
   border-left: none;
