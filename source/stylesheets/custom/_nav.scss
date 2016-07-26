@@ -1,5 +1,9 @@
 /*! responsive-nav.js 1.0.39 by @viljamis */
 
+nav {
+  text-align: center;
+}
+
 .nav-collapse ul {
   margin: 0;
   padding: 0;
@@ -10,7 +14,13 @@
 
 .nav-collapse li {
   width: 100%;
-  display: block;
+  display: inline;
+  padding: 0 1em;
+
+  @include media($large-viewport-plus) {
+    padding: 2em;
+  }
+
 }
 
 .js .nav-collapse {
