@@ -32,11 +32,13 @@ header {
 }
 
 #portrait {
-  max-width: $article-max-width + 6em;
+  max-width: $article-max-width - 3em;
   margin: 0 auto;
 
-  img {
-    float: left;
+  @include media($medium-viewport-plus) {
+    img {
+      float: left;
+    }
   }
 }
 
@@ -54,10 +56,11 @@ article {
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
   }
 
-  h1 {
-    text-align: right;
+  @include media($medium-viewport-plus) {
+    h1 {
+      text-align: right;
+    }
   }
-
 }
 
 aside {
