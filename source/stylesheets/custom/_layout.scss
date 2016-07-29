@@ -31,21 +31,39 @@ header {
   }
 }
 
-footer {
-  background-color: $primary-color;
+#portrait {
+  max-width: $article-max-width + 6em;
+  margin: 0 auto;
+
+  img {
+    float: left;
+  }
+}
+
+#title {
+  max-width: $article-max-width + 5em;
+  margin: 0 auto;
 }
 
 article {
   max-width: $article-max-width;
   margin: 0 auto;
-  margin-top: -13em;
+  margin-top: -10em;
 
   @include media($desktop-article) {
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  h1 {
+    text-align: right;
   }
 
 }
 
 aside {
   text-align: center;
+}
+
+footer {
+  background-color: $primary-color;
 }
