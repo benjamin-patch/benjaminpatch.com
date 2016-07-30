@@ -70,3 +70,12 @@ aside {
 footer {
   background-color: $primary-color;
 }
+
+.article-buttons {
+  display: block;
+  text-align: center;
+  li {
+    display: inline;
+    padding: 0.5em;
+  }
+}

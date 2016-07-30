@@ -24,6 +24,7 @@ page "/sitemap.xml", :layout => false
 
 # With alternative layout
 page "/index.html", :layout => :home
+page "/connect.html", :layout => :home
 #
 # A path which all have the same layout
 with_layout :watch_film do
