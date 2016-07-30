@@ -63,14 +63,6 @@ article {
   }
 }
 
-aside {
-  text-align: center;
-}
-
-footer {
-  background-color: $primary-color;
-}
-
 .article-buttons {
   display: block;
   text-align: center;
@@ -78,4 +70,12 @@ footer {
     display: inline;
     padding: 0.5em;
   }
+}
+
+aside {
+  text-align: center;
+}
+
+footer {
+  background-color: $primary-color;
 }
