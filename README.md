@@ -3,6 +3,11 @@ Public website for benjaminpatch.com, built with [Middleman](https://middlemanap
 
 ## Release Notes
 
+### 1.2.0
+* 05 August 2017.
+* Filepath on Windows 10 Linux subsytem:
+/mnt/c/Users/Benjamin Patch/Documents/Websites/benjaminpatch.com
+
 ### 1.1.1
 * 27 March 2016.
 * Minor grammar adjustment.
