@@ -23,12 +23,13 @@ page "/robots.txt", :layout => false
 page "/sitemap.xml", :layout => false
 
 # With alternative layout
-# page "/path/to/file.html", :layout => :otherlayout
+page "/index.html", :layout => :home
+page "/connect.html", :layout => :home
 #
 # A path which all have the same layout
-# with_layout :admin do
-#   page "/admin/*"
-# end
+with_layout :watch_film do
+  page "/filmography/*"
+end
 
 # Proxy pages (https://middlemanapp.com/advanced/dynamic_pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {

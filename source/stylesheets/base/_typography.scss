@@ -63,11 +63,26 @@ a {
   &:focus,
   &:hover {
     color: darken($action-color, 15%);
+    text-decoration: underline;
   }
 
   &:active,
   &:focus {
     outline: none;
+  }
+}
+
+li {
+  padding: 0.25em 0;
+}
+
+footer a {
+  color: #fff;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: $secondary-color;
   }
 }
 

@@ -46,8 +46,9 @@ $medium-gray: #bdbdbd;
 $light-gray: #eeeeee;
 
 // Color Palette
-$primary-color: $teal;
-$secondary-color: $x-light-teal;
+$primary-color: $dark-gray;
+$secondary-color: $light-gray;
+$tertiary-color: $medium-gray;
 
 // Font Colors
 $base-background-color: $secondary-color;
@@ -55,8 +56,8 @@ $base-font-color: $dark-gray;
 $action-color: $primary-color;
 
 // Border
-$base-border-color: $light-gray;
-$base-border: 1px solid $base-border-color;
+$base-border-color: $tertiary-color;
+$base-border: 2px solid $base-border-color;
 
 // Forms
 $form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
