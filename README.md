@@ -15,7 +15,7 @@ Public website for benjaminpatch.com, built with [Middleman](https://middlemanap
 ### Local Filepath
 * /mnt/c/websites/benjaminpatch.com
 
-<hr>
+---
 
 ## Release Notes
 
