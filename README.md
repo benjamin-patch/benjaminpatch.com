@@ -1,14 +1,32 @@
 # Benjamin Patch
 Public website for benjaminpatch.com, built with [Middleman](https://middlemanapp.com/).
 
+## Ruby Dev Environment for Windows 10
+### Linux Subsystem
+* https://docs.microsoft.com/en-us/windows/wsl/install-win10
+* https://gorails.com/setup/windows/10
+
+### Bundler Reference
+* http://bundler.io
+
+### Node.js for Middleman Server
+* https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
+
+### Local Filepath
+* /mnt/c/websites/benjaminpatch.com
+
+<hr>
+
 ## Release Notes
+
+### 1.3.0
+* 31 March 2018.
+* Add 'Astray' trailer and 'Cold Light' to filmography.
 
 ### 1.2.0
 * 05 August 2017.
-* Include 'Choice Words' and 'Doppler Salad' to filmography.
+* Add 'Choice Words' and 'Doppler Salad' to filmography.
 * Update headshot.
-* Filepath on Windows 10 Linux subsytem:
-/mnt/c/Users/Benjamin Patch/Documents/Websites/benjaminpatch.com
 
 ### 1.1.1
 * 27 March 2016.
