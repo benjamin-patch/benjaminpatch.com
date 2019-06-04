@@ -61,7 +61,7 @@ helpers do
     if current_page.data.meta_description.present?
       current_page.data.meta_description
     else
-      "Default meta description for Benjamin Patch."
+      "Benjamin Patch is an Avid certified film and video editor who hosts The Post Workshop."
     end
   end
 end

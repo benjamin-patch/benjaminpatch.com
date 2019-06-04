@@ -19,6 +19,10 @@ Public website for benjaminpatch.com, built with [Middleman](https://middlemanap
 
 ## Release Notes
 
+### 1.4.0
+* 04 June 2019.
+* Update content with more focus on Avid certification and The Post Workshop.
+
 ### 1.3.0
 * 31 March 2018.
 * Add 'Astray' trailer and 'Cold Light' to filmography.
