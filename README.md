@@ -1,7 +1,34 @@
 # Benjamin Patch
 Public website for benjaminpatch.com, built with [Middleman](https://middlemanapp.com/).
 
-## Ruby Dev Environment for Windows 10
+## Ruby Dev Environment: Linux
+- Install rbenv with ruby-build
+- Install desired version of Ruby
+- Set global and local Ruby versions
+
+```
+$ gem install bundler
+```
+
+Install missing gem packages:
+
+```
+$ bundle install
+```
+
+Update gem packages if desired:
+
+```
+$ bundle update
+```
+
+Launch Middleman server:
+
+```
+$ bundle exec middleman server
+```
+
+## Ruby Dev Environment: Windows 10
 ### Linux Subsystem
 * https://docs.microsoft.com/en-us/windows/wsl/install-win10
 * https://gorails.com/setup/windows/10
@@ -18,6 +45,10 @@ Public website for benjaminpatch.com, built with [Middleman](https://middlemanap
 ---
 
 ## Release Notes
+
+### 1.5.0
+* 08 February 2020.
+* Update to Ruby 2.6.5.
 
 ### 1.4.0
 * 04 June 2019.
