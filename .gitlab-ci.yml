@@ -1,0 +1,24 @@
+#
+# https://gitlab.com/gitlab-org/gitlab-foss/tree/master/lib/gitlab/ci/templates/Ruby.gitlab-ci.yml
+#
+image: ruby:2.6.5
+
+# Cache gems in between builds
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - vendor/ruby
+
+before_script:
+  - ruby -v                                        # Print out ruby version for debugging
+  - bundle install -j $(nproc) --path vendor/ruby  # Install dependencies into ./vendor/ruby
+  - bundle exec middleman build
+
+pages:
+  script:
+    - bundle exec middleman build
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
