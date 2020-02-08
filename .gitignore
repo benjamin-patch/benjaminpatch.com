@@ -4,15 +4,12 @@
 # or operating system, you probably want to add a global ignore instead:
 # git config --global core.excludesfile ~/.gitignore_global
 
-# Ignore bundler config
-/.bundle
-
-# Ignore the build directory
-/build
-
-# Ignore cache
-/.sass-cache
-/.cache
+# From default Jekyll 4.0.0 build
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
 
 # Ignore .DS_store file
 .DS_Store
