@@ -1,5 +1,5 @@
 baseurl: "" # /blog
-url: "https://benjaminpatch.gitlab.io" # http://example.com
+url: "https://jekyll.benjaminpatch.com" # http://example.com
 
 collections:
   authors:
