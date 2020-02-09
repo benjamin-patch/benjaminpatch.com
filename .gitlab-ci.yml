@@ -8,7 +8,7 @@ before_script:
   - gem install bundler
   - bundle install
 
-jekyll:
+pages:
   stage: deploy
   script:
   - bundle exec jekyll build -d public
