@@ -1,6 +1,9 @@
 baseurl: "" # /blog
 url: "https://jekyll.benjaminpatch.com" # http://example.com
 
+# Create clean URLs
+permalink: pretty
+
 collections:
   authors:
     output: true
