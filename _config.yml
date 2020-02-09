@@ -1,3 +1,6 @@
+baseurl: "" # /blog
+url: "https://benjaminpatch.gitlab.io" # http://example.com
+
 collections:
   authors:
     output: true
