@@ -25,6 +25,7 @@ defaults:
       layout: "default"
 
 plugins:
+  - github-pages
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
