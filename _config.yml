@@ -44,3 +44,6 @@ sass:
 exclude:
   - README.md
   - nginx.conf
+
+# Custom build directory for GitHub pages
+# destination: docs
