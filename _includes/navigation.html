@@ -1,0 +1,5 @@
+<nav class="nav justify-content-center">
+  {% for item in site.data.navigation %}
+    <a class="nav-link" href="{{ item.link }}" {% if page.url == item.link %}class="active"{% endif %}>{{ item.name }}</a>
+  {% endfor %}
+</nav>

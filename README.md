@@ -1,5 +1,5 @@
 # Benjamin Patch
-Public website for benjaminpatch.com, built with [Middleman](https://middlemanapp.com/).
+Public website for benjaminpatch.com, built with [Jekyll](https://jekyllrb.com/).
 
 ## Ruby Dev Environment: Linux
 - Install rbenv with ruby-build
@@ -22,11 +22,14 @@ Update gem packages if desired:
 $ bundle update
 ```
 
-Launch Middleman server:
+Build site and launch Jekyll server:
 
 ```
-$ bundle exec middleman server
+$ bundle exec jekyll serve
 ```
+
+The development site will load at [http://localhost:4000](http://localhost:4000/).
+
 
 ## Ruby Dev Environment: Windows 10
 ### Linux Subsystem
@@ -46,9 +49,9 @@ $ bundle exec middleman server
 
 ## Release Notes
 
-### 1.5.0
-* 08 February 2020.
-* Update to Ruby 2.6.5.
+### 2.0.0
+* February 2020
+* Rebuild with [Jekyll](https://jekyllrb.com/)
 
 ### 1.4.0
 * 04 June 2019.

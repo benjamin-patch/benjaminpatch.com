@@ -1,18 +1,16 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
+# Hello! This is where you manage which Jekyll version is used to run.
+# When you want to use a different version, change it below, save the
+# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
+#
+#     bundle exec jekyll serve
+#
+# This will help ensure the proper Jekyll version is running.
+# Happy Jekylling!
+gem "jekyll", "~> 4.0.0"
 
-gem 'middleman', '~>3.3.11'
-
-# Live-reloading plugin
-gem 'middleman-livereload', '~> 3.1.0'
-
-# For faster file watcher updates on Windows:
-gem 'wdm', '~> 0.1.0', :platforms => [:mswin, :mingw]
-
-# Windows does not come with time zone data
-gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
-
-gem 'middleman-minify-html', '~> 3.4'
-
-gem 'middleman-search_engine_sitemap', '~> 1.3'
-
-gem 'middleman-deploy', '~> 1.0'
+group :jekyll_plugins do
+  gem 'jekyll-sitemap'
+  gem 'jekyll-feed'
+  gem 'jekyll-seo-tag'
+end
