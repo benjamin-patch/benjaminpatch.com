@@ -1,5 +1,28 @@
 # Benjamin Patch
-Public website for benjaminpatch.com, built with [Jekyll](https://jekyllrb.com/).
+Public website for benjaminpatch.com, built with
+[Jekyll](https://jekyllrb.com/).
+
+## Bootstrap Submodule
+This project contains the Bootstrap front-end framework as a git submodule. When
+cloning the repo, use this command to ensure the appropriate assets are included
+and initialized:
+
+```
+$ git clone --recurse-submodules [SSH or HTTPS repo URL]
+```
+
+If you already cloned the project and forgot `--recurse-submodules`, you can
+combine the `git submodule init` and `git submodule update` steps by running
+`git submodule update --init`.
+
+To also initialize, fetch and checkout any nested submodules, use the foolproof:
+
+```
+$ git submodule update --init --recursive
+```
+
+For more information, please read:
+[Git Tools - Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
 
 ## Ruby Dev Environment: Linux
 - Install rbenv with ruby-build
@@ -28,7 +51,8 @@ Build site and launch Jekyll server:
 $ bundle exec jekyll serve
 ```
 
-The development site will load at [http://localhost:4000](http://localhost:4000/).
+The development site will load at
+[http://localhost:4000](http://localhost:4000/).
 
 
 ## Ruby Dev Environment: Windows 10
