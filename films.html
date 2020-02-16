@@ -8,7 +8,7 @@ title: Filmography
 
   {% for film in site.films %}
     <div class="col mb-4">
-      <div class="card h-100">
+      <div class="card bg-light h-100 shadow-sm">
         <img src="..." class="card-img-top" alt="card image placeholder">
         <div class="card-body">
           <h5 class="card-title">
@@ -17,7 +17,7 @@ title: Filmography
           <p class="card-text">
             {{ film.content | markdownify | truncatewords: 42 }}
           </p>
-          <a href="{{ film.url }}" class="btn btn-primary">more about {{ film.title }}</a>
+          <a href="{{ film.url }}" class="btn btn-info shadow">more about {{ film.title }}</a>
         </div>
       </div>
     </div>
