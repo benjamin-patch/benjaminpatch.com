@@ -4,12 +4,23 @@ title: Filmography
 
 <h1>Filmography</h1>
 
-<ul>
+<div class="row row-cols-1 row-cols-md-2">
+
   {% for film in site.films %}
-    <li>
-      <h2><a href="{{ film.url }}">{{ film.title }}</a></h2>
-      <h3>{{ film.credits }}</h3>
-      <p>{{ film.content | markdownify }}</p>
-    </li>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="card image placeholder">
+        <div class="card-body">
+          <h5 class="card-title">
+            <a href="{{ film.url }}">{{ film.title }}</a>
+          </h5>
+          <p class="card-text">
+            {{ film.content | markdownify }}
+          </p>
+          <a href="{{ film.url }}" class="btn btn-primary">more about {{ film.title }}</a>
+        </div>
+      </div>
+    </div>
   {% endfor %}
-</ul>
+
+</div>
