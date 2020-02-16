@@ -17,6 +17,8 @@ permalink: pretty
 collections:
   authors:
     output: true
+  films:
+    output: true
 
 defaults:
   - scope:
@@ -24,6 +26,11 @@ defaults:
       type: "authors"
     values:
       layout: "author"
+  - scope:
+      path: ""
+      type: "films"
+    values:
+      layout: "film"
   - scope:
       path: ""
       type: "posts"
