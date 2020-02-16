@@ -1,8 +1,8 @@
-- name: Home
+- name: Benjamin Patch
   link: /
-- name: About
-  link: /about/
-- name: Blog
-  link: /blog/
-- name: Staff
-  link: /staff/
+- name: Filmography
+  link: /filmography/
+- name: Biography
+  link: /biography/
+- name: Connect
+  link: /connect/
