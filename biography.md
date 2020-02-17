@@ -2,8 +2,6 @@
 title: Biography
 ---
 
-# Biography
-
 Benjamin Patch currently writes, hosts, and produces film and video editing
 tutorials for [The Post Workshop](https://postworkshop.io/).
 
