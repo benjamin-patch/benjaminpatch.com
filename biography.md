@@ -2,9 +2,12 @@
 title: Biography
 ---
 
-Benjamin Patch is an award-winning filmmaker who currently writes, hosts, and
-produces film and video editing tutorials for <a href="https://postworkshop.io/"
-target="_blank">The Post Workshop</a>.
+Benjamin Patch is a filmmaker and screenwriter. He is currently adapting his
+award-winning short film "Astray" into a feature-length screenplay.
+
+In addition to this, Benjamin Patch also writes, hosts, and produces free video
+editing tutorials for <a href="https://postworkshop.io/" target="_blank">The
+Post Workshop</a>.
 
 Previously he ran a multimedia design and production company called <a
 href="https://cascadingmedia.com/" target="_blank">Cascading Media</a> and
