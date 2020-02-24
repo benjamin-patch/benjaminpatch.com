@@ -4,7 +4,8 @@ title: Filmography
 
 <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3">
 
-  {% for film in site.films %}
+  {% assign films = site.films | sort: 'list_order' %}
+  {% for film in films %}
     <div class="col mb-4">
       <div class="card bg-light h-100 shadow-sm">
         <div class="card-body">

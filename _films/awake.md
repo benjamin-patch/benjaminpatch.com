@@ -3,6 +3,7 @@ title: Awake
 credits: Director and Writer
 runtime: 14 minutes
 release_date: 2003
+list_order: 10
 ---
 
 **Synopsis:** This fun, light-hearted comedy centers around Herby Laxx who is

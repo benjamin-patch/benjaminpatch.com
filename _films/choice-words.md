@@ -2,7 +2,8 @@
 title: Choice Words
 credits: Director and Writer
 runtime: 7 minutes
-release_date: December 2016 
+release_date: December 2016
+list_order: 02
 ---
 
 **Synopsis:** Without speaking a word, "Choice Words" stands as a metaphorical

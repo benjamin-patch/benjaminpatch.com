@@ -3,6 +3,7 @@ title: The Plastic Hero
 credits: Writer and Director
 runtime: 3 minutes
 release_date: 2010
+list_order: 07
 ---
 
 **Synopsis:** This short experimental-narrative film is a composite of

@@ -2,7 +2,8 @@
 title: Astray
 credits: Director and Writer
 runtime: 25 minutes
-release_date: June 2019 
+release_date: June 2019
+list_order: 01
 ---
 
 **Synopsis:** This film centers around a college student who has an
