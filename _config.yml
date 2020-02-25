@@ -9,7 +9,7 @@ email: your-email@example.com
 description: >- # this means ignore newlines until "baseurl:"
   Film Director and Screenwriter
 baseurl: "" # /blog
-url: "https://jekyll.benjaminpatch.com" # http://example.com
+url: "https://benjaminpatch.com" # http://example.com
 
 # Create clean URLs
 permalink: pretty
