@@ -15,27 +15,15 @@ url: "https://jekyll.benjaminpatch.com" # http://example.com
 permalink: pretty
 
 collections:
-  authors:
-    output: true
   films:
     output: true
 
 defaults:
   - scope:
       path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
       type: "films"
     values:
       layout: "film"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
   - scope:
       path: ""
     values:
