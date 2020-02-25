@@ -111,7 +111,7 @@ The development site will load at
 ## Release Notes
 
 ### 2.0.0
-* February 2020
+* 25 February 2020
 * Rebuild with [Jekyll](https://jekyllrb.com/)
 
 ### 1.4.0
