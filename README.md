@@ -110,6 +110,10 @@ The development site will load at
 
 ## Release Notes
 
+### 2020.02.1
+* Change to time-based version numbers (yyyy.mm.x)
+* Connect with GitHub profile 
+
 ### 2.0.0
 * 25 February 2020
 * Rebuild with [Jekyll](https://jekyllrb.com/)
