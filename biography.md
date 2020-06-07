@@ -6,8 +6,8 @@ Benjamin Patch is a filmmaker and screenwriter. He is currently adapting his
 award-winning short film "Astray" into a feature-length screenplay.
 
 In addition to this, Benjamin Patch also writes, hosts, and produces free video
-editing tutorials for <a href="https://postworkshop.io/" target="_blank">The
-Post Workshop</a>.
+editing tutorials for <a href="https://www.celestialcinema.io/"
+target="_blank">Celestial Cinema</a>.
 
 Previously he ran a multimedia design and production company called <a
 href="https://cascadingmedia.com/" target="_blank">Cascading Media</a> and
