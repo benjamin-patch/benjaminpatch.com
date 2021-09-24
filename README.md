@@ -2,6 +2,8 @@
 Public website for benjaminpatch.com, built with
 [RapidWeaver 8](https://www.realmacsoftware.com/rapidweaver/).
 
+RapidWeaver project file can be found in the 'rw_project' directory.
+
 ---
 
 ## Release Notes
