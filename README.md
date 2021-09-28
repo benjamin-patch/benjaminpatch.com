@@ -8,6 +8,10 @@ RapidWeaver project file can be found in the 'rw_project' directory.
 
 ## Release Notes
 
+### 2021.09.28
+* Rebuild site using RapidWeaver 8.
+* Add 2021 Demo Reel.
+
 ### 2020.02.1
 * Change to time-based version numbers (yyyy.mm.x)
 * Connect with GitHub profile 
