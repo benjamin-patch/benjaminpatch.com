@@ -118,6 +118,12 @@
 				<key>MetaTags</key>
 				<array>
 					<dict/>
+					<dict>
+						<key>Content</key>
+						<string>1433b06abb234c93</string>
+						<key>Name</key>
+						<string>yandex-verification</string>
+					</dict>
 				</array>
 				<key>OutputXMLDeclaration</key>
 				<false/>
