@@ -10,6 +10,7 @@ RapidWeaver project file can be found in the 'rw_project' directory.
 
 ### 2022.01.01
 * Update copyright year and 2022 rates.
+* Update resume.
 
 ### 2021.09.28
 * Rebuild site using RapidWeaver 8.
