@@ -13,8 +13,10 @@
 				<dict>
 					<key>default</key>
 					<true/>
-					<key>file:///Users/benpatch/Sites/benjaminpatch.com/code/benjaminpatch.com/</key>
+					<key>file:///Users/benpatch/Sites/benjaminpatch.com/Code%20Repo/</key>
 					<false/>
+					<key>file:///Users/benpatch/Sites/benjaminpatch.com/code/benjaminpatch.com/</key>
+					<true/>
 				</dict>
 				<key>ColourStyles</key>
 				<dict/>

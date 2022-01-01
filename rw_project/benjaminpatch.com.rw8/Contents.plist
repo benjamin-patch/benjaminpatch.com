@@ -13,6 +13,32 @@
 				<string>8.1</string>
 				<key>PublishingManifests</key>
 				<dict>
+					<key>page0 - file:///Users/benpatch/Sites/benjaminpatch.com/Code%20Repo/</key>
+					<dict>
+						<key>CreationDate</key>
+						<date>2022-01-01T19:55:49Z</date>
+						<key>DigestAlgorithm</key>
+						<string>MD5</string>
+						<key>PageDigests</key>
+						<dict>
+							<key>index.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								xVBhhAoPYesk
+								GCqvW3z9xg==
+								</data>
+								<key>Size</key>
+								<integer>7249</integer>
+							</dict>
+						</dict>
+						<key>PageID</key>
+						<string>page0</string>
+						<key>SiteRoot</key>
+						<string></string>
+						<key>Version</key>
+						<integer>3</integer>
+					</dict>
 					<key>page0 - file:///Users/benpatch/Sites/benjaminpatch.com/code/benjaminpatch.com/</key>
 					<dict>
 						<key>CreationDate</key>
@@ -36,6 +62,32 @@
 						<string>page0</string>
 						<key>SiteRoot</key>
 						<string></string>
+						<key>Version</key>
+						<integer>3</integer>
+					</dict>
+					<key>page1 - file:///Users/benpatch/Sites/benjaminpatch.com/Code%20Repo/</key>
+					<dict>
+						<key>CreationDate</key>
+						<date>2022-01-01T19:55:49Z</date>
+						<key>DigestAlgorithm</key>
+						<string>MD5</string>
+						<key>PageDigests</key>
+						<dict>
+							<key>index.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								5OOVKrnp4tAT
+								i1H+XQaKWg==
+								</data>
+								<key>Size</key>
+								<integer>6702</integer>
+							</dict>
+						</dict>
+						<key>PageID</key>
+						<string>page1</string>
+						<key>SiteRoot</key>
+						<string>rates</string>
 						<key>Version</key>
 						<integer>3</integer>
 					</dict>
@@ -65,6 +117,32 @@
 						<key>Version</key>
 						<integer>3</integer>
 					</dict>
+					<key>page2 - file:///Users/benpatch/Sites/benjaminpatch.com/Code%20Repo/</key>
+					<dict>
+						<key>CreationDate</key>
+						<date>2022-01-01T19:55:49Z</date>
+						<key>DigestAlgorithm</key>
+						<string>MD5</string>
+						<key>PageDigests</key>
+						<dict>
+							<key>index.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								3huvK9UHqfWN
+								ftEaQtp2iA==
+								</data>
+								<key>Size</key>
+								<integer>10397</integer>
+							</dict>
+						</dict>
+						<key>PageID</key>
+						<string>page2</string>
+						<key>SiteRoot</key>
+						<string>resume</string>
+						<key>Version</key>
+						<integer>3</integer>
+					</dict>
 					<key>page2 - file:///Users/benpatch/Sites/benjaminpatch.com/code/benjaminpatch.com/</key>
 					<dict>
 						<key>CreationDate</key>
@@ -88,6 +166,32 @@
 						<string>page2</string>
 						<key>SiteRoot</key>
 						<string>resume</string>
+						<key>Version</key>
+						<integer>3</integer>
+					</dict>
+					<key>page3 - file:///Users/benpatch/Sites/benjaminpatch.com/Code%20Repo/</key>
+					<dict>
+						<key>CreationDate</key>
+						<date>2022-01-01T19:55:49Z</date>
+						<key>DigestAlgorithm</key>
+						<string>MD5</string>
+						<key>PageDigests</key>
+						<dict>
+							<key>index.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								PIQkU+vXniJy
+								Sa9YMxXx8g==
+								</data>
+								<key>Size</key>
+								<integer>6000</integer>
+							</dict>
+						</dict>
+						<key>PageID</key>
+						<string>page3</string>
+						<key>SiteRoot</key>
+						<string>sitemap</string>
 						<key>Version</key>
 						<integer>3</integer>
 					</dict>
@@ -117,6 +221,32 @@
 						<key>Version</key>
 						<integer>3</integer>
 					</dict>
+					<key>page4 - file:///Users/benpatch/Sites/benjaminpatch.com/Code%20Repo/</key>
+					<dict>
+						<key>CreationDate</key>
+						<date>2022-01-01T19:55:49Z</date>
+						<key>DigestAlgorithm</key>
+						<string>MD5</string>
+						<key>PageDigests</key>
+						<dict>
+							<key>index.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								rTPFDjEQEvpZ
+								O4nq1EFwYg==
+								</data>
+								<key>Size</key>
+								<integer>6111</integer>
+							</dict>
+						</dict>
+						<key>PageID</key>
+						<string>page4</string>
+						<key>SiteRoot</key>
+						<string>contact</string>
+						<key>Version</key>
+						<integer>3</integer>
+					</dict>
 					<key>page4 - file:///Users/benpatch/Sites/benjaminpatch.com/code/benjaminpatch.com/</key>
 					<dict>
 						<key>CreationDate</key>
@@ -140,6 +270,52 @@
 						<string>page4</string>
 						<key>SiteRoot</key>
 						<string>contact</string>
+						<key>Version</key>
+						<integer>3</integer>
+					</dict>
+					<key>rw:document:extrafiles - file:///Users/benpatch/Sites/benjaminpatch.com/Code%20Repo/</key>
+					<dict>
+						<key>CreationDate</key>
+						<date>2022-01-01T19:55:49Z</date>
+						<key>DigestAlgorithm</key>
+						<string>MD5</string>
+						<key>PageDigests</key>
+						<dict>
+							<key>rw_common/images/fallback.jpg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								PIFQdOPH654r
+								MTQxf0cX/A==
+								</data>
+								<key>Size</key>
+								<integer>212678</integer>
+							</dict>
+							<key>rw_common/version.txt</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								hz6Excink8IK
+								B2KoAby0Rg==
+								</data>
+								<key>Size</key>
+								<integer>5</integer>
+							</dict>
+							<key>sitemap.xml</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								sar7jmQSFaFi
+								hxxn9PVWZQ==
+								</data>
+								<key>Size</key>
+								<integer>484</integer>
+							</dict>
+						</dict>
+						<key>PageID</key>
+						<string>rw:document:extrafiles</string>
+						<key>SiteRoot</key>
+						<string></string>
 						<key>Version</key>
 						<integer>3</integer>
 					</dict>
@@ -186,6 +362,102 @@
 						<string>rw:document:extrafiles</string>
 						<key>SiteRoot</key>
 						<string></string>
+						<key>Version</key>
+						<integer>3</integer>
+					</dict>
+					<key>rw:document:resources - file:///Users/benpatch/Sites/benjaminpatch.com/Code%20Repo/</key>
+					<dict>
+						<key>CreationDate</key>
+						<date>2022-01-01T19:55:49Z</date>
+						<key>DigestAlgorithm</key>
+						<string>MD5</string>
+						<key>PageDigests</key>
+						<dict>
+							<key>Fall-2021-Rate-Table.png</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								K+rzFicECDPP
+								DaS2zgJLUw==
+								</data>
+								<key>Size</key>
+								<integer>19135</integer>
+							</dict>
+							<key>bp-180.png</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								kIYrpHVODFmy
+								rwj+HwyfnQ==
+								</data>
+								<key>Size</key>
+								<integer>3789</integer>
+							</dict>
+							<key>bp.svg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								NNMilzpBxoBt
+								a6vE1kmorQ==
+								</data>
+								<key>Size</key>
+								<integer>1127</integer>
+							</dict>
+							<key>favicon_large.png</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								ODxQGceYtDMS
+								lnmerLnQAw==
+								</data>
+								<key>Size</key>
+								<integer>3187</integer>
+							</dict>
+							<key>favicon_medium.png</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								US6qWc1Mjaxq
+								OVA6I+DxBg==
+								</data>
+								<key>Size</key>
+								<integer>2259</integer>
+							</dict>
+							<key>favicon_small.png</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								csQpdu5VPi/a
+								bV1fyLfwWw==
+								</data>
+								<key>Size</key>
+								<integer>1695</integer>
+							</dict>
+							<key>medium.png</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								cAdbkRGYwqC4
+								JSugT6EmXw==
+								</data>
+								<key>Size</key>
+								<integer>6664</integer>
+							</dict>
+							<key>small.png</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								u19Q8IPOqNQv
+								FWzvhi0zuA==
+								</data>
+								<key>Size</key>
+								<integer>6019</integer>
+							</dict>
+						</dict>
+						<key>PageID</key>
+						<string>rw:document:resources</string>
+						<key>SiteRoot</key>
+						<string>resources</string>
 						<key>Version</key>
 						<integer>3</integer>
 					</dict>
@@ -282,6 +554,122 @@
 						<string>rw:document:resources</string>
 						<key>SiteRoot</key>
 						<string>resources</string>
+						<key>Version</key>
+						<integer>3</integer>
+					</dict>
+					<key>rw:theme:marvel - file:///Users/benpatch/Sites/benjaminpatch.com/Code%20Repo/</key>
+					<dict>
+						<key>CreationDate</key>
+						<date>2022-01-01T19:55:49Z</date>
+						<key>DigestAlgorithm</key>
+						<string>MD5</string>
+						<key>PageDigests</key>
+						<dict>
+							<key>assets/fonts/ncdsi-201.eot</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								5V5MtFKiaO+K
+								qwg3Z5dxQw==
+								</data>
+								<key>Size</key>
+								<integer>36716</integer>
+							</dict>
+							<key>assets/fonts/ncdsi-201.svg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								VT2xkP6sRavI
+								OPQxjlCjsg==
+								</data>
+								<key>Size</key>
+								<integer>156569</integer>
+							</dict>
+							<key>assets/fonts/ncdsi-201.ttf</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								LomEnHgQyPNE
+								9kswexJvpg==
+								</data>
+								<key>Size</key>
+								<integer>36544</integer>
+							</dict>
+							<key>assets/fonts/ncdsi-201.woff</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								3Lp1ycj3QZEh
+								4pnueCkM/A==
+								</data>
+								<key>Size</key>
+								<integer>36620</integer>
+							</dict>
+							<key>assets/fonts/ncdsi-201.woff2</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								SZ2p3VJZYE4y
+								j5wVN4nsRA==
+								</data>
+								<key>Size</key>
+								<integer>19164</integer>
+							</dict>
+							<key>assets/images/fallback.jpg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								PIFQdOPH654r
+								MTQxf0cX/A==
+								</data>
+								<key>Size</key>
+								<integer>212678</integer>
+							</dict>
+							<key>assets/js/function-min.js</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								kPZ/Zv1ElIko
+								0zhy0LiX3Q==
+								</data>
+								<key>Size</key>
+								<integer>34775</integer>
+							</dict>
+							<key>assets/js/jquery.js</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								pJg2D/p7zeuW
+								RODTg9AYsQ==
+								</data>
+								<key>Size</key>
+								<integer>85509</integer>
+							</dict>
+							<key>consolidated-0.css</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								vA7nWz4JrCHF
+								p9l0kbqUoQ==
+								</data>
+								<key>Size</key>
+								<integer>45763</integer>
+							</dict>
+							<key>consolidated.css</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								+YLaA9sGsKgX
+								PgTyD9CWHw==
+								</data>
+								<key>Size</key>
+								<integer>46027</integer>
+							</dict>
+						</dict>
+						<key>PageID</key>
+						<string>rw:theme:marvel</string>
+						<key>SiteRoot</key>
+						<string>rw_common/themes/marvel</string>
 						<key>Version</key>
 						<integer>3</integer>
 					</dict>
@@ -453,80 +841,91 @@
 				<data>
 				YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hp
 				dmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRB
-				cmNoaXZlctEICVRyb290gAGvEDMLDBUWICEiJSw0R0hJ
-				SlBTV1pgYWJmanV2d3h7gYKNjo+Qk5mapaanqKuxsr2+
-				v8LIyc1VJG51bGzTDQ4PEBIUV05TLmtleXNaTlMub2Jq
-				ZWN0c1YkY2xhc3OhEYACoROAA4AyVG5vZGXVFxgZGg8b
-				HB0eH1ROYW1lVWl0ZW1zWmlkZW50aWZpZXJYY2hpbGRy
-				ZW6ABYAIgASABoAxXxAkOUVBNkIzQTYtMDVEOS00MjVF
-				LUI3MUEtNjM0NDZDMUQ5QkJFXxAPVW50aXRsZWQgRm9s
-				ZGVy0g4PIySggAfSJicoKVokY2xhc3NuYW1lWCRjbGFz
-				c2VzXk5TTXV0YWJsZUFycmF5oygqK1dOU0FycmF5WE5T
-				T2JqZWN00g4PLSSlLi8wMTKACYAWgB2AJIArgAfaNTYP
-				Nzg5Fzo7PD0+P0A+QkNERUZeUmVtb3RlUmVzb3VyY2Vb
-				T3JpZ2luYWxVUkxcUHVibGlzaGVkVVJMXVB1Ymxpc2hl
-				ZERhdGVfEA9DaGFuZ2VkU3RhdHVzZXNaSWRlbnRpZmll
-				cllUaW1lU3RhbXBZRmlsZVRva2VuCYAAgBWADYAAgBGA
-				C4AKgA+ADF8QJDE3MEUwNDM2LTI5MzMtNDkzRC05NzBB
-				LTRENEJFMDFBOUQ1Ml8QIXBob3RvLTE1NTMyNzI3MjUt
-				MDg2MTAwYWVjZjVlLmpwZ18Qsmh0dHBzOi8vaW1hZ2Vz
-				LnVuc3BsYXNoLmNvbS9waG90by0xNTUzMjcyNzI1LTA4
-				NjEwMGFlY2Y1ZT9jcm9wPWVudHJvcHkmY3M9dGlueXNy
-				Z2ImZml0PW1heCZmbT1qcGcmaXhpZD1Nbnd4TXpJME9Y
-				d3hmREY4WVd4c2ZERjhmSHg4Zkh3eWZId3hOak15Tnpr
-				NU9EUXgmaXhsaWI9cmItMS4yLjEmcT04MCZ3PTEwODDT
-				Sw9MPk5GV05TLmJhc2VbTlMucmVsYXRpdmWAAIAOgAzS
-				JidRUlVOU1VSTKJRK9JUD1VWV05TLnRpbWUjQcOJKAug
-				/XaAENImJ1hZVk5TRGF0ZaJYK9MNDg9bXV+hXIASoV6A
-				E4AUXxBGZmlsZTovLy9Vc2Vycy9iZW5wYXRjaC9TaXRl
-				cy9iZW5qYW1pbnBhdGNoLmNvbS9jb2RlL2JlbmphbWlu
-				cGF0Y2guY29tLwjSJidjZF8QE05TTXV0YWJsZURpY3Rp
-				b25hcnmjY2UrXE5TRGljdGlvbmFyedImJ2doXlJXU2l0
-				ZVJlc291cmNlomkrXlJXU2l0ZVJlc291cmNl2jU2Dzc4
-				ORc6OzxhPj8+PnBxcnN0CIAAgBWAAIAAgBuAGIAXgBqA
-				GV8QJEI3RTA0MEVFLUUxNjktNEU1OC1BMUY0LTA2MDE5
-				QUMyMEYwRl8QGEZhbGwgMjAyMSBSYXRlIFRhYmxlLnBu
-				Z18QJDkwMjA5MEEzLUYzMkUtNEY5Mi05NENGLUI0NzI3
-				RUYxNkRDNdJUD3lWI0HDiSgLoP3BgBDTDQ4PfH5foX2A
-				HKFegBOAFF8QRmZpbGU6Ly8vVXNlcnMvYmVucGF0Y2gv
-				U2l0ZXMvYmVuamFtaW5wYXRjaC5jb20vY29kZS9iZW5q
-				YW1pbnBhdGNoLmNvbS/aNTYPNzg5Fzo7PGE+Pz4+iImK
-				i4wIgACAFYAAgACAIoAfgB6AIYAgXxAkMkI2RjM2MTkt
-				RTQxRC00MkZELUFBMTctM0M1QTU2QkFDQjMwWmJwLTE4
-				MC5wbmdfECQ5NUFGRjY2QS1BMTIzLTQ3REQtQjYwMC03
-				MDRBODRFQ0JCMEHSVA+RViNBw4koC6D924AQ0w0OD5SW
-				X6GVgCOhXoATgBRfEEZmaWxlOi8vL1VzZXJzL2JlbnBh
-				dGNoL1NpdGVzL2JlbmphbWlucGF0Y2guY29tL2NvZGUv
-				YmVuamFtaW5wYXRjaC5jb20v2jU2Dzc4ORc6OzxhPj8+
-				PqChoqOkCIAAgBWAAIAAgCmAJoAlgCiAJ18QJDE5N0Yw
-				MzhDLTAyODAtNDc3QS1CMTM2LTVFRkFFMzg4NEE3MFZi
-				cC5zdmdfECQ2MDZBMzQwOS00RUQ2LTREMTMtOEE5MS01
-				OUM1REQ1NTZBNDTSVA+pViNBw4koC6D99IAQ0w0OD6yu
-				X6GtgCqhXoATgBRfEEZmaWxlOi8vL1VzZXJzL2JlbnBh
-				dGNoL1NpdGVzL2JlbmphbWlucGF0Y2guY29tL2NvZGUv
-				YmVuamFtaW5wYXRjaC5jb20v2jU2Dzc4ORc6OzxhPj8+
-				Prihuru8CIAAgBWAAIAAgC+AJoAsgC6ALV8QJEMxNTRF
-				RjMyLUIwQTYtNDdBRS05Mjg2LTBFNUY3NTU0RTVEQl8Q
-				JDI4RjEwQjQ3LTRGMjgtNDcwNi04NUI5LUNGQzgzMDk5
-				NTRFQdJUD8BWI0HDiSgLoP4NgBDTDQ4Pw8VfocSAMKFe
-				gBOAFF8QRmZpbGU6Ly8vVXNlcnMvYmVucGF0Y2gvU2l0
-				ZXMvYmVuamFtaW5wYXRjaC5jb20vY29kZS9iZW5qYW1p
-				bnBhdGNoLmNvbS/SJifKy1xSV1NpdGVGb2xkZXKizCtc
-				UldTaXRlRm9sZGVy0iYnZc6iZSsACAARABoAJAApADIA
-				NwBJAEwAUQBTAIkAjwCWAJ4AqQCwALIAtAC2ALgAugC/
-				AMoAzwDVAOAA6QDrAO0A7wDxAPMBGgEsATEBMgE0ATkB
-				RAFNAVwBYAFoAXEBdgF8AX4BgAGCAYQBhgGIAZ0BrAG4
-				AcUB0wHlAfAB+gIEAgUCBwIJAgsCDQIPAhECEwIVAhcC
-				PgJiAxcDHgMmAzIDNAM2AzgDPQNDA0YDSwNTA1wDXgNj
-				A2oDbQN0A3YDeAN6A3wDfgPHA8gDzQPjA+cD9AP5BAgE
-				CwQaBC8EMAQyBDQENgQ4BDoEPAQ+BEAEQgRpBIQEqwSw
-				BLkEuwTCBMQExgTIBMoEzAUVBSoFKwUtBS8FMQUzBTUF
-				NwU5BTsFPQVkBW8FlgWbBaQFpgWtBa8FsQWzBbUFtwYA
-				BhUGFgYYBhoGHAYeBiAGIgYkBiYGKAZPBlYGfQaCBosG
-				jQaUBpYGmAaaBpwGngbnBvwG/Qb/BwEHAwcFBwcHCQcL
-				Bw0HDwc2B10HYgdrB20HdAd2B3gHegd8B34HxwfMB9kH
-				3AfpB+4AAAAAAAACAQAAAAAAAADPAAAAAAAAAAAAAAAA
-				AAAH8Q==
+				cmNoaXZlctEICVRyb290gAGvEDgLDBUWICEiJSw0R0hJ
+				SlBTV1piY2RlaW14eXp7foaHiJOUlZaZoaKjrq+wsbS8
+				vb7JysvO1tfY3FUkbnVsbNMNDg8QEhRXTlMua2V5c1pO
+				Uy5vYmplY3RzViRjbGFzc6ERgAKhE4ADgDdUbm9kZdUX
+				GBkaDxscHR4fVE5hbWVVaXRlbXNaaWRlbnRpZmllclhj
+				aGlsZHJlboAFgAiABIAGgDZfECQ5RUE2QjNBNi0wNUQ5
+				LTQyNUUtQjcxQS02MzQ0NkMxRDlCQkVfEA9VbnRpdGxl
+				ZCBGb2xkZXLSDg8jJKCAB9ImJygpWiRjbGFzc25hbWVY
+				JGNsYXNzZXNeTlNNdXRhYmxlQXJyYXmjKCorV05TQXJy
+				YXlYTlNPYmplY3TSDg8tJKUuLzAxMoAJgBeAH4AngC+A
+				B9o1Ng83ODkXOjs8PT4/QD5CQ0RFRl5SZW1vdGVSZXNv
+				dXJjZVtPcmlnaW5hbFVSTFxQdWJsaXNoZWRVUkxdUHVi
+				bGlzaGVkRGF0ZV8QD0NoYW5nZWRTdGF0dXNlc1pJZGVu
+				dGlmaWVyWVRpbWVTdGFtcFlGaWxlVG9rZW4JgACAFoAN
+				gACAEYALgAqAD4AMXxAkMTcwRTA0MzYtMjkzMy00OTNE
+				LTk3MEEtNEQ0QkUwMUE5RDUyXxAhcGhvdG8tMTU1MzI3
+				MjcyNS0wODYxMDBhZWNmNWUuanBnXxCyaHR0cHM6Ly9p
+				bWFnZXMudW5zcGxhc2guY29tL3Bob3RvLTE1NTMyNzI3
+				MjUtMDg2MTAwYWVjZjVlP2Nyb3A9ZW50cm9weSZjcz10
+				aW55c3JnYiZmaXQ9bWF4JmZtPWpwZyZpeGlkPU1ud3hN
+				ekkwT1h3eGZERjhZV3hzZkRGOGZIeDhmSHd5Zkh3eE5q
+				TXlOems1T0RReCZpeGxpYj1yYi0xLjIuMSZxPTgwJnc9
+				MTA4MNNLD0w+TkZXTlMuYmFzZVtOUy5yZWxhdGl2ZYAA
+				gA6ADNImJ1FSVU5TVVJMolEr0lQPVVZXTlMudGltZSNB
+				w8B0oz2cx4AQ0iYnWFlWTlNEYXRlolgr0w0OD1teYaJc
+				XYASgBOiX1+AFIAUgBVfEDtmaWxlOi8vL1VzZXJzL2Jl
+				bnBhdGNoL1NpdGVzL2JlbmphbWlucGF0Y2guY29tL0Nv
+				ZGUlMjBSZXBvL18QRmZpbGU6Ly8vVXNlcnMvYmVucGF0
+				Y2gvU2l0ZXMvYmVuamFtaW5wYXRjaC5jb20vY29kZS9i
+				ZW5qYW1pbnBhdGNoLmNvbS8I0iYnZmdfEBNOU011dGFi
+				bGVEaWN0aW9uYXJ5o2ZoK1xOU0RpY3Rpb25hcnnSJidq
+				a15SV1NpdGVSZXNvdXJjZaJsK15SV1NpdGVSZXNvdXJj
+				Zdo1Ng83ODkXOjs8ZD4/Pj5zdHV2dwiAAIAWgACAAIAc
+				gBmAGIAbgBpfECRCN0UwNDBFRS1FMTY5LTRFNTgtQTFG
+				NC0wNjAxOUFDMjBGMEZfEBhGYWxsIDIwMjEgUmF0ZSBU
+				YWJsZS5wbmdfECQ5MDIwOTBBMy1GMzJFLTRGOTItOTRD
+				Ri1CNDcyN0VGMTZEQzXSVA98ViNBw8B0oz2dE4AQ0w0O
+				D3+CYaKAgYAdgB6iX1+AFIAUgBVfEDtmaWxlOi8vL1Vz
+				ZXJzL2JlbnBhdGNoL1NpdGVzL2JlbmphbWlucGF0Y2gu
+				Y29tL0NvZGUlMjBSZXBvL18QRmZpbGU6Ly8vVXNlcnMv
+				YmVucGF0Y2gvU2l0ZXMvYmVuamFtaW5wYXRjaC5jb20v
+				Y29kZS9iZW5qYW1pbnBhdGNoLmNvbS/aNTYPNzg5Fzo7
+				PGQ+Pz4+jo+QkZIIgACAFoAAgACAJIAhgCCAI4AiXxAk
+				MkI2RjM2MTktRTQxRC00MkZELUFBMTctM0M1QTU2QkFD
+				QjMwWmJwLTE4MC5wbmdfECQ5NUFGRjY2QS1BMTIzLTQ3
+				REQtQjYwMC03MDRBODRFQ0JCMEHSVA+XViNBw8B0oz2d
+				LIAQ0w0OD5qdYaKbnIAlgCaiX1+AFIAUgBVfEDtmaWxl
+				Oi8vL1VzZXJzL2JlbnBhdGNoL1NpdGVzL2JlbmphbWlu
+				cGF0Y2guY29tL0NvZGUlMjBSZXBvL18QRmZpbGU6Ly8v
+				VXNlcnMvYmVucGF0Y2gvU2l0ZXMvYmVuamFtaW5wYXRj
+				aC5jb20vY29kZS9iZW5qYW1pbnBhdGNoLmNvbS/aNTYP
+				Nzg5Fzo7PGQ+Pz4+qaqrrK0IgACAFoAAgACALIApgCiA
+				K4AqXxAkMTk3RjAzOEMtMDI4MC00NzdBLUIxMzYtNUVG
+				QUUzODg0QTcwVmJwLnN2Z18QJDYwNkEzNDA5LTRFRDYt
+				NEQxMy04QTkxLTU5QzVERDU1NkE0NNJUD7JWI0HDwHSj
+				PZ1FgBDTDQ4Ptbhhora3gC2ALqJfX4AUgBSAFV8QO2Zp
+				bGU6Ly8vVXNlcnMvYmVucGF0Y2gvU2l0ZXMvYmVuamFt
+				aW5wYXRjaC5jb20vQ29kZSUyMFJlcG8vXxBGZmlsZTov
+				Ly9Vc2Vycy9iZW5wYXRjaC9TaXRlcy9iZW5qYW1pbnBh
+				dGNoLmNvbS9jb2RlL2JlbmphbWlucGF0Y2guY29tL9o1
+				Ng83ODkXOjs8ZD4/Pj7EqsbHyAiAAIAWgACAAIAzgCmA
+				MIAygDFfECRDMTU0RUYzMi1CMEE2LTQ3QUUtOTI4Ni0w
+				RTVGNzU1NEU1REJfECQyOEYxMEI0Ny00RjI4LTQ3MDYt
+				ODVCOS1DRkM4MzA5OTU0RUHSVA/MViNBw8B0oz2dXoAQ
+				0w0OD8/SYaLQ0YA0gDWiX1+AFIAUgBVfEDtmaWxlOi8v
+				L1VzZXJzL2JlbnBhdGNoL1NpdGVzL2JlbmphbWlucGF0
+				Y2guY29tL0NvZGUlMjBSZXBvL18QRmZpbGU6Ly8vVXNl
+				cnMvYmVucGF0Y2gvU2l0ZXMvYmVuamFtaW5wYXRjaC5j
+				b20vY29kZS9iZW5qYW1pbnBhdGNoLmNvbS/SJifZ2lxS
+				V1NpdGVGb2xkZXKi2ytcUldTaXRlRm9sZGVy0iYnaN2i
+				aCsACAARABoAJAApADIANwBJAEwAUQBTAI4AlACbAKMA
+				rgC1ALcAuQC7AL0AvwDEAM8A1ADaAOUA7gDwAPIA9AD2
+				APgBHwExATYBNwE5AT4BSQFSAWEBZQFtAXYBewGBAYMB
+				hQGHAYkBiwGNAaIBsQG9AcoB2AHqAfUB/wIJAgoCDAIO
+				AhACEgIUAhYCGAIaAhwCQwJnAxwDIwMrAzcDOQM7Az0D
+				QgNIA0sDUANYA2EDYwNoA28DcgN5A3wDfgOAA4MDhQOH
+				A4kDxwQQBBEEFgQsBDAEPQRCBFEEVARjBHgEeQR7BH0E
+				fwSBBIMEhQSHBIkEiwSyBM0E9AT5BQIFBAULBQ4FEAUS
+				BRUFFwUZBRsFWQWiBbcFuAW6BbwFvgXABcIFxAXGBcgF
+				ygXxBfwGIwYoBjEGMwY6Bj0GPwZBBkQGRgZIBkoGiAbR
+				BuYG5wbpBusG7QbvBvEG8wb1BvcG+QcgBycHTgdTB1wH
+				XgdlB2gHagdsB28HcQdzB3UHswf8CBEIEggUCBYIGAga
+				CBwIHgggCCIIJAhLCHIIdwiACIIIiQiMCI4IkAiTCJUI
+				lwiZCNcJIAklCTIJNQlCCUcAAAAAAAACAQAAAAAAAADe
+				AAAAAAAAAAAAAAAAAAAJSg==
 				</data>
 				<key>SiteAttributes</key>
 				<dict>
@@ -543,7 +942,7 @@
 					<key>ContactText</key>
 					<string>Contact Me</string>
 					<key>CopyrightText</key>
-					<string>© 2021 Benjamin Patch. All rights reserved.</string>
+					<string>© 2022 Benjamin Patch. All rights reserved.</string>
 					<key>CopyrightTextUsed</key>
 					<true/>
 					<key>CruftlessLinksEnabled</key>
@@ -585,57 +984,56 @@
 							<false/>
 							<key>fileSystemPathBookmark</key>
 							<data>
-							Ym9va/gCAAAAAAQQMAAA
-							AOEwZ7aMUCJiiWsfFH4v
-							wro8bTYfU3LLRXrLm4Lw
-							//429AEAAAQAAAADAwAA
+							Ym9va+gCAAAAAAQQMAAA
+							AOnYUnEfn1GZto9VcZW2
+							FmQLEfw5NkjzkBZWisSa
+							+Uh65AEAAAQAAAADAwAA
 							AAgAKAUAAAABAQAAVXNl
 							cnMAAAAIAAAAAQEAAGJl
 							bnBhdGNoBQAAAAEBAABT
 							aXRlcwAAABEAAAABAQAA
 							YmVuamFtaW5wYXRjaC5j
-							b20AAAAEAAAAAQEAAGNv
-							ZGUYAAAAAQYAABAAAAAg
-							AAAAMAAAAEAAAABcAAAA
-							QAAAAAgAAAAEAwAAnFMA
-							AAAAAAAIAAAABAMAAJeG
-							BQAAAAAACAAAAAQDAAAY
-							xzEAAAAAAAgAAAAEAwAA
-							eQdpAQAAAAAIAAAABAMA
-							AI8HaQEAAAAACAAAAAQD
-							AABTCWkBAAAAABgAAAAB
-							BgAAiAAAAJgAAACoAAAA
-							uAAAAMgAAADYAAAACAAA
-							AAAEAABBw382qJ3cFxgA
-							AAABAgAAAgAAAAAAAAAP
-							AAAAAAAAAAAAAAAAAAAA
-							CAAAAAQDAAAEAAAAAAAA
-							AAQAAAADAwAA9QEAAAgA
-							AAABCQAAZmlsZTovLy8G
-							AAAAAQEAAG1hY1NTRAAA
-							CAAAAAQDAAAA4AHj6AAA
-							AAgAAAAABAAAQcHeRIAA
-							AAAkAAAAAQEAADJGMkFG
-							RjM0LUJERUMtNDFFRS05
-							NkZDLUYxNEVBRTQ0NzM1
-							NhgAAAABAgAAgQAAAAEA
-							AADvEwAAAQAAAAAAAAAA
-							AAAAAQAAAAEBAAAvAAAA
-							AAAAAAEFAADMAAAA/v//
-							/wEAAAAAAAAAEAAAAAQQ
-							AABoAAAAAAAAAAUQAADo
-							AAAAAAAAABAQAAAYAQAA
-							AAAAAEAQAAAIAQAAAAAA
-							AAIgAADgAQAAAAAAAAUg
-							AABUAQAAAAAAABAgAABk
-							AQAAAAAAABEgAACUAQAA
-							AAAAABIgAAB0AQAAAAAA
-							ABMgAACEAQAAAAAAACAg
-							AADAAQAAAAAAADAgAADs
-							AQAAAAAAAAHAAAA4AQAA
-							AAAAABHAAAAgAAAAAAAA
-							ABLAAABIAQAAAAAAABDQ
-							AAAEAAAAAAAAAA==
+							b20AAAAJAAAAAQEAAENv
+							ZGUgUmVwbwAAABQAAAAB
+							BgAAEAAAACAAAAAwAAAA
+							QAAAAFwAAAAIAAAABAMA
+							AHZmAAAAAAAACAAAAAQD
+							AADekQAAAAAAAAgAAAAE
+							AwAAxPc2AAAAAAAIAAAA
+							BAMAAPv3NgAAAAAACAAA
+							AAQDAAAQ+TYAAAAAABQA
+							AAABBgAAjAAAAJwAAACs
+							AAAAvAAAAMwAAAAIAAAA
+							AAQAAEHDwG9+jDR6GAAA
+							AAECAAACAAAAAAAAAA8A
+							AAAAAAAAAAAAAAAAAAAI
+							AAAABAMAAAMAAAAAAAAA
+							BAAAAAMDAAD1AQAACAAA
+							AAEJAABmaWxlOi8vLwcA
+							AAABAQAATWFjIFNTRAAI
+							AAAABAMAAADgAePoAAAA
+							CAAAAAAEAABBw46Q7wAA
+							ACQAAAABAQAAOTFBNUFG
+							OEItMjhCQi00Q0I5LTkx
+							NDQtRDYyNUZFRTU1QzI0
+							GAAAAAECAACBAAAAAQAA
+							AO8TAAABAAAAAAAAAAAA
+							AAABAAAAAQEAAC8AAAAA
+							AAAAAQUAAMwAAAD+////
+							AQAAAAAAAAAQAAAABBAA
+							AHAAAAAAAAAABRAAANwA
+							AAAAAAAAEBAAAAgBAAAA
+							AAAAQBAAAPgAAAAAAAAA
+							AiAAANABAAAAAAAABSAA
+							AEQBAAAAAAAAECAAAFQB
+							AAAAAAAAESAAAIQBAAAA
+							AAAAEiAAAGQBAAAAAAAA
+							EyAAAHQBAAAAAAAAICAA
+							ALABAAAAAAAAMCAAANwB
+							AAAAAAAAAcAAACgBAAAA
+							AAAAEcAAACAAAAAAAAAA
+							EsAAADgBAAAAAAAAENAA
+							AAQAAAAAAAAA
 							</data>
 							<key>hasPublishedContent</key>
 							<true/>

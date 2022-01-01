@@ -32,6 +32,32 @@
 				</dict>
 				<key>PublishingManifests</key>
 				<dict>
+					<key>file:///Users/benpatch/Sites/benjaminpatch.com/Code%20Repo/</key>
+					<dict>
+						<key>CreationDate</key>
+						<date>2022-01-01T19:55:49Z</date>
+						<key>DigestAlgorithm</key>
+						<string>MD5</string>
+						<key>PageDigests</key>
+						<dict>
+							<key>index.html</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								rTPFDjEQEvpZ
+								O4nq1EFwYg==
+								</data>
+								<key>Size</key>
+								<integer>6111</integer>
+							</dict>
+						</dict>
+						<key>PageID</key>
+						<string>page4</string>
+						<key>SiteRoot</key>
+						<string>contact</string>
+						<key>Version</key>
+						<integer>3</integer>
+					</dict>
 					<key>file:///Users/benpatch/Sites/benjaminpatch.com/code/benjaminpatch.com/</key>
 					<dict>
 						<key>CreationDate</key>
