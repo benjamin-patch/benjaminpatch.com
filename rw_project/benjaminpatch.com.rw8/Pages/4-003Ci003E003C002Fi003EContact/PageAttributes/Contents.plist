@@ -45,7 +45,7 @@
 				<key>IndexFilename</key>
 				<string>index.html</string>
 				<key>MetaDescription</key>
-				<string>Interested in working on a film or video project together? Great! Here are a variety of ways to contact me. Looking forward to hearing from you!</string>
+				<string>Interested in working on a film or video project together? Great! Here are a variety of ways to contact me.</string>
 				<key>OutputXMLDeclaration</key>
 				<false/>
 				<key>PluginHasPerformedMigrationToSharedData</key>
@@ -57,13 +57,19 @@
 				<key>ShouldEnableRobotTags</key>
 				<true/>
 				<key>ShouldEnableSocialTags</key>
-				<false/>
+				<true/>
 				<key>SidebarEnabled</key>
 				<integer>1</integer>
 				<key>TextEncoding</key>
 				<string>utf-8</string>
 				<key>Variables</key>
 				<dict/>
+				<key>openGraphDescription</key>
+				<string>Interested in working on a film or video project together? Great! Here are a variety of ways to contact me.</string>
+				<key>openGraphImageResourceIdentifier</key>
+				<string>1959DED9-98E7-4100-836E-0214CC75CD63</string>
+				<key>openGraphTitle</key>
+				<string>Contact Benjamin Patch</string>
 			</dict>
 			<key>Files</key>
 			<array/>

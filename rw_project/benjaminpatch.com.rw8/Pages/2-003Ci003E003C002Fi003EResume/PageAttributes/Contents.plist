@@ -45,7 +45,7 @@
 				<key>IndexFilename</key>
 				<string>index.html</string>
 				<key>MetaDescription</key>
-				<string>Benjamin Patch Resume: Core Filmmaking Competencies. Recent Film and Video Projects. Professional and Military Experience. Education and Technical Skills.</string>
+				<string>Core Competencies. Professional Experience. Military Background. Education. Awards. Technical Skills.</string>
 				<key>OutputXMLDeclaration</key>
 				<false/>
 				<key>PluginHasPerformedMigrationToSharedData</key>
@@ -57,13 +57,19 @@
 				<key>ShouldEnableRobotTags</key>
 				<true/>
 				<key>ShouldEnableSocialTags</key>
-				<false/>
+				<true/>
 				<key>SidebarEnabled</key>
 				<integer>1</integer>
 				<key>TextEncoding</key>
 				<string>utf-8</string>
 				<key>Variables</key>
 				<dict/>
+				<key>openGraphDescription</key>
+				<string>Core Competencies. Professional Experience. Military Background. Education. Awards. Technical Skills.</string>
+				<key>openGraphImageResourceIdentifier</key>
+				<string>1959DED9-98E7-4100-836E-0214CC75CD63</string>
+				<key>openGraphTitle</key>
+				<string>Resume | Benjamin Patch</string>
 			</dict>
 			<key>Files</key>
 			<array/>

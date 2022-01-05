@@ -16,7 +16,7 @@
 					<key>page0 - file:///Users/benpatch/Sites/benjaminpatch.com/Code%20Repo/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2022-01-01T21:46:07Z</date>
+						<date>2022-01-05T20:20:47Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -25,11 +25,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								+7UHNZJInM+Z
-								7bVlRrgkKw==
+								kl8x9KAc5UCY
+								sTOHPS5hdQ==
 								</data>
 								<key>Size</key>
-								<integer>7083</integer>
+								<integer>8156</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -68,7 +68,7 @@
 					<key>page1 - file:///Users/benpatch/Sites/benjaminpatch.com/Code%20Repo/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2022-01-01T19:55:49Z</date>
+						<date>2022-01-05T20:20:47Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -77,11 +77,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								5OOVKrnp4tAT
-								i1H+XQaKWg==
+								n5oJEAww85U8
+								hNjRPf7GWA==
 								</data>
 								<key>Size</key>
-								<integer>6702</integer>
+								<integer>7544</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -120,7 +120,7 @@
 					<key>page2 - file:///Users/benpatch/Sites/benjaminpatch.com/Code%20Repo/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2022-01-01T21:34:18Z</date>
+						<date>2022-01-05T20:20:47Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -129,11 +129,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								9P636onGN3+6
-								NAxOopIjwQ==
+								qwdX8gPwxkd8
+								kPAfBnl/gQ==
 								</data>
 								<key>Size</key>
-								<integer>10740</integer>
+								<integer>11744</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -172,7 +172,7 @@
 					<key>page3 - file:///Users/benpatch/Sites/benjaminpatch.com/Code%20Repo/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2022-01-01T19:55:49Z</date>
+						<date>2022-01-05T20:20:47Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -181,11 +181,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								PIQkU+vXniJy
-								Sa9YMxXx8g==
+								6R5GV2kOl8O6
+								48X8bvjfcQ==
 								</data>
 								<key>Size</key>
-								<integer>6000</integer>
+								<integer>7029</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -224,7 +224,7 @@
 					<key>page4 - file:///Users/benpatch/Sites/benjaminpatch.com/Code%20Repo/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2022-01-01T19:55:49Z</date>
+						<date>2022-01-05T20:20:47Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -233,11 +233,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								rTPFDjEQEvpZ
-								O4nq1EFwYg==
+								BrhxgR1zPiP9
+								c2sSng/7yQ==
 								</data>
 								<key>Size</key>
-								<integer>6111</integer>
+								<integer>7143</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -276,7 +276,7 @@
 					<key>rw:document:extrafiles - file:///Users/benpatch/Sites/benjaminpatch.com/Code%20Repo/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2022-01-01T21:34:18Z</date>
+						<date>2022-01-05T20:20:47Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -305,11 +305,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								i7TVqvGs7Nhy
-								YaEj29n4Uw==
+								sar7jmQSFaFi
+								hxxn9PVWZQ==
 								</data>
 								<key>Size</key>
-								<integer>644</integer>
+								<integer>484</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -368,7 +368,7 @@
 					<key>rw:document:resources - file:///Users/benpatch/Sites/benjaminpatch.com/Code%20Repo/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2022-01-01T19:55:49Z</date>
+						<date>2022-01-05T20:20:47Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -382,6 +382,26 @@
 								</data>
 								<key>Size</key>
 								<integer>19135</integer>
+							</dict>
+							<key>benjamin-patch-400-square-2019.jpg</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								lp+iBkCxfJ9+
+								63u/mgCH8A==
+								</data>
+								<key>Size</key>
+								<integer>33587</integer>
+							</dict>
+							<key>benjamin-patch-com-2021.png</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								9Sh1/3HeTQeJ
+								pcrRkNvOXg==
+								</data>
+								<key>Size</key>
+								<integer>254022</integer>
 							</dict>
 							<key>bp-180.png</key>
 							<dict>
@@ -432,6 +452,16 @@
 								</data>
 								<key>Size</key>
 								<integer>1695</integer>
+							</dict>
+							<key>home-benjamin-patch.png</key>
+							<dict>
+								<key>Digest</key>
+								<data>
+								ZAFiXQ6VHYL0
+								Aq1ZW/k67A==
+								</data>
+								<key>Size</key>
+								<integer>399158</integer>
 							</dict>
 							<key>medium.png</key>
 							<dict>
@@ -792,6 +822,17 @@
 				</dict>
 				<key>RWFileReferences</key>
 				<dict>
+					<key>0B19101F-9BDE-4544-9F98-43834E4F180E</key>
+					<dict>
+						<key>fileName</key>
+						<string>benjamin-patch-400-square-2019.jpg</string>
+						<key>identifier</key>
+						<string>0B19101F-9BDE-4544-9F98-43834E4F180E</string>
+						<key>lastResolvablePath</key>
+						<string>/var/folders/0z/2lpc0b1539q8vh1wc7pc36940000gn/T/com.realmacsoftware.rapidweaver8/com.realmacsoftware.rapidweaver8-8406/YtaGWq/benjamin-patch-400-square-2019.jpg</string>
+						<key>storedInsideDocument</key>
+						<true/>
+					</dict>
 					<key>28F10B47-4F28-4706-85B9-CFC8309954EA</key>
 					<dict>
 						<key>fileName</key>
@@ -803,6 +844,17 @@
 						<key>storedInsideDocument</key>
 						<true/>
 					</dict>
+					<key>50856B66-811F-44EF-B762-01FDB65CC078</key>
+					<dict>
+						<key>fileName</key>
+						<string>benjamin-patch-com-2021.png</string>
+						<key>identifier</key>
+						<string>50856B66-811F-44EF-B762-01FDB65CC078</string>
+						<key>lastResolvablePath</key>
+						<string>/var/folders/0z/2lpc0b1539q8vh1wc7pc36940000gn/T/com.realmacsoftware.rapidweaver8/com.realmacsoftware.rapidweaver8-8406/CcvUy8/benjamin-patch-com-2021.png</string>
+						<key>storedInsideDocument</key>
+						<true/>
+					</dict>
 					<key>606A3409-4ED6-4D13-8A91-59C5DD556A44</key>
 					<dict>
 						<key>fileName</key>
@@ -811,6 +863,17 @@
 						<string>606A3409-4ED6-4D13-8A91-59C5DD556A44</string>
 						<key>lastResolvablePath</key>
 						<string>/var/folders/c2/7n2sb1ks6l570r37k9k5qgpr0000gn/T/com.realmacsoftware.rapidweaver8/com.realmacsoftware.rapidweaver8-6163/bbZUYb/bp.svg</string>
+						<key>storedInsideDocument</key>
+						<true/>
+					</dict>
+					<key>7BF4B11B-63AE-4475-ACE7-B6DA0E461579</key>
+					<dict>
+						<key>fileName</key>
+						<string>home-benjamin-patch.png</string>
+						<key>identifier</key>
+						<string>7BF4B11B-63AE-4475-ACE7-B6DA0E461579</string>
+						<key>lastResolvablePath</key>
+						<string>/var/folders/0z/2lpc0b1539q8vh1wc7pc36940000gn/T/com.realmacsoftware.rapidweaver8/com.realmacsoftware.rapidweaver8-8406/BPIGYA/home-benjamin-patch.png</string>
 						<key>storedInsideDocument</key>
 						<true/>
 					</dict>
@@ -839,93 +902,142 @@
 				</dict>
 				<key>Site Resources</key>
 				<data>
-				YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hp
-				dmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRB
-				cmNoaXZlctEICVRyb290gAGvEDgLDBUWICEiJSw0R0hJ
-				SlBTV1piY2RlaW14eXp7foaHiJOUlZaZoaKjrq+wsbS8
-				vb7JysvO1tfY3FUkbnVsbNMNDg8QEhRXTlMua2V5c1pO
-				Uy5vYmplY3RzViRjbGFzc6ERgAKhE4ADgDdUbm9kZdUX
-				GBkaDxscHR4fVE5hbWVVaXRlbXNaaWRlbnRpZmllclhj
-				aGlsZHJlboAFgAiABIAGgDZfECQ5RUE2QjNBNi0wNUQ5
+				YnBsaXN0MDDUAAEAAgADAAQABQAGAAcAClgkdmVyc2lv
+				blkkYXJjaGl2ZXJUJHRvcFgkb2JqZWN0cxIAAYagXxAP
+				TlNLZXllZEFyY2hpdmVy0QAIAAlUcm9vdIABrxBQAAsA
+				DAAVABYAIAAhACIAJQAsADcASgBLAEwATQBTAFYAWgBd
+				AGUAZgBnAGgAbABwAHsAfAB9AH4AgQCJAIoAiwCWAJcA
+				mACZAJwApAClAKYAsQCyALMAtAC3AL8AwADBAMwAzQDO
+				ANEA2QDaANsA5gDnAOgA6QDsAPIA8wD0AP8BAAEBAQIB
+				BQELAQwBDQEYARkBGgEbAR4BJAElASYBKlUkbnVsbNMA
+				DQAOAA8AEAASABRXTlMua2V5c1pOUy5vYmplY3RzViRj
+				bGFzc6EAEYACoQATgAOAT1Rub2Rl1QAXABgAGQAaAA8A
+				GwAcAB0AHgAfVE5hbWVVaXRlbXNaaWRlbnRpZmllclhj
+				aGlsZHJlboAFgAiABIAGgE5fECQ5RUE2QjNBNi0wNUQ5
 				LTQyNUUtQjcxQS02MzQ0NkMxRDlCQkVfEA9VbnRpdGxl
-				ZCBGb2xkZXLSDg8jJKCAB9ImJygpWiRjbGFzc25hbWVY
-				JGNsYXNzZXNeTlNNdXRhYmxlQXJyYXmjKCorV05TQXJy
-				YXlYTlNPYmplY3TSDg8tJKUuLzAxMoAJgBeAH4AngC+A
-				B9o1Ng83ODkXOjs8PT4/QD5CQ0RFRl5SZW1vdGVSZXNv
-				dXJjZVtPcmlnaW5hbFVSTFxQdWJsaXNoZWRVUkxdUHVi
-				bGlzaGVkRGF0ZV8QD0NoYW5nZWRTdGF0dXNlc1pJZGVu
-				dGlmaWVyWVRpbWVTdGFtcFlGaWxlVG9rZW4JgACAFoAN
-				gACAEYALgAqAD4AMXxAkMTcwRTA0MzYtMjkzMy00OTNE
-				LTk3MEEtNEQ0QkUwMUE5RDUyXxAhcGhvdG8tMTU1MzI3
-				MjcyNS0wODYxMDBhZWNmNWUuanBnXxCyaHR0cHM6Ly9p
-				bWFnZXMudW5zcGxhc2guY29tL3Bob3RvLTE1NTMyNzI3
-				MjUtMDg2MTAwYWVjZjVlP2Nyb3A9ZW50cm9weSZjcz10
-				aW55c3JnYiZmaXQ9bWF4JmZtPWpwZyZpeGlkPU1ud3hN
-				ekkwT1h3eGZERjhZV3hzZkRGOGZIeDhmSHd5Zkh3eE5q
-				TXlOems1T0RReCZpeGxpYj1yYi0xLjIuMSZxPTgwJnc9
-				MTA4MNNLD0w+TkZXTlMuYmFzZVtOUy5yZWxhdGl2ZYAA
-				gA6ADNImJ1FSVU5TVVJMolEr0lQPVVZXTlMudGltZSNB
-				w8CBj89OboAQ0iYnWFlWTlNEYXRlolgr0w0OD1teYaJc
-				XYASgBOiX1+AFIAUgBVfEDtmaWxlOi8vL1VzZXJzL2Jl
-				bnBhdGNoL1NpdGVzL2JlbmphbWlucGF0Y2guY29tL0Nv
-				ZGUlMjBSZXBvL18QRmZpbGU6Ly8vVXNlcnMvYmVucGF0
-				Y2gvU2l0ZXMvYmVuamFtaW5wYXRjaC5jb20vY29kZS9i
-				ZW5qYW1pbnBhdGNoLmNvbS8I0iYnZmdfEBNOU011dGFi
-				bGVEaWN0aW9uYXJ5o2ZoK1xOU0RpY3Rpb25hcnnSJidq
-				a15SV1NpdGVSZXNvdXJjZaJsK15SV1NpdGVSZXNvdXJj
-				Zdo1Ng83ODkXOjs8ZD4/Pj5zdHV2dwiAAIAWgACAAIAc
-				gBmAGIAbgBpfECRCN0UwNDBFRS1FMTY5LTRFNTgtQTFG
-				NC0wNjAxOUFDMjBGMEZfEBhGYWxsIDIwMjEgUmF0ZSBU
-				YWJsZS5wbmdfECQ5MDIwOTBBMy1GMzJFLTRGOTItOTRD
-				Ri1CNDcyN0VGMTZEQzXSVA98ViNBw8CBj89OsYAQ0w0O
-				D3+CYaKAgYAdgB6iX1+AFIAUgBVfEDtmaWxlOi8vL1Vz
-				ZXJzL2JlbnBhdGNoL1NpdGVzL2JlbmphbWlucGF0Y2gu
-				Y29tL0NvZGUlMjBSZXBvL18QRmZpbGU6Ly8vVXNlcnMv
-				YmVucGF0Y2gvU2l0ZXMvYmVuamFtaW5wYXRjaC5jb20v
-				Y29kZS9iZW5qYW1pbnBhdGNoLmNvbS/aNTYPNzg5Fzo7
-				PGQ+Pz4+jo+QkZIIgACAFoAAgACAJIAhgCCAI4AiXxAk
-				MkI2RjM2MTktRTQxRC00MkZELUFBMTctM0M1QTU2QkFD
-				QjMwWmJwLTE4MC5wbmdfECQ5NUFGRjY2QS1BMTIzLTQ3
-				REQtQjYwMC03MDRBODRFQ0JCMEHSVA+XViNBw8CBj89O
-				yoAQ0w0OD5qdYaKbnIAlgCaiX1+AFIAUgBVfEDtmaWxl
+				ZCBGb2xkZXLSAA4ADwAjACSggAfSACYAJwAoAClaJGNs
+				YXNzbmFtZVgkY2xhc3Nlc15OU011dGFibGVBcnJheaMA
+				KAAqACtXTlNBcnJheVhOU09iamVjdNIADgAPAC0AJKgA
+				LgAvADAAMQAyADMANAA1gAmAF4AfgCeAL4A2gD6ARoAH
+				2gA4ADkADwA6ADsAPAAXAD0APgA/AEAAQQBCAEMAQQBF
+				AEYARwBIAEleUmVtb3RlUmVzb3VyY2VbT3JpZ2luYWxV
+				UkxcUHVibGlzaGVkVVJMXVB1Ymxpc2hlZERhdGVfEA9D
+				aGFuZ2VkU3RhdHVzZXNaSWRlbnRpZmllcllUaW1lU3Rh
+				bXBZRmlsZVRva2VuCYAAgBaADYAAgBGAC4AKgA+ADF8Q
+				JDE3MEUwNDM2LTI5MzMtNDkzRC05NzBBLTRENEJFMDFB
+				OUQ1Ml8QIXBob3RvLTE1NTMyNzI3MjUtMDg2MTAwYWVj
+				ZjVlLmpwZ18Qsmh0dHBzOi8vaW1hZ2VzLnVuc3BsYXNo
+				LmNvbS9waG90by0xNTUzMjcyNzI1LTA4NjEwMGFlY2Y1
+				ZT9jcm9wPWVudHJvcHkmY3M9dGlueXNyZ2ImZml0PW1h
+				eCZmbT1qcGcmaXhpZD1Nbnd4TXpJME9Yd3hmREY4WVd4
+				c2ZERjhmSHg4Zkh3eWZId3hOak15TnprNU9EUXgmaXhs
+				aWI9cmItMS4yLjEmcT04MCZ3PTEwODDTAE4ADwBPAEEA
+				UQBJV05TLmJhc2VbTlMucmVsYXRpdmWAAIAOgAzSACYA
+				JwBUAFVVTlNVUkyiAFQAK9IAVwAPAFgAWVdOUy50aW1l
+				I0HDwxqP8vv8gBDSACYAJwBbAFxWTlNEYXRlogBbACvT
+				AA0ADgAPAF4AYQBkogBfAGCAEoATogBiAGKAFIAUgBVf
+				EDtmaWxlOi8vL1VzZXJzL2JlbnBhdGNoL1NpdGVzL2Jl
+				bmphbWlucGF0Y2guY29tL0NvZGUlMjBSZXBvL18QRmZp
+				bGU6Ly8vVXNlcnMvYmVucGF0Y2gvU2l0ZXMvYmVuamFt
+				aW5wYXRjaC5jb20vY29kZS9iZW5qYW1pbnBhdGNoLmNv
+				bS8I0gAmACcAaQBqXxATTlNNdXRhYmxlRGljdGlvbmFy
+				eaMAaQBrACtcTlNEaWN0aW9uYXJ50gAmACcAbQBuXlJX
+				U2l0ZVJlc291cmNlogBvACteUldTaXRlUmVzb3VyY2Xa
+				ADgAOQAPADoAOwA8ABcAPQA+AD8AZwBBAEIAQQBBAHYA
+				dwB4AHkAegiAAIAWgACAAIAcgBmAGIAbgBpfECRCN0Uw
+				NDBFRS1FMTY5LTRFNTgtQTFGNC0wNjAxOUFDMjBGMEZf
+				EBhGYWxsIDIwMjEgUmF0ZSBUYWJsZS5wbmdfECQ5MDIw
+				OTBBMy1GMzJFLTRGOTItOTRDRi1CNDcyN0VGMTZEQzXS
+				AFcADwB/AFkjQcPDGo/y/EiAENMADQAOAA8AggCFAGSi
+				AIMAhIAdgB6iAGIAYoAUgBSAFV8QO2ZpbGU6Ly8vVXNl
+				cnMvYmVucGF0Y2gvU2l0ZXMvYmVuamFtaW5wYXRjaC5j
+				b20vQ29kZSUyMFJlcG8vXxBGZmlsZTovLy9Vc2Vycy9i
+				ZW5wYXRjaC9TaXRlcy9iZW5qYW1pbnBhdGNoLmNvbS9j
+				b2RlL2JlbmphbWlucGF0Y2guY29tL9oAOAA5AA8AOgA7
+				ADwAFwA9AD4APwBnAEEAQgBBAEEAkQCSAJMAlACVCIAA
+				gBaAAIAAgCSAIYAggCOAIl8QJDJCNkYzNjE5LUU0MUQt
+				NDJGRC1BQTE3LTNDNUE1NkJBQ0IzMFpicC0xODAucG5n
+				XxAkOTVBRkY2NkEtQTEyMy00N0RELUI2MDAtNzA0QTg0
+				RUNCQjBB0gBXAA8AmgBZI0HDwxqP8vxpgBDTAA0ADgAP
+				AJ0AoABkogCeAJ+AJYAmogBiAGKAFIAUgBVfEDtmaWxl
 				Oi8vL1VzZXJzL2JlbnBhdGNoL1NpdGVzL2JlbmphbWlu
 				cGF0Y2guY29tL0NvZGUlMjBSZXBvL18QRmZpbGU6Ly8v
 				VXNlcnMvYmVucGF0Y2gvU2l0ZXMvYmVuamFtaW5wYXRj
-				aC5jb20vY29kZS9iZW5qYW1pbnBhdGNoLmNvbS/aNTYP
-				Nzg5Fzo7PGQ+Pz4+qaqrrK0IgACAFoAAgACALIApgCiA
-				K4AqXxAkMTk3RjAzOEMtMDI4MC00NzdBLUIxMzYtNUVG
-				QUUzODg0QTcwVmJwLnN2Z18QJDYwNkEzNDA5LTRFRDYt
-				NEQxMy04QTkxLTU5QzVERDU1NkE0NNJUD7JWI0HDwIGP
-				z07kgBDTDQ4Ptbhhora3gC2ALqJfX4AUgBSAFV8QO2Zp
-				bGU6Ly8vVXNlcnMvYmVucGF0Y2gvU2l0ZXMvYmVuamFt
-				aW5wYXRjaC5jb20vQ29kZSUyMFJlcG8vXxBGZmlsZTov
-				Ly9Vc2Vycy9iZW5wYXRjaC9TaXRlcy9iZW5qYW1pbnBh
-				dGNoLmNvbS9jb2RlL2JlbmphbWlucGF0Y2guY29tL9o1
-				Ng83ODkXOjs8ZD4/Pj7EqsbHyAiAAIAWgACAAIAzgCmA
-				MIAygDFfECRDMTU0RUYzMi1CMEE2LTQ3QUUtOTI4Ni0w
-				RTVGNzU1NEU1REJfECQyOEYxMEI0Ny00RjI4LTQ3MDYt
-				ODVCOS1DRkM4MzA5OTU0RUHSVA/MViNBw8CBj89O/YAQ
-				0w0OD8/SYaLQ0YA0gDWiX1+AFIAUgBVfEDtmaWxlOi8v
-				L1VzZXJzL2JlbnBhdGNoL1NpdGVzL2JlbmphbWlucGF0
-				Y2guY29tL0NvZGUlMjBSZXBvL18QRmZpbGU6Ly8vVXNl
-				cnMvYmVucGF0Y2gvU2l0ZXMvYmVuamFtaW5wYXRjaC5j
-				b20vY29kZS9iZW5qYW1pbnBhdGNoLmNvbS/SJifZ2lxS
-				V1NpdGVGb2xkZXKi2ytcUldTaXRlRm9sZGVy0iYnaN2i
-				aCsACAARABoAJAApADIANwBJAEwAUQBTAI4AlACbAKMA
-				rgC1ALcAuQC7AL0AvwDEAM8A1ADaAOUA7gDwAPIA9AD2
-				APgBHwExATYBNwE5AT4BSQFSAWEBZQFtAXYBewGBAYMB
-				hQGHAYkBiwGNAaIBsQG9AcoB2AHqAfUB/wIJAgoCDAIO
-				AhACEgIUAhYCGAIaAhwCQwJnAxwDIwMrAzcDOQM7Az0D
-				QgNIA0sDUANYA2EDYwNoA28DcgN5A3wDfgOAA4MDhQOH
-				A4kDxwQQBBEEFgQsBDAEPQRCBFEEVARjBHgEeQR7BH0E
-				fwSBBIMEhQSHBIkEiwSyBM0E9AT5BQIFBAULBQ4FEAUS
-				BRUFFwUZBRsFWQWiBbcFuAW6BbwFvgXABcIFxAXGBcgF
-				ygXxBfwGIwYoBjEGMwY6Bj0GPwZBBkQGRgZIBkoGiAbR
-				BuYG5wbpBusG7QbvBvEG8wb1BvcG+QcgBycHTgdTB1wH
-				XgdlB2gHagdsB28HcQdzB3UHswf8CBEIEggUCBYIGAga
-				CBwIHgggCCIIJAhLCHIIdwiACIIIiQiMCI4IkAiTCJUI
-				lwiZCNcJIAklCTIJNQlCCUcAAAAAAAACAQAAAAAAAADe
-				AAAAAAAAAAAAAAAAAAAJSg==
+				aC5jb20vY29kZS9iZW5qYW1pbnBhdGNoLmNvbS/aADgA
+				OQAPADoAOwA8ABcAPQA+AD8AZwBBAEIAQQBBAKwArQCu
+				AK8AsAiAAIAWgACAAIAsgCmAKIArgCpfECQxOTdGMDM4
+				Qy0wMjgwLTQ3N0EtQjEzNi01RUZBRTM4ODRBNzBWYnAu
+				c3ZnXxAkNjA2QTM0MDktNEVENi00RDEzLThBOTEtNTlD
+				NURENTU2QTQ00gBXAA8AtQBZI0HDwxqP8vx6gBDTAA0A
+				DgAPALgAuwBkogC5ALqALYAuogBiAGKAFIAUgBVfEDtm
+				aWxlOi8vL1VzZXJzL2JlbnBhdGNoL1NpdGVzL2Jlbmph
+				bWlucGF0Y2guY29tL0NvZGUlMjBSZXBvL18QRmZpbGU6
+				Ly8vVXNlcnMvYmVucGF0Y2gvU2l0ZXMvYmVuamFtaW5w
+				YXRjaC5jb20vY29kZS9iZW5qYW1pbnBhdGNoLmNvbS/a
+				ADgAOQAPADoAOwA8ABcAPQA+AD8AZwBBAEIAQQBBAMcA
+				rQDJAMoAywiAAIAWgACAAIAzgCmAMIAygDFfECRDMTU0
+				RUYzMi1CMEE2LTQ3QUUtOTI4Ni0wRTVGNzU1NEU1REJf
+				ECQyOEYxMEI0Ny00RjI4LTQ3MDYtODVCOS1DRkM4MzA5
+				OTU0RUHSAFcADwDPAFkjQcPDGo/y/JOAENMADQAOAA8A
+				0gDVAGSiANMA1IA0gDWiAGIAYoAUgBSAFV8QO2ZpbGU6
+				Ly8vVXNlcnMvYmVucGF0Y2gvU2l0ZXMvYmVuamFtaW5w
+				YXRjaC5jb20vQ29kZSUyMFJlcG8vXxBGZmlsZTovLy9V
+				c2Vycy9iZW5wYXRjaC9TaXRlcy9iZW5qYW1pbnBhdGNo
+				LmNvbS9jb2RlL2JlbmphbWlucGF0Y2guY29tL9oAOAA5
+				AA8AOgA7ADwAFwA9AD4APwBnAN0AQgBBAEEA4QDiAOMA
+				5ADlCIA9gBaAAIAAgDuAOIA3gDqAOV8QJEJGMkJERjFF
+				LTlCN0QtNDRBNS04QzcyLUNDNzZGMkI5QjVCMF8QF2hv
+				bWUtYmVuamFtaW4tcGF0Y2gucG5nXxAkN0JGNEIxMUIt
+				NjNBRS00NDc1LUFDRTctQjZEQTBFNDYxNTc50gBXAA8A
+				6gBZI0HDwxqP8vytgBDTAA0ADgAPAO0A7wBkoQDugDyh
+				AGKAFIAVXxA7ZmlsZTovLy9Vc2Vycy9iZW5wYXRjaC9T
+				aXRlcy9iZW5qYW1pbnBhdGNoLmNvbS9Db2RlJTIwUmVw
+				by9fEFQvVXNlcnMvYmVucGF0Y2gvU2l0ZXMvYmVuamFt
+				aW5wYXRjaC5jb20vQXNzZXRzL1NvY2lhbCBJbWFnZXMv
+				aG9tZS1iZW5qYW1pbi1wYXRjaC5wbmfaADgAOQAPADoA
+				OwA8ABcAPQA+AD8AZwD2AEIAQQBBAPoA+wD8AP0A/giA
+				RYAWgACAAIBDgECAP4BCgEFfECQyNEQ1MkRDOC0xMjQ5
+				LTQ3NTQtOTI1NC05NjM2NEY3MkM3MkVfECJiZW5qYW1p
+				bi1wYXRjaC00MDAtc3F1YXJlLTIwMTkuanBnXxAkMEIx
+				OTEwMUYtOUJERS00NTQ0LTlGOTgtNDM4MzRFNEYxODBF
+				0gBXAA8BAwBZI0HDwxqP8vzGgBDTAA0ADgAPAQYBCABk
+				oQEHgEShAGKAFIAVXxA7ZmlsZTovLy9Vc2Vycy9iZW5w
+				YXRjaC9TaXRlcy9iZW5qYW1pbnBhdGNoLmNvbS9Db2Rl
+				JTIwUmVwby9fEFYvVXNlcnMvYmVucGF0Y2gvU2l0ZXMv
+				YmVuamFtaW5wYXRjaC5jb20vQXNzZXRzL0xvZ28vYmVu
+				amFtaW4tcGF0Y2gtNDAwLXNxdWFyZS0yMDE5LmpwZ9oA
+				OAA5AA8AOgA7ADwAFwA9AD4APwBnAQ8AQgBBAEEBEwEU
+				ARUBFgEXCIBNgBaAAIAAgEuASIBHgEqASV8QJDE5NTlE
+				RUQ5LTk4RTctNDEwMC04MzZFLTAyMTRDQzc1Q0Q2M18Q
+				G2JlbmphbWluLXBhdGNoLWNvbS0yMDIxLnBuZ18QJDUw
+				ODU2QjY2LTgxMUYtNDRFRi1CNzYyLTAxRkRCNjVDQzA3
+				ONIAVwAPARwAWSNBw8Maj/L834AQ0wANAA4ADwEfASEA
+				ZKEBIIBMoQBigBSAFV8QO2ZpbGU6Ly8vVXNlcnMvYmVu
+				cGF0Y2gvU2l0ZXMvYmVuamFtaW5wYXRjaC5jb20vQ29k
+				ZSUyMFJlcG8vXxBYL1VzZXJzL2JlbnBhdGNoL1NpdGVz
+				L2JlbmphbWlucGF0Y2guY29tL0Fzc2V0cy9Tb2NpYWwg
+				SW1hZ2VzL2JlbmphbWluLXBhdGNoLWNvbS0yMDIxLnBu
+				Z9IAJgAnAScBKFxSV1NpdGVGb2xkZXKiASkAK1xSV1Np
+				dGVGb2xkZXLSACYAJwBrASuiAGsAKwAIABkAIgAsADEA
+				OgA/AFEAVgBbAF0BAAEGARMBGwEmAS0BMAEyATUBNwE5
+				AT4BUwFYAV4BaQFyAXQBdgF4AXoBfAGjAbUBvgG/AcEB
+				ygHVAd4B7QH0AfwCBQIOAh8CIQIjAiUCJwIpAisCLQIv
+				AjECWgJpAnUCggKQAqICrQK3AsECwgLEAsYCyALKAswC
+				zgLQAtIC1AL7Ax8D1APhA+kD9QP3A/kD+wQEBAoEDwQY
+				BCAEKQQrBDQEOwRABE0EUgRUBFYEWwRdBF8EYQSfBOgE
+				6QTyBQgFDwUcBSUFNAU5BUgFcQVyBXQFdgV4BXoFfAV+
+				BYAFggWEBasFxgXtBfYF/wYBBg4GEwYVBhcGHAYeBiAG
+				IgZgBqkG0gbTBtUG1wbZBtsG3QbfBuEG4wblBwwHFwc+
+				B0cHUAdSB18HZAdmB2gHbQdvB3EHcwexB/oIIwgkCCYI
+				KAgqCCwILggwCDIINAg2CF0IZAiLCJQInQifCKwIsQiz
+				CLUIugi8CL4IwAj+CUcJcAlxCXMJdQl3CXkJewl9CX8J
+				gQmDCaoJ0QnaCeMJ5QnyCfcJ+Qn7CgAKAgoECgYKRAqN
+				CrYKtwq5CrsKvQq/CsEKwwrFCscKyQrwCwoLMQs6C0ML
+				RQtSC1ULVwtaC1wLXgucC/MMHAwdDB8MIQwjDCUMJwwp
+				DCsMLQwvDFYMewyiDKsMtAy2DMMMxgzIDMsMzQzPDQ0N
+				Zg2PDZANkg2UDZYNmA2aDZwNng2gDaINyQ3nDg4OFw4g
+				DiIOLw4yDjQONw45DjsOeQ7UDt0O6g7vDvwPBQAAAAAA
+				AAICAAAAAAAAASwAAAAAAAAAAAAAAAAAAA8K
 				</data>
 				<key>SiteAttributes</key>
 				<dict>
@@ -1071,6 +1183,8 @@
 					<false/>
 					<key>ShowPrivacyMessage</key>
 					<false/>
+					<key>SiteLogoAltText</key>
+					<string>Benjamin Patch</string>
 					<key>SloganText</key>
 					<string>Filmmaker for Hire</string>
 					<key>SloganUsed</key>

@@ -57,13 +57,19 @@
 				<key>ShouldEnableRobotTags</key>
 				<true/>
 				<key>ShouldEnableSocialTags</key>
-				<false/>
+				<true/>
 				<key>SidebarEnabled</key>
 				<integer>1</integer>
 				<key>TextEncoding</key>
 				<string>utf-8</string>
 				<key>Variables</key>
 				<dict/>
+				<key>openGraphDescription</key>
+				<string>Sitemap for benjaminpatch.com – Find links to all pages in one convenient location.</string>
+				<key>openGraphImageResourceIdentifier</key>
+				<string>1959DED9-98E7-4100-836E-0214CC75CD63</string>
+				<key>openGraphTitle</key>
+				<string>Sitemap | Benjamin Patch</string>
 			</dict>
 			<key>Files</key>
 			<array/>
