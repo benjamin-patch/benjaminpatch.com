@@ -16,7 +16,7 @@
 					<key>file:///Users/benpatch/Sites/benjaminpatch.com/</key>
 					<false/>
 					<key>file:///Users/benpatch/Sites/benjaminpatch.com/Code%20Repo/</key>
-					<false/>
+					<true/>
 					<key>file:///Users/benpatch/Sites/benjaminpatch.com/code/benjaminpatch.com/</key>
 					<true/>
 				</dict>
@@ -150,6 +150,8 @@
 				<true/>
 				<key>SidebarEnabled</key>
 				<integer>1</integer>
+				<key>SidebarPlain</key>
+				<string>&lt;iframe src="https://player.vimeo.com/video/721143810?h=ab7800b791" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</string>
 				<key>SidebarTitle</key>
 				<string></string>
 				<key>TextEncoding</key>

@@ -14,9 +14,9 @@
 	<string>sidebar</string>
 	<key>selectedItems</key>
 	<array>
-		<string>page1</string>
+		<string>page0</string>
 	</array>
 	<key>selectedMode</key>
-	<integer>0</integer>
+	<integer>1</integer>
 </dict>
 </plist>
