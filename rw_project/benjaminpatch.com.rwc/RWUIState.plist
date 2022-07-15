@@ -11,10 +11,10 @@
 	<key>projectViewWidth</key>
 	<real>248</real>
 	<key>selectedInspectorTab</key>
-	<string>sidebar</string>
+	<string>metaTags</string>
 	<key>selectedItems</key>
 	<array>
-		<string>page2</string>
+		<string>page0</string>
 	</array>
 	<key>selectedMode</key>
 	<integer>0</integer>

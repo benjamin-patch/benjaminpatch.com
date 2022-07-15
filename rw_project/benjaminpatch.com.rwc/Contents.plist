@@ -16,7 +16,7 @@
 					<key>page0 - file:///Users/benpatch/Sites/benjaminpatch.com/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2022-06-25T02:20:01Z</date>
+						<date>2022-07-15T17:54:10Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -25,11 +25,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								BmPzKDqOZYGI
-								pRd+1U6QAQ==
+								PKXMrp4qs+tt
+								lenN4JEh/A==
 								</data>
 								<key>Size</key>
-								<integer>7911</integer>
+								<integer>7372</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -94,7 +94,7 @@
 					<key>page1 - file:///Users/benpatch/Sites/benjaminpatch.com/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2022-06-25T02:20:01Z</date>
+						<date>2022-07-15T17:54:10Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -103,11 +103,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								R04ysQg4Tv1U
-								xeMAXcE1AQ==
+								CHPcZxWKgPXL
+								rHBcKNaoIA==
 								</data>
 								<key>Size</key>
-								<integer>7611</integer>
+								<integer>7614</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -172,7 +172,7 @@
 					<key>page2 - file:///Users/benpatch/Sites/benjaminpatch.com/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2022-06-27T00:27:25Z</date>
+						<date>2022-07-15T17:54:10Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -181,11 +181,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								gvXxY31bhbEX
-								ONNs2pZ0Fg==
+								DObCsUXED0rE
+								M9ck62D1yw==
 								</data>
 								<key>Size</key>
-								<integer>11838</integer>
+								<integer>11841</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -250,7 +250,7 @@
 					<key>page3 - file:///Users/benpatch/Sites/benjaminpatch.com/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2022-06-16T21:29:58Z</date>
+						<date>2022-07-15T17:54:10Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -259,11 +259,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								6R5GV2kOl8O6
-								48X8bvjfcQ==
+								hMImy22K+Jp1
+								jsr/i1AScA==
 								</data>
 								<key>Size</key>
-								<integer>7029</integer>
+								<integer>7032</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -328,7 +328,7 @@
 					<key>page4 - file:///Users/benpatch/Sites/benjaminpatch.com/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2022-06-16T21:29:58Z</date>
+						<date>2022-07-15T17:54:10Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -337,11 +337,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								BrhxgR1zPiP9
-								c2sSng/7yQ==
+								dr/UMIDA+EZ5
+								/oRZI1PFzQ==
 								</data>
 								<key>Size</key>
-								<integer>7143</integer>
+								<integer>7146</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -406,7 +406,7 @@
 					<key>rw:document:extrafiles - file:///Users/benpatch/Sites/benjaminpatch.com/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2022-06-25T02:20:01Z</date>
+						<date>2022-07-15T17:54:10Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -425,8 +425,8 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								hz6Excink8IK
-								B2KoAby0Rg==
+								grcPJyG0DcB0
+								FeEr1sEqMw==
 								</data>
 								<key>Size</key>
 								<integer>5</integer>
@@ -1352,7 +1352,7 @@
 				TnprNU9EUXgmaXhsaWI9cmItMS4yLjEmcT04MCZ3PTEw
 				ODDTAE4ADwBPAEEAUQBJV05TLmJhc2VbTlMucmVsYXRp
 				dmWAAIAOgAzSACYAJwBUAFVVTlNVUkyiAFQAK9IAVwAP
-				AFgAWVdOUy50aW1lI0HENJh3RarngBDSACYAJwBbAFxW
+				AFgAWVdOUy50aW1lI0HEQPChh74bgBDSACYAJwBbAFxW
 				TlNEYXRlogBbACvTAA0ADgAPAF4AYgBmowBfAGAAYYAS
 				gBOAFKMAYwBjAGOAFYAVgBWAFl8QO2ZpbGU6Ly8vVXNl
 				cnMvYmVucGF0Y2gvU2l0ZXMvYmVuamFtaW5wYXRjaC5j
@@ -1368,7 +1368,7 @@
 				QjdFMDQwRUUtRTE2OS00RTU4LUExRjQtMDYwMTlBQzIw
 				RjBGXxAYRmFsbCAyMDIxIFJhdGUgVGFibGUucG5nXxAk
 				OTAyMDkwQTMtRjMyRS00RjkyLTk0Q0YtQjQ3MjdFRjE2
-				REM10gBXAA8AggBZI0HENJh3RatlgBDTAA0ADgAPAIUA
+				REM10gBXAA8AggBZI0HEQPChh75NgBDTAA0ADgAPAIUA
 				iQBmowCGAIcAiIAegB+AIKMAYwBjAGOAFYAVgBWAFl8Q
 				O2ZpbGU6Ly8vVXNlcnMvYmVucGF0Y2gvU2l0ZXMvYmVu
 				amFtaW5wYXRjaC5jb20vQ29kZSUyMFJlcG8vXxBGZmls
@@ -1380,7 +1380,7 @@
 				gACAJoAjgCKAJYAkXxAkMkI2RjM2MTktRTQxRC00MkZE
 				LUFBMTctM0M1QTU2QkFDQjMwWmJwLTE4MC5wbmdfECQ5
 				NUFGRjY2QS1BMTIzLTQ3REQtQjYwMC03MDRBODRFQ0JC
-				MEHSAFcADwCgAFkjQcQ0mHdFq36AENMADQAOAA8AowCn
+				MEHSAFcADwCgAFkjQcRA8KGHvl6AENMADQAOAA8AowCn
 				AGajAKQApQCmgCeAKIApowBjAGMAY4AVgBWAFYAWXxA7
 				ZmlsZTovLy9Vc2Vycy9iZW5wYXRjaC9TaXRlcy9iZW5q
 				YW1pbnBhdGNoLmNvbS9Db2RlJTIwUmVwby9fEEZmaWxl
@@ -1392,7 +1392,7 @@
 				AIAvgCyAK4AugC1fECQxOTdGMDM4Qy0wMjgwLTQ3N0Et
 				QjEzNi01RUZBRTM4ODRBNzBWYnAuc3ZnXxAkNjA2QTM0
 				MDktNEVENi00RDEzLThBOTEtNTlDNURENTU2QTQ00gBX
-				AA8AvgBZI0HENJh3RauXgBDTAA0ADgAPAMEAxQBmowDC
+				AA8AvgBZI0HEQPChh75ugBDTAA0ADgAPAMEAxQBmowDC
 				AMMAxIAwgDGAMqMAYwBjAGOAFYAVgBWAFl8QO2ZpbGU6
 				Ly8vVXNlcnMvYmVucGF0Y2gvU2l0ZXMvYmVuamFtaW5w
 				YXRjaC5jb20vQ29kZSUyMFJlcG8vXxBGZmlsZTovLy9V
@@ -1403,8 +1403,8 @@
 				AGoAQQBCAEEAQQDTALYA1QDWANcIgACAF4AAgACAN4As
 				gDSANoA1XxAkQzE1NEVGMzItQjBBNi00N0FFLTkyODYt
 				MEU1Rjc1NTRFNURCXxAkMjhGMTBCNDctNEYyOC00NzA2
-				LTg1QjktQ0ZDODMwOTk1NEVB0gBXAA8A2wBZI0HENJh3
-				RauwgBDTAA0ADgAPAN4A4gBmowDfAOAA4YA4gDmAOqMA
+				LTg1QjktQ0ZDODMwOTk1NEVB0gBXAA8A2wBZI0HEQPCh
+				h76IgBDTAA0ADgAPAN4A4gBmowDfAOAA4YA4gDmAOqMA
 				YwBjAGOAFYAVgBWAFl8QO2ZpbGU6Ly8vVXNlcnMvYmVu
 				cGF0Y2gvU2l0ZXMvYmVuamFtaW5wYXRjaC5jb20vQ29k
 				ZSUyMFJlcG8vXxBGZmlsZTovLy9Vc2Vycy9iZW5wYXRj
@@ -1416,7 +1416,7 @@
 				QkRGMUUtOUI3RC00NEE1LThDNzItQ0M3NkYyQjlCNUIw
 				XxAXaG9tZS1iZW5qYW1pbi1wYXRjaC5wbmdfECQ3QkY0
 				QjExQi02M0FFLTQ0NzUtQUNFNy1CNkRBMEU0NjE1NznS
-				AFcADwD5AFkjQcQ0mHdFq8mAENMADQAOAA8A/AD/AGai
+				AFcADwD5AFkjQcRA8KGHvpiAENMADQAOAA8A/AD/AGai
 				AP0A/oBBgEKiAGMAY4AVgBWAFl8QO2ZpbGU6Ly8vVXNl
 				cnMvYmVucGF0Y2gvU2l0ZXMvYmVuamFtaW5wYXRjaC5j
 				b20vQ29kZSUyMFJlcG8vXxAvZmlsZTovLy9Vc2Vycy9i
@@ -1426,7 +1426,7 @@
 				MkRDOC0xMjQ5LTQ3NTQtOTI1NC05NjM2NEY3MkM3MkVf
 				ECJiZW5qYW1pbi1wYXRjaC00MDAtc3F1YXJlLTIwMTku
 				anBnXxAkMEIxOTEwMUYtOUJERS00NTQ0LTlGOTgtNDM4
-				MzRFNEYxODBF0gBXAA8BFABZI0HENJh3RavagBDTAA0A
+				MzRFNEYxODBF0gBXAA8BFABZI0HEQPChh76pgBDTAA0A
 				DgAPARcBGgBmogEYARmASYBKogBjAGOAFYAVgBZfEDtm
 				aWxlOi8vL1VzZXJzL2JlbnBhdGNoL1NpdGVzL2Jlbmph
 				bWlucGF0Y2guY29tL0NvZGUlMjBSZXBvL18QL2ZpbGU6
@@ -1439,7 +1439,7 @@
 				REVEOS05OEU3LTQxMDAtODM2RS0wMjE0Q0M3NUNENjNf
 				EBtiZW5qYW1pbi1wYXRjaC1jb20tMjAyMS5wbmdfECQ1
 				MDg1NkI2Ni04MTFGLTQ0RUYtQjc2Mi0wMUZEQjY1Q0Mw
-				NzjSAFcADwEwAFkjQcQ0mHdFq/OAENMADQAOAA8BMwE2
+				NzjSAFcADwEwAFkjQcRA8KGHvrqAENMADQAOAA8BMwE2
 				AGaiATQBNYBSgFOiAGMAY4AVgBWAFl8QO2ZpbGU6Ly8v
 				VXNlcnMvYmVucGF0Y2gvU2l0ZXMvYmVuamFtaW5wYXRj
 				aC5jb20vQ29kZSUyMFJlcG8vXxAvZmlsZTovLy9Vc2Vy
@@ -1600,7 +1600,7 @@
 					<key>PublishingSettingsConfigured</key>
 					<true/>
 					<key>RWBadge</key>
-					<string>{"position":"bottomLeft","transition":"slide","enabled":true,"openInNewWindow":true,"delayType":"time","useDefaultImage":true,"text":"Made in RapidWeaver","colorScheme":"auto","url":"https:\/\/www.realmacsoftware.com"}</string>
+					<string>{"delayDistance":30,"position":"bottomLeft","transition":"slide","enabled":false,"openInNewWindow":true,"delayType":"time","useDefaultImage":true,"text":"Made in RapidWeaver","colorScheme":"auto","delayMillis":1000,"url":"https:\/\/www.realmacsoftware.com"}</string>
 					<key>RememberPrivacyMessageDismissed</key>
 					<false/>
 					<key>SelectedPublishingDestinationIndex</key>
@@ -1614,7 +1614,7 @@
 					<key>SiteLogoAltText</key>
 					<string>Benjamin Patch</string>
 					<key>SloganText</key>
-					<string>Filmmaker for Hire</string>
+					<string>Video Editor for Hire</string>
 					<key>SloganUsed</key>
 					<true/>
 					<key>ThemeName</key>
