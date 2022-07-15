@@ -16,7 +16,7 @@
 					<key>page0 - file:///Users/benpatch/Sites/benjaminpatch.com/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2022-07-15T17:54:10Z</date>
+						<date>2022-07-15T18:27:56Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -25,11 +25,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								PKXMrp4qs+tt
-								lenN4JEh/A==
+								qPDdP26AKRmC
+								1pmzZNI/qA==
 								</data>
 								<key>Size</key>
-								<integer>7372</integer>
+								<integer>7385</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -172,7 +172,7 @@
 					<key>page2 - file:///Users/benpatch/Sites/benjaminpatch.com/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2022-07-15T17:54:10Z</date>
+						<date>2022-07-15T18:27:56Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -181,11 +181,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								DObCsUXED0rE
-								M9ck62D1yw==
+								lGZPDxVNtwwQ
+								0SMqpcyp2w==
 								</data>
 								<key>Size</key>
-								<integer>11841</integer>
+								<integer>10102</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -406,7 +406,7 @@
 					<key>rw:document:extrafiles - file:///Users/benpatch/Sites/benjaminpatch.com/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2022-07-15T17:54:10Z</date>
+						<date>2022-07-15T18:27:56Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -435,11 +435,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								sar7jmQSFaFi
-								hxxn9PVWZQ==
+								PQ4s2OfGwI53
+								c2O/b5ZPwg==
 								</data>
 								<key>Size</key>
-								<integer>484</integer>
+								<integer>644</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -1352,7 +1352,7 @@
 				TnprNU9EUXgmaXhsaWI9cmItMS4yLjEmcT04MCZ3PTEw
 				ODDTAE4ADwBPAEEAUQBJV05TLmJhc2VbTlMucmVsYXRp
 				dmWAAIAOgAzSACYAJwBUAFVVTlNVUkyiAFQAK9IAVwAP
-				AFgAWVdOUy50aW1lI0HEQPChh74bgBDSACYAJwBbAFxW
+				AFgAWVdOUy50aW1lI0HEQPSWZE5RgBDSACYAJwBbAFxW
 				TlNEYXRlogBbACvTAA0ADgAPAF4AYgBmowBfAGAAYYAS
 				gBOAFKMAYwBjAGOAFYAVgBWAFl8QO2ZpbGU6Ly8vVXNl
 				cnMvYmVucGF0Y2gvU2l0ZXMvYmVuamFtaW5wYXRjaC5j
@@ -1368,7 +1368,7 @@
 				QjdFMDQwRUUtRTE2OS00RTU4LUExRjQtMDYwMTlBQzIw
 				RjBGXxAYRmFsbCAyMDIxIFJhdGUgVGFibGUucG5nXxAk
 				OTAyMDkwQTMtRjMyRS00RjkyLTk0Q0YtQjQ3MjdFRjE2
-				REM10gBXAA8AggBZI0HEQPChh75NgBDTAA0ADgAPAIUA
+				REM10gBXAA8AggBZI0HEQPSWZE57gBDTAA0ADgAPAIUA
 				iQBmowCGAIcAiIAegB+AIKMAYwBjAGOAFYAVgBWAFl8Q
 				O2ZpbGU6Ly8vVXNlcnMvYmVucGF0Y2gvU2l0ZXMvYmVu
 				amFtaW5wYXRjaC5jb20vQ29kZSUyMFJlcG8vXxBGZmls
@@ -1380,7 +1380,7 @@
 				gACAJoAjgCKAJYAkXxAkMkI2RjM2MTktRTQxRC00MkZE
 				LUFBMTctM0M1QTU2QkFDQjMwWmJwLTE4MC5wbmdfECQ5
 				NUFGRjY2QS1BMTIzLTQ3REQtQjYwMC03MDRBODRFQ0JC
-				MEHSAFcADwCgAFkjQcRA8KGHvl6AENMADQAOAA8AowCn
+				MEHSAFcADwCgAFkjQcRA9JZkToOAENMADQAOAA8AowCn
 				AGajAKQApQCmgCeAKIApowBjAGMAY4AVgBWAFYAWXxA7
 				ZmlsZTovLy9Vc2Vycy9iZW5wYXRjaC9TaXRlcy9iZW5q
 				YW1pbnBhdGNoLmNvbS9Db2RlJTIwUmVwby9fEEZmaWxl
@@ -1392,7 +1392,7 @@
 				AIAvgCyAK4AugC1fECQxOTdGMDM4Qy0wMjgwLTQ3N0Et
 				QjEzNi01RUZBRTM4ODRBNzBWYnAuc3ZnXxAkNjA2QTM0
 				MDktNEVENi00RDEzLThBOTEtNTlDNURENTU2QTQ00gBX
-				AA8AvgBZI0HEQPChh75ugBDTAA0ADgAPAMEAxQBmowDC
+				AA8AvgBZI0HEQPSWZE6UgBDTAA0ADgAPAMEAxQBmowDC
 				AMMAxIAwgDGAMqMAYwBjAGOAFYAVgBWAFl8QO2ZpbGU6
 				Ly8vVXNlcnMvYmVucGF0Y2gvU2l0ZXMvYmVuamFtaW5w
 				YXRjaC5jb20vQ29kZSUyMFJlcG8vXxBGZmlsZTovLy9V
@@ -1403,8 +1403,8 @@
 				AGoAQQBCAEEAQQDTALYA1QDWANcIgACAF4AAgACAN4As
 				gDSANoA1XxAkQzE1NEVGMzItQjBBNi00N0FFLTkyODYt
 				MEU1Rjc1NTRFNURCXxAkMjhGMTBCNDctNEYyOC00NzA2
-				LTg1QjktQ0ZDODMwOTk1NEVB0gBXAA8A2wBZI0HEQPCh
-				h76IgBDTAA0ADgAPAN4A4gBmowDfAOAA4YA4gDmAOqMA
+				LTg1QjktQ0ZDODMwOTk1NEVB0gBXAA8A2wBZI0HEQPSW
+				ZE6lgBDTAA0ADgAPAN4A4gBmowDfAOAA4YA4gDmAOqMA
 				YwBjAGOAFYAVgBWAFl8QO2ZpbGU6Ly8vVXNlcnMvYmVu
 				cGF0Y2gvU2l0ZXMvYmVuamFtaW5wYXRjaC5jb20vQ29k
 				ZSUyMFJlcG8vXxBGZmlsZTovLy9Vc2Vycy9iZW5wYXRj
@@ -1416,7 +1416,7 @@
 				QkRGMUUtOUI3RC00NEE1LThDNzItQ0M3NkYyQjlCNUIw
 				XxAXaG9tZS1iZW5qYW1pbi1wYXRjaC5wbmdfECQ3QkY0
 				QjExQi02M0FFLTQ0NzUtQUNFNy1CNkRBMEU0NjE1NznS
-				AFcADwD5AFkjQcRA8KGHvpiAENMADQAOAA8A/AD/AGai
+				AFcADwD5AFkjQcRA9JZkTq2AENMADQAOAA8A/AD/AGai
 				AP0A/oBBgEKiAGMAY4AVgBWAFl8QO2ZpbGU6Ly8vVXNl
 				cnMvYmVucGF0Y2gvU2l0ZXMvYmVuamFtaW5wYXRjaC5j
 				b20vQ29kZSUyMFJlcG8vXxAvZmlsZTovLy9Vc2Vycy9i
@@ -1426,7 +1426,7 @@
 				MkRDOC0xMjQ5LTQ3NTQtOTI1NC05NjM2NEY3MkM3MkVf
 				ECJiZW5qYW1pbi1wYXRjaC00MDAtc3F1YXJlLTIwMTku
 				anBnXxAkMEIxOTEwMUYtOUJERS00NTQ0LTlGOTgtNDM4
-				MzRFNEYxODBF0gBXAA8BFABZI0HEQPChh76pgBDTAA0A
+				MzRFNEYxODBF0gBXAA8BFABZI0HEQPSWZE6+gBDTAA0A
 				DgAPARcBGgBmogEYARmASYBKogBjAGOAFYAVgBZfEDtm
 				aWxlOi8vL1VzZXJzL2JlbnBhdGNoL1NpdGVzL2Jlbmph
 				bWlucGF0Y2guY29tL0NvZGUlMjBSZXBvL18QL2ZpbGU6
@@ -1439,7 +1439,7 @@
 				REVEOS05OEU3LTQxMDAtODM2RS0wMjE0Q0M3NUNENjNf
 				EBtiZW5qYW1pbi1wYXRjaC1jb20tMjAyMS5wbmdfECQ1
 				MDg1NkI2Ni04MTFGLTQ0RUYtQjc2Mi0wMUZEQjY1Q0Mw
-				NzjSAFcADwEwAFkjQcRA8KGHvrqAENMADQAOAA8BMwE2
+				NzjSAFcADwEwAFkjQcRA9JZkTs+AENMADQAOAA8BMwE2
 				AGaiATQBNYBSgFOiAGMAY4AVgBWAFl8QO2ZpbGU6Ly8v
 				VXNlcnMvYmVucGF0Y2gvU2l0ZXMvYmVuamFtaW5wYXRj
 				aC5jb20vQ29kZSUyMFJlcG8vXxAvZmlsZTovLy9Vc2Vy

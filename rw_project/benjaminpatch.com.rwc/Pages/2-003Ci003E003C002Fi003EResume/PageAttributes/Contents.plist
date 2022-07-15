@@ -47,7 +47,7 @@
 				<key>IndexFilename</key>
 				<string>index.html</string>
 				<key>MetaDescription</key>
-				<string>Core Competencies. Professional Experience. Military Background. Education. Awards. Technical Skills.</string>
+				<string>Professional Experience. Military Background. Education. Awards. Technical Skills.</string>
 				<key>OutputXMLDeclaration</key>
 				<false/>
 				<key>PluginHasPerformedMigrationToSharedData</key>
@@ -67,7 +67,7 @@
 				<key>Variables</key>
 				<dict/>
 				<key>openGraphDescription</key>
-				<string>Core Competencies. Professional Experience. Military Background. Education. Awards. Technical Skills.</string>
+				<string>Professional Experience. Military Background. Education. Awards. Technical Skills.</string>
 				<key>openGraphImageResourceIdentifier</key>
 				<string>1959DED9-98E7-4100-836E-0214CC75CD63</string>
 				<key>openGraphTitle</key>
