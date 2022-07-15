@@ -1,12 +1,16 @@
 # Benjamin Patch
 Public website for benjaminpatch.com, built with
-[RapidWeaver 8](https://www.realmacsoftware.com/rapidweaver/).
+[RapidWeaver Classic](https://www.realmacsoftware.com/rapidweaver/).
 
 RapidWeaver project file can be found in the 'rw_project' directory.
 
 ---
 
 ## Release Notes
+
+### 2022.07.15
+* Update content to a 'Video Ediitng' focus.
+* Update to RapidWeaver Classic project.
 
 ### 2022.01.05
 * Create social tags.
