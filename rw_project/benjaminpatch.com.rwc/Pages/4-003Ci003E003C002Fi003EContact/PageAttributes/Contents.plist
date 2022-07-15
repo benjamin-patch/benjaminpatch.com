@@ -14,7 +14,7 @@
 					<key>default</key>
 					<true/>
 					<key>file:///Users/benpatch/Sites/benjaminpatch.com/</key>
-					<false/>
+					<true/>
 					<key>file:///Users/benpatch/Sites/benjaminpatch.com/Code%20Repo/</key>
 					<true/>
 					<key>file:///Users/benpatch/Sites/benjaminpatch.com/code/benjaminpatch.com/</key>
@@ -69,7 +69,7 @@
 				<key>openGraphDescription</key>
 				<string>Interested in working on a film or video project together? Great! Here are a variety of ways to contact me.</string>
 				<key>openGraphImageResourceIdentifier</key>
-				<string>1959DED9-98E7-4100-836E-0214CC75CD63</string>
+				<string>F16143E0-2937-4ED6-9F15-9C602034BC6D</string>
 				<key>openGraphTitle</key>
 				<string>Contact Benjamin Patch</string>
 			</dict>
