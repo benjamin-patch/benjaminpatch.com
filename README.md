@@ -8,6 +8,9 @@ RapidWeaver project file can be found in the 'rw_project' directory.
 
 ## Release Notes
 
+### 2023.04.08
+* Update with AE credits.
+
 ### 2022.07.15
 * Update content to a 'Video Ediitng' focus.
 * Update to RapidWeaver Classic project.
