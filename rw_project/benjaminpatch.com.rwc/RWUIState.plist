@@ -5,7 +5,7 @@
 	<key>expandedItems</key>
 	<array/>
 	<key>pageInspectorVisible</key>
-	<true/>
+	<false/>
 	<key>projectViewVisible</key>
 	<true/>
 	<key>projectViewWidth</key>
@@ -17,6 +17,6 @@
 		<string>page0</string>
 	</array>
 	<key>selectedMode</key>
-	<integer>0</integer>
+	<integer>1</integer>
 </dict>
 </plist>

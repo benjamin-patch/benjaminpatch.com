@@ -64,6 +64,8 @@
 				<integer>1</integer>
 				<key>TextEncoding</key>
 				<string>utf-8</string>
+				<key>UseCustomLanguage</key>
+				<false/>
 				<key>Variables</key>
 				<dict/>
 				<key>openGraphDescription</key>

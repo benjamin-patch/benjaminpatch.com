@@ -16,7 +16,7 @@
 					<key>page0 - file:///Users/benpatch/Sites/benjaminpatch.com/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2022-07-15T18:59:43Z</date>
+						<date>2023-04-09T00:11:57Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -25,11 +25,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								xSGY5xlOIYXg
-								0IES6hcucA==
+								45f1wVC2eCAj
+								Uxy2eAf5JQ==
 								</data>
 								<key>Size</key>
-								<integer>7396</integer>
+								<integer>7589</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -94,7 +94,7 @@
 					<key>page1 - file:///Users/benpatch/Sites/benjaminpatch.com/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2022-07-15T18:59:43Z</date>
+						<date>2023-04-09T00:11:57Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -103,11 +103,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								rgMY66qNxE4i
-								m9N2VoZG8g==
+								6Tu6Sbgpd37u
+								6onXnFBSZQ==
 								</data>
 								<key>Size</key>
-								<integer>7622</integer>
+								<integer>7732</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -172,7 +172,7 @@
 					<key>page2 - file:///Users/benpatch/Sites/benjaminpatch.com/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2022-07-15T18:59:43Z</date>
+						<date>2023-04-09T00:11:57Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -181,11 +181,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								WcuWdWMVwAjP
-								a71zfDlB0Q==
+								eG3ZVvo7OVZY
+								QDr4bljZ7w==
 								</data>
 								<key>Size</key>
-								<integer>10110</integer>
+								<integer>10895</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -250,7 +250,7 @@
 					<key>page3 - file:///Users/benpatch/Sites/benjaminpatch.com/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2022-07-15T18:59:43Z</date>
+						<date>2023-04-09T00:11:57Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -259,11 +259,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								Aedv5JNoIj2W
-								20EcYHoJUw==
+								6sD1yI/X0K5N
+								xf0xnKlpqA==
 								</data>
 								<key>Size</key>
-								<integer>7040</integer>
+								<integer>7148</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -328,7 +328,7 @@
 					<key>page4 - file:///Users/benpatch/Sites/benjaminpatch.com/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2022-07-15T18:59:43Z</date>
+						<date>2023-04-09T00:11:57Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -337,11 +337,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								PBhtp2k9q+6b
-								sWLuCzhxhQ==
+								Hd7dNDsR5bM9
+								cnOssNAAGA==
 								</data>
 								<key>Size</key>
-								<integer>7154</integer>
+								<integer>7262</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -406,7 +406,7 @@
 					<key>rw:document:extrafiles - file:///Users/benpatch/Sites/benjaminpatch.com/</key>
 					<dict>
 						<key>CreationDate</key>
-						<date>2022-07-15T18:27:56Z</date>
+						<date>2023-04-09T00:11:57Z</date>
 						<key>DigestAlgorithm</key>
 						<string>MD5</string>
 						<key>PageDigests</key>
@@ -425,8 +425,8 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								grcPJyG0DcB0
-								FeEr1sEqMw==
+								D24EE4QJW5Pi
+								XuCC5M6wYQ==
 								</data>
 								<key>Size</key>
 								<integer>5</integer>
@@ -435,11 +435,11 @@
 							<dict>
 								<key>Digest</key>
 								<data>
-								PQ4s2OfGwI53
-								c2O/b5ZPwg==
+								sar7jmQSFaFi
+								hxxn9PVWZQ==
 								</data>
 								<key>Size</key>
-								<integer>644</integer>
+								<integer>484</integer>
 							</dict>
 						</dict>
 						<key>PageID</key>
@@ -1374,7 +1374,7 @@
 				Yj1yYi0xLjIuMSZxPTgwJnc9MTA4MNMATwAPAFAAQgBS
 				AEpXTlMuYmFzZVtOUy5yZWxhdGl2ZYAAgA6ADNIAJgAn
 				AFUAVlVOU1VSTKIAVQAr0gBYAA8AWQBaV05TLnRpbWUj
-				QcRA+FA7lpaAENIAJgAnAFwAXVZOU0RhdGWiAFwAK9MA
+				QcTxHSbbiVmAENIAJgAnAFwAXVZOU0RhdGWiAFwAK9MA
 				DQAOAA8AXwBjAGejAGAAYQBigBKAE4AUowBkAGQAZIAV
 				gBWAFYAWXxA7ZmlsZTovLy9Vc2Vycy9iZW5wYXRjaC9T
 				aXRlcy9iZW5qYW1pbnBhdGNoLmNvbS9Db2RlJTIwUmVw
@@ -1390,7 +1390,7 @@
 				LTRFNTgtQTFGNC0wNjAxOUFDMjBGMEZfEBhGYWxsIDIw
 				MjEgUmF0ZSBUYWJsZS5wbmdfECQ5MDIwOTBBMy1GMzJF
 				LTRGOTItOTRDRi1CNDcyN0VGMTZEQzXSAFgADwCDAFoj
-				QcRA+FA7ltmAENMADQAOAA8AhgCKAGejAIcAiACJgB6A
+				QcTxHSbbib6AENMADQAOAA8AhgCKAGejAIcAiACJgB6A
 				H4AgowBkAGQAZIAVgBWAFYAWXxA7ZmlsZTovLy9Vc2Vy
 				cy9iZW5wYXRjaC9TaXRlcy9iZW5qYW1pbnBhdGNoLmNv
 				bS9Db2RlJTIwUmVwby9fEEZmaWxlOi8vL1VzZXJzL2Jl
@@ -1402,7 +1402,7 @@
 				ECQyQjZGMzYxOS1FNDFELTQyRkQtQUExNy0zQzVBNTZC
 				QUNCMzBaYnAtMTgwLnBuZ18QJDk1QUZGNjZBLUExMjMt
 				NDdERC1CNjAwLTcwNEE4NEVDQkIwQdIAWAAPAKEAWiNB
-				xED4UDuW8oAQ0wANAA4ADwCkAKgAZ6MApQCmAKeAJ4Ao
+				xPEdJtuJ14AQ0wANAA4ADwCkAKgAZ6MApQCmAKeAJ4Ao
 				gCmjAGQAZABkgBWAFYAVgBZfEDtmaWxlOi8vL1VzZXJz
 				L2JlbnBhdGNoL1NpdGVzL2JlbmphbWlucGF0Y2guY29t
 				L0NvZGUlMjBSZXBvL18QRmZpbGU6Ly8vVXNlcnMvYmVu
@@ -1413,8 +1413,8 @@
 				AEIAtgC3ALgAuQC6CIAAgBeAAIAAgC+ALIArgC6ALV8Q
 				JDE5N0YwMzhDLTAyODAtNDc3QS1CMTM2LTVFRkFFMzg4
 				NEE3MFZicC5zdmdfECQ2MDZBMzQwOS00RUQ2LTREMTMt
-				OEE5MS01OUM1REQ1NTZBNDTSAFgADwC/AFojQcRA+FA7
-				lwuAENMADQAOAA8AwgDGAGejAMMAxADFgDCAMYAyowBk
+				OEE5MS01OUM1REQ1NTZBNDTSAFgADwC/AFojQcTxHSbb
+				ifCAENMADQAOAA8AwgDGAGejAMMAxADFgDCAMYAyowBk
 				AGQAZIAVgBWAFYAWXxA7ZmlsZTovLy9Vc2Vycy9iZW5w
 				YXRjaC9TaXRlcy9iZW5qYW1pbnBhdGNoLmNvbS9Db2Rl
 				JTIwUmVwby9fEEZmaWxlOi8vL1VzZXJzL2JlbnBhdGNo
@@ -1425,7 +1425,7 @@
 				twDWANcA2AiAAIAXgACAAIA3gCyANIA2gDVfECRDMTU0
 				RUYzMi1CMEE2LTQ3QUUtOTI4Ni0wRTVGNzU1NEU1REJf
 				ECQyOEYxMEI0Ny00RjI4LTQ3MDYtODVCOS1DRkM4MzA5
-				OTU0RUHSAFgADwDcAFojQcRA+FA7lySAENMADQAOAA8A
+				OTU0RUHSAFgADwDcAFojQcTxHSbbigGAENMADQAOAA8A
 				3wDjAGejAOAA4QDigDiAOYA6owBkAGQAZIAVgBWAFYAW
 				XxA7ZmlsZTovLy9Vc2Vycy9iZW5wYXRjaC9TaXRlcy9i
 				ZW5qYW1pbnBhdGNoLmNvbS9Db2RlJTIwUmVwby9fEEZm
@@ -1437,8 +1437,8 @@
 				gACAAIBAgD2APIA/gD5fECRCRjJCREYxRS05QjdELTQ0
 				QTUtOEM3Mi1DQzc2RjJCOUI1QjBfEBdob21lLWJlbmph
 				bWluLXBhdGNoLnBuZ18QJDdCRjRCMTFCLTYzQUUtNDQ3
-				NS1BQ0U3LUI2REEwRTQ2MTU3OdIAWAAPAPoAWiNBxED4
-				UDuXPoAQ0wANAA4ADwD9AQAAZ6IA/gD/gEGAQqIAZABk
+				NS1BQ0U3LUI2REEwRTQ2MTU3OdIAWAAPAPoAWiNBxPEd
+				JtuKEYAQ0wANAA4ADwD9AQAAZ6IA/gD/gEGAQqIAZABk
 				gBWAFYAWXxA7ZmlsZTovLy9Vc2Vycy9iZW5wYXRjaC9T
 				aXRlcy9iZW5qYW1pbnBhdGNoLmNvbS9Db2RlJTIwUmVw
 				by9fEC9maWxlOi8vL1VzZXJzL2JlbnBhdGNoL1NpdGVz
@@ -1448,7 +1448,7 @@
 				NC05MjU0LTk2MzY0RjcyQzcyRV8QImJlbmphbWluLXBh
 				dGNoLTQwMC1zcXVhcmUtMjAxOS5qcGdfECQwQjE5MTAx
 				Ri05QkRFLTQ1NDQtOUY5OC00MzgzNEU0RjE4MEXSAFgA
-				DwEVAFojQcRA+FA7l1+AENMADQAOAA8BGAEbAGeiARkB
+				DwEVAFojQcTxHSbbiiKAENMADQAOAA8BGAEbAGeiARkB
 				GoBJgEqiAGQAZIAVgBWAFl8QO2ZpbGU6Ly8vVXNlcnMv
 				YmVucGF0Y2gvU2l0ZXMvYmVuamFtaW5wYXRjaC5jb20v
 				Q29kZSUyMFJlcG8vXxAvZmlsZTovLy9Vc2Vycy9iZW5w
@@ -1461,7 +1461,7 @@
 				MC04MzZFLTAyMTRDQzc1Q0Q2M18QG2JlbmphbWluLXBh
 				dGNoLWNvbS0yMDIxLnBuZ18QJDUwODU2QjY2LTgxMUYt
 				NDRFRi1CNzYyLTAxRkRCNjVDQzA3ONIAWAAPATEAWiNB
-				xED4UDuXcIAQ0wANAA4ADwE0ATcAZ6IBNQE2gFKAU6IA
+				xPEdJtuKM4AQ0wANAA4ADwE0ATcAZ6IBNQE2gFKAU6IA
 				ZABkgBWAFYAWXxA7ZmlsZTovLy9Vc2Vycy9iZW5wYXRj
 				aC9TaXRlcy9iZW5qYW1pbnBhdGNoLmNvbS9Db2RlJTIw
 				UmVwby9fEC9maWxlOi8vL1VzZXJzL2JlbnBhdGNoL1Np
@@ -1471,7 +1471,7 @@
 				NEVENi05RjE1LTlDNjAyMDM0QkM2RF8QH2JlbmphbWlu
 				LXBhdGNoLXZpZGVvLWVkaXRvci5wbmdfECREMzc0NUM0
 				OS03NEQwLTQ1NTctQTJGQy0yQzRFOTM0ODlCNUbSAFgA
-				DwFMAFojQcRA+FA7l4mAENMADQAOAA8BTwFRAGehAVCA
+				DwFMAFojQcTxHSbbikyAENMADQAOAA8BTwFRAGehAVCA
 				WqEAZIAVgBZfEC9maWxlOi8vL1VzZXJzL2JlbnBhdGNo
 				L1NpdGVzL2JlbmphbWlucGF0Y2guY29tL18QUS9Vc2Vy
 				cy9iZW5wYXRjaC9TaXRlcy9iZW5qYW1pbnBhdGNoLmNv
@@ -1516,7 +1516,7 @@
 					<key>ContactText</key>
 					<string>Contact Me</string>
 					<key>CopyrightText</key>
-					<string>© 2022 Benjamin Patch. All rights reserved.</string>
+					<string>© 2023 Benjamin Patch. All rights reserved.</string>
 					<key>CopyrightTextUsed</key>
 					<true/>
 					<key>CruftlessLinksEnabled</key>
@@ -1633,7 +1633,7 @@
 					<key>PublishingSettingsConfigured</key>
 					<true/>
 					<key>RWBadge</key>
-					<string>{"delayDistance":30,"position":"bottomLeft","transition":"slide","enabled":false,"openInNewWindow":true,"delayType":"time","useDefaultImage":true,"text":"Made in RapidWeaver","colorScheme":"auto","delayMillis":1000,"url":"https:\/\/www.realmacsoftware.com"}</string>
+					<string>{"imageAlt":"","delayType":"time","position":"bottomLeft","hiddenOnDesktop":false,"hiddenOnMobile":false,"url":"https:\/\/www.realmacsoftware.com","openInNewWindow":true,"hiddenOnTablet":false,"delayMillis":1000,"enabled":false,"text":"Made in RapidWeaver","colorScheme":"auto","transition":"slide","useDefaultImage":true,"delayDistance":30}</string>
 					<key>RememberPrivacyMessageDismissed</key>
 					<false/>
 					<key>SelectedPublishingDestinationIndex</key>
@@ -1647,7 +1647,7 @@
 					<key>SiteLogoAltText</key>
 					<string>Benjamin Patch</string>
 					<key>SloganText</key>
-					<string>Video Editor for Hire</string>
+					<string>Assistant Editor for Hire</string>
 					<key>SloganUsed</key>
 					<true/>
 					<key>ThemeName</key>
@@ -1675,6 +1675,8 @@
 
 &lt;a class="social-youtube social-import" target="_blank" href="https://www.youtube.com/c/celestialcinema"&gt;&lt;/a&gt;
 </string>
+					<key>globalBodyStart</key>
+					<string></string>
 					<key>globalCSS</key>
 					<string>.center {
     text-align: center;
@@ -1695,6 +1697,8 @@
 					<key>globalPrefix</key>
 					<string></string>
 					<key>hasChangedGlobalBody</key>
+					<true/>
+					<key>hasChangedGlobalBodyStart</key>
 					<true/>
 					<key>hasChangedGlobalCSS</key>
 					<false/>
@@ -10753,6 +10757,8 @@
 					<true/>
 					<key>useSocialTags</key>
 					<true/>
+					<key>webServerPHPVersion</key>
+					<integer>7</integer>
 				</dict>
 			</dict>
 			<key>Files</key>

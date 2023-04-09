@@ -613,6 +613,8 @@
 						<string>Width.600px</string>
 					</array>
 				</dict>
+				<key>UseCustomLanguage</key>
+				<false/>
 				<key>Variables</key>
 				<dict/>
 				<key>openGraphDescription</key>
