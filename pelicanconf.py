@@ -88,4 +88,11 @@ EXTRA_PATH_METADATA = {
     'extra/CNAME': {'path': 'CNAME'},
     'extra/robots.txt': {'path': 'robots.txt'},
     'extra/humans.txt': {'path': 'humans.txt'},
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+    'extra/favicon-16x16.png': {'path': 'favicon-16x16.png'},
+    'extra/favicon-32x32.png': {'path': 'favicon-32x32.png'},
+    'extra/apple-touch-icon.png': {'path': 'apple-touch-icon.png'},
+    'extra/android-chrome-192x192.png': {'path': 'android-chrome-192x192.png'},
+    'extra/android-chrome-512x512.png': {'path': 'android-chrome-512x512.png'},
+    'extra/site.webmanifest': {'path': 'site.webmanifest'},
 }
