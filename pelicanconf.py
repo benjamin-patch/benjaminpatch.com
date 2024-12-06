@@ -6,6 +6,7 @@ NOW = datetime.now()
 
 AUTHOR = 'Benjamin Patch'
 SITENAME = 'Benjamin Patch'
+SITESUBTITLE = 'A Programming Blog'
 SITEURL = ""
 
 PATH = "content"
