@@ -1,0 +1,11 @@
+# humanstxt.org
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Web Developer: Benjamin Patch
+    Bluesky: @benjaminpatch
+
+# TECHNOLOGY COLOPHON
+
+    Pelican, Bootstrap

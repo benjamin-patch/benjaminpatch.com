@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+xmlns:xhtml="http://www.w3.org/1999/xhtml"
+xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<url>
+<loc>https://www.benjaminpatch.com/</loc>
+<lastmod>2024-12-06T14:24:42-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.benjaminpatch.com/pages/about/</loc>
+<lastmod>2024-12-05T17:17:00-08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.3</priority>
+</url>
+
+</urlset>
