@@ -45,8 +45,8 @@ DEFAULT_PAGINATION = 5
 ARTICLE_URL = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/index.html'
 
-PAGE_URL = 'pages/{slug}/'
-PAGE_SAVE_AS = 'pages/{slug}/index.html'
+PAGE_URL = '{slug}/'
+PAGE_SAVE_AS = '{slug}/index.html'
 
 DRAFT_URL = 'drafts/{slug}/'
 DRAFT_SAVE_AS = 'drafts/{slug}/index.html'
