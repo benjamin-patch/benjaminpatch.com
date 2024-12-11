@@ -1,7 +1,5 @@
 Title: About
-Date: 2024-12-07 12:01
-Modified: 2024-12-07 17:25
-Summary: I hope you find these programming articles helpful. When I’m not programming or blogging, I write feature-length screenplays that I would eventually love to direct.
+Date: 2024-12-11 12:01
 
 ![Photo of Benjamin Patch](/images/benjamin-patch-400x400-2019.jpg "Benjamin Patch"){: .rounded-5 .float-end .w-50 .p-2}
 
