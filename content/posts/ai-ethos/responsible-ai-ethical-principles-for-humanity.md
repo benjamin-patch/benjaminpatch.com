@@ -1,4 +1,4 @@
-Title: Responsible AI – Ethical Principles for Humanity
+Title: Responsible AI: Ethical Principles for Humanity
 Date: 2024-12-11 10:07
 Category: AI Ethos
 Tags: best practices, algorithmic bias, machine learning
