@@ -6,7 +6,7 @@ NOW = datetime.now()
 
 AUTHOR = 'Benjamin Patch'
 SITENAME = 'Benjamin Patch'
-SITESUBTITLE = 'A Programming Blog'
+SITESUBTITLE = 'Guides for Building Ethical & Impactful AI Software'
 SITEURL = ""
 
 PATH = "content"
