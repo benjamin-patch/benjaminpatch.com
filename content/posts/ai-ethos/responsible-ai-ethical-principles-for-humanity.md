@@ -2,6 +2,7 @@ Title: Responsible AI: Ethical Principles for Humanity
 Date: 2024-12-11 10:07
 Category: AI Ethos
 Tags: best practices, algorithmic bias, machine learning
+Description: This article offers a roadmap for developing AI that amplifies human potential while safeguarding our fundamental values.
 Summary: In this brief but eye-opening exploration of responsible AI, you'll discover the critical ethical challenges facing our technological future. More than a cautionary tale, this article offers a roadmap for developing AI that amplifies human potential while safeguarding our fundamental values.
 
 In this brief but eye-opening exploration of responsible AI, you'll discover the critical ethical challenges facing our technological future. More than a cautionary tale, this article offers a roadmap for developing AI that amplifies human potential while safeguarding our fundamental values.
