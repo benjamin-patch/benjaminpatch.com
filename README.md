@@ -1,12 +1,39 @@
 # Benjamin Patch
 Public website for benjaminpatch.com, built with
-[RapidWeaver Classic](https://www.realmacsoftware.com/rapidweaver/).
+[Pelican](https://getpelican.com/) and [Bootstrap](https://getbootstrap.com/).
 
-RapidWeaver project file can be found in the 'rw_project' directory.
+## Pelican Site Updates
+
+### Development
+```
+rm -rf output/*
+invoke regenerate
+invoke livereload
+```
+
+### Production
+```
+rm -rf output/*
+make publish
+```
+Push the newly generated site to the `gh-pages` branch. GitHub Pages should
+automatically update the production site within a few minutes.
+
+## GitHub Master to Main Update
+```
+git branch -m master main
+git fetch origin
+git branch -u origin/main main
+git remote set-head origin -a
+```
 
 ---
 
 ## Release Notes
+
+### 2024.12.11
+* Rebuild as a blog using Pelican.
+* Rename 'master' git branch to 'main.'
 
 ### 2023.04.08
 * Update with AE credits.
