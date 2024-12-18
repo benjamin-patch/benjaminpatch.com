@@ -13,13 +13,13 @@ Whether you're a technologist, business leader, or simply someone curious about 
 
 Artificial intelligence (AI) accelerated by machine learning (ML) is transforming our world at breathtaking speed, promising breakthroughs in medicine, science, and industry. While I am exhilarated by the current and near-future potential of AI technology, I am also deeply concerned about the speed and direction we are traveling.
 
-The promise of artificial intelligence is staggering — imagine systems that can diagnose diseases earlier than human physicians, optimize complex global supply chains, or solve intricate scientific challenges that have long eluded human comprehension. Yet, this extraordinary potential comes with equally profound responsibilities.
+The promise of artificial intelligence is staggering – imagine systems that can diagnose diseases earlier than human physicians, optimize complex global supply chains, or solve intricate scientific challenges that have long eluded human comprehension. Yet, this extraordinary potential comes with equally profound responsibilities.
 
-Science fiction is filled with warnings of how unchecked technological development can lead to unintended consequences - and AI powered by machine learning is no longer confined to the safety of science fiction. Machine learning has become a powerful lens that can either amplify our collective human potential or exacerbate existing societal inequities. Responsible AI development is our critical checkpoint - ensuring that technological advancement serves humanity's broader interests.
+Science fiction is filled with warnings of how unchecked technological development can lead to unintended consequences – and AI powered by machine learning is no longer confined to the safety of science fiction. Machine learning has become a powerful lens that can either amplify our collective human potential or exacerbate existing societal inequities. Responsible AI development is our critical checkpoint – ensuring that technological advancement serves humanity's broader interests.
 
 ## Real-World Stakes of Algorithmic Bias
 
-The algorithmic bias of machine learning is not a theoretical problem — it’s a present-day reality with tangible human consequences. Here are a few real-world examples I found in my research:
+The algorithmic bias of machine learning is not a theoretical problem – it’s a present-day reality with tangible human consequences. Here are a few real-world examples I found in my research:
 
 - **Amazon’s recruiting algorithm** (now scrapped) was proven to discriminate against female applicants (source: [Reuters](https://www.reuters.com/article/world/insight-amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK0AG/)).
 - **ChatGPT-4** recommends fewer MRIs and stress tests for Black patients and female cardiology patients without sound medical reasoning (source: [CBS News](https://www.cbsnews.com/sanfrancisco/news/ai-chatbots-are-supposed-to-improve-health-care-but-research-says-some-are-perpetuating-racism-2/)).
@@ -30,9 +30,9 @@ The evidence is clear and deeply troubling. Machine learning systems have alread
 
 ## Workforce Disruption and Economic Recalibration
 
-Machine learning will continue to fundamentally reshape our economic landscape. Not just by incremental changes but a potential restructuring of entire industries. Automation driven by AI could displace millions of jobs, particularly in sectors like manufacturing, transportation, customer service, and administrative work. Generative AI threatens creative fields such as writing, graphic design, video editing, and yes, even entry-level software developers - virtually all knowledge-based work could be at risk. Each worker can be empowered to do so much more, but fewer workers might be needed overall.
+Machine learning will continue to fundamentally reshape our economic landscape. Not just by incremental changes but a potential restructuring of entire industries. Automation driven by AI could displace millions of jobs, particularly in sectors like manufacturing, transportation, customer service, and administrative work. Generative AI threatens creative fields such as writing, graphic design, video editing, and yes, even entry-level software developers – virtually all knowledge-based work could be at risk. Each worker can be empowered to do so much more, but fewer workers might be needed overall.
 
-However, this isn't simply a narrative of job loss. We're also witnessing the emergence of entirely new job categories that didn't exist a few years ago, such as AI prompt engineering. Therefore, I strongly believe the key is **proactive adaptation** — investing in reskilling programs, creating educational frameworks that prepare workers for an AI-integrated workforce, and developing policies that ensure economic transitions are equitable and supportive. If political leaders fail to deliver such adaptive programs and policies, it will likely lead to economic blowback not seen in generations.
+However, this isn't simply a narrative of job loss. We're also witnessing the emergence of entirely new job categories that didn't exist a few years ago, such as AI prompt engineering. Therefore, I strongly believe the key is **proactive adaptation** – investing in reskilling programs, creating educational frameworks that prepare workers for an AI-integrated workforce, and developing policies that ensure economic transitions are equitable and supportive. If political leaders fail to deliver such adaptive programs and policies, it will likely lead to economic blowback not seen in generations.
 
 ## Core Principles of Responsible AI
 
@@ -68,7 +68,7 @@ A healthcare provider implemented an AI diagnostic tool with clear explanations 
 
 ## A Personal Call to Action
 
-To my fellow technologists, policymakers, and innovators: we stand at a critical juncture. The AI and machine learning systems we develop today will shape human experiences for generations. Our choices matter — profoundly and irrevocably.
+To my fellow technologists, policymakers, and innovators: we stand at a critical juncture. The AI and machine learning systems we develop today will shape human experiences for generations. Our choices matter – profoundly and irrevocably.
 
 Responsible AI is not about constraining innovation but channeling it toward meaningful, equitable outcomes. We must approach this technology with humility, foresight, and an unwavering commitment to human dignity.
 
