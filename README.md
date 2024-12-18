@@ -31,6 +31,10 @@ git remote set-head origin -a
 
 ## Release Notes
 
+### 2024.12.18
+* Evenly round corners on all sides of header and footer.
+* Publish article 'The Journey of Artificial Intelligence.'
+
 ### 2024.12.11
 * Rebuild as a blog using Pelican.
 * Rename 'master' git branch to 'main.'
