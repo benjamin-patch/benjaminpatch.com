@@ -11,7 +11,7 @@ Whether you're a technologist, business leader, or simply someone curious about 
 
 ## The Imperative of Responsible AI
 
-Artificial intelligence (AI) accelerated by machine learning (ML) is transforming our world at breathtaking speed, promising breakthroughs in medicine, science, and industry. While I am exhilarated by the current and near-future potential of AI technology, I am also deeply concerned about the speed and direction we are traveling.
+Artificial intelligence (AI) accelerated by machine learning (ML) is transforming our world at breathtaking speed, promising breakthroughs in medicine, science, and industry. While I am inspired by the current and near-future potential of AI technology, I am also deeply concerned about the speed and direction we are traveling.
 
 The promise of artificial intelligence is staggering – imagine systems that can diagnose diseases earlier than human physicians, optimize complex global supply chains, or solve intricate scientific challenges that have long eluded human comprehension. Yet, this extraordinary potential comes with equally profound responsibilities.
 
