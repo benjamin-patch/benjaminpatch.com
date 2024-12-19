@@ -27,8 +27,6 @@ git branch -u origin/main main
 git remote set-head origin -a
 ```
 
----
-
 ## Release Notes
 
 ### 2024.12.18
