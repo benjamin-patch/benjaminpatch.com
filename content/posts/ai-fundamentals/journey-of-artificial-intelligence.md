@@ -3,16 +3,16 @@ Date: 2024-12-18 12:24
 Category: AI Fundamentals
 Tags: symbolic reasoning, machine learning, neural networks, deep learning, generative ai
 Slug: journey-of-artificial-intelligence
-Description: AI has become a cornerstone of modern technology, impacting virtually every industry in the modern economy. But how did we get here?
-Summary: AI has become a cornerstone of modern technology, impacting virtually every industry in the modern economy. But how did we get here? Let’s explore its fascinating history, from the coining of the term to the rise of machine learning, artificial neural networks, and generative AI.
+Description: AI has become a cornerstone of modern technology, impacting virtually every industry in today's economy. But how did we get here?
+Summary: AI has become a cornerstone of modern technology, impacting virtually every industry in today's economy. But how did we get here? Let’s explore its fascinating history, from the coining of the term to the rise of machine learning, artificial neural networks, and generative AI.
 
-Artificial intelligence (AI) has become a cornerstone of modern technology, impacting virtually every industry in the modern economy. But how did we get here?
+Artificial intelligence (AI) has become a cornerstone of modern technology, impacting virtually every industry in today's economy. But how did we get here?
 
 The journey of AI spans decades of experimentation, breakthroughs, and debates. Let’s explore its fascinating history, from the coining of the term to the rise of machine learning, artificial neural networks, and generative AI.
 
 ## Defining Intelligence
 
-At its core, AI refers to systems that exhibit behavior that we would typically associate with human intelligence. However, defining human intelligence itself is a complex task. Intelligence manifests itself in a wide variety of forms such as artistic expression, mathematical prowess, and problem-solving skills just to name a few. Plus, there's no universal standard for measurement – making it challenging to definitively label a computer as "intelligent."
+At its core, AI refers to systems that exhibit behavior that we would typically associate with human intelligence. However, defining human intelligence itself is a complex task. Intelligence manifests itself in a wide variety of forms such as artistic expression, mathematical prowess, and problem-solving skills just to name a few. Plus, there's no universal standard for measurement – making it difficult to definitively label a computer as "intelligent."
 
 While computers excel at specific tasks like playing chess or recognizing patterns, they lack the general understanding and awareness that humans possess. They might be able to follow rules and algorithms flawlessly, but it’s important to understand that even the most advanced AI systems at this time, do not grasp the purpose behind their actions.
 
@@ -54,7 +54,7 @@ Data science bridges the gap between raw data and actionable insights. Combining
 
 Data science also plays a crucial role in interpreting the results of AI models. For example, while an AI system might identify a correlation between specific behaviors and purchasing decisions, it’s often up to data scientists to contextualize these findings and derive meaningful business strategies.
 
-Together, Big Data and data science have **enabled AI to move from theoretical possibilities to practical applications** that impact daily life. They ensure that AI models have both the quantity and quality of data needed to thrive.
+Together, Big Data and data science have **enabled AI to move from theoretical possibilities to practical applications** that impact daily life.
 
 ## Generative AI: Machines That Create
 
