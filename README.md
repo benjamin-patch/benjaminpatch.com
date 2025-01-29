@@ -30,21 +30,21 @@ git remote set-head origin -a
 ## Release Notes
 
 ### 2025.01.xx
-* Add 'Read More' link to each article on index pages.
+* Add "Read More" link to each article on index pages.
 
 ### 2024.12.18
 * Evenly round corners on all sides of header and footer.
-* Publish article 'The Journey of Artificial Intelligence.'
+* Publish article "The Journey of Artificial Intelligence."
 
 ### 2024.12.11
 * Rebuild as a blog using Pelican.
-* Rename 'master' git branch to 'main.'
+* Rename "master" git branch to "main."
 
 ### 2023.04.08
 * Update with AE credits.
 
 ### 2022.07.15
-* Update content to a 'Video Ediitng' focus.
+* Update content to a "Video Ediitng" focus.
 * Update to RapidWeaver Classic project.
 
 ### 2022.01.05
@@ -73,11 +73,11 @@ git remote set-head origin -a
 
 ### 1.3.0
 * 31 March 2018.
-* Add 'Astray' trailer and 'Cold Light' to filmography.
+* Add "Astray" trailer and "Cold Light" to filmography.
 
 ### 1.2.0
 * 05 August 2017.
-* Add 'Choice Words' and 'Doppler Salad' to filmography.
+* Add "Choice Words" and "Doppler Salad" to filmography.
 * Update headshot.
 
 ### 1.1.1
