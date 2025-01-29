@@ -29,6 +29,9 @@ git remote set-head origin -a
 
 ## Release Notes
 
+### 2025.01.xx
+* Add 'Read More' link to each article on index pages.
+
 ### 2024.12.18
 * Evenly round corners on all sides of header and footer.
 * Publish article 'The Journey of Artificial Intelligence.'
