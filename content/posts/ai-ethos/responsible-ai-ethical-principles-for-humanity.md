@@ -78,7 +78,7 @@ My personal commitment to ethically responsible AI development will remain a str
 
 What are your thoughts on responsible AI development? Feel free to reach me [@benjaminpatch on Bluesky](https://bsky.app/profile/benjaminpatch.bsky.social). Thanks for reading and please code responsibly.
 
-Additional references and sources:
+## Additional References and Sources
 
 - [What is Responsible AI - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai?view=azureml-api-2)
 - [Building a responsible AI: How to manage the AI ethics debate](https://www.iso.org/artificial-intelligence/responsible-ai-ethics)
