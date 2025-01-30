@@ -62,8 +62,15 @@ TAG_SAVE_AS = 'tag/{slug}/index.html'
 
 # Theme
 THEME = 'themes/bootstrap'
+
+# Theme CSS
 STYLESHEET_URL = '/theme/css/bootstrap.min.css'
+CODE_HIGHLIGHT_STYLESHEET_URL = 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css'
 ICON_STYLESHEET_URL = 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css'
+
+# Theme JS
+# Highlight "common" coding languages
+CODE_HIGHLIGHT_COMMON_JS_URL = 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js'
 
 SITEMAP = {
     "format": "xml",

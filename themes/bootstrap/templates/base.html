@@ -9,6 +9,9 @@
       {% if STYLESHEET_URL %}
         <link rel="stylesheet" type="text/css" href="{{ STYLESHEET_URL }}" />
       {% endif %}
+      {% if CODE_HIGHLIGHT_STYLESHEET_URL %}
+        <link rel="stylesheet" type="text/css" href="{{ CODE_HIGHLIGHT_STYLESHEET_URL }}" />
+      {% endif %}
       {% if ICON_STYLESHEET_URL %}
         <link rel="stylesheet" type="text/css" href="{{ ICON_STYLESHEET_URL }}" />
       {% endif %}
@@ -89,5 +92,9 @@
         © {{ NOW|strftime("%Y") }} {{ SITENAME }}
       </p>
     </footer>
+    {% if CODE_HIGHLIGHT_COMMON_JS_URL %}
+      <script src="{{ CODE_HIGHLIGHT_COMMON_JS_URL }}"></script>
+      <script>hljs.highlightAll();</script>
+    {% endif %}
   </body>
 </html>
