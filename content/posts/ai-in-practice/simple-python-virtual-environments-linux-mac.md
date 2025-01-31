@@ -1,7 +1,7 @@
 Title: Simple Python Virtual Environments: Linux and Mac
 Date: 2025-01-30 17:32
 Category: AI in Practice
-Tags: python, virtual environments
+Tags: python, virtual environments, best practices
 Slug: simple-python-virtual-environments-linux-mac
 Description: In this guide, you will learn why Python virtual environments are important and how to create and manage them.
 Summary: Python is the most widely used programming language for projects involving artificial intelligence and machine learning. But regardless of what you use Python for, virtual environments are critical to essentially all development workflows. In this guide, you will learn why virtual environments are important and how to create and manage them.
@@ -136,7 +136,7 @@ As far as I know, Fish (Friendly Interactive Shell) does not ship as the default
 
 If you are not using Fish, please skip this section.
 
-If you have Fish 3.2.0 or newer, execute this interactively::
+If you have Fish 3.2.0 or newer, execute this interactively:
 
 ```bash
 set -Ux PYENV_ROOT $HOME/.pyenv
