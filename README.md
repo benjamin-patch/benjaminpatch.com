@@ -2,7 +2,17 @@
 Public website for benjaminpatch.com, built with
 [Pelican](https://getpelican.com/) and [Bootstrap](https://getbootstrap.com/).
 
+Code syntax highlighting provided by [highlight.js](https://highlightjs.org/).
+
 ## Pelican Site Updates
+
+Built and tested in a `Python 3.13.1` venv.
+
+Dependency declaration in `requirements.txt`. Rebuid by running:
+
+```
+pip install -r requirements.txt
+```
 
 ### Development
 ```
@@ -29,19 +39,26 @@ git remote set-head origin -a
 
 ## Release Notes
 
+### 2025.01.30
+* Publish article "Simple Python Virtual Environments: Linux and Mac."
+* Clean up presentation of information on index pages.
+* Enable syntax highlighting of common coding languages with [highlight.js](https://highlightjs.org/).
+* Load Bootstrap stylesheet from CDN.
+* Create initial dependency declaration with `pip freeze`.
+
 ### 2024.12.18
 * Evenly round corners on all sides of header and footer.
-* Publish article 'The Journey of Artificial Intelligence.'
+* Publish article "The Journey of Artificial Intelligence."
 
 ### 2024.12.11
 * Rebuild as a blog using Pelican.
-* Rename 'master' git branch to 'main.'
+* Rename "master" git branch to "main."
 
 ### 2023.04.08
 * Update with AE credits.
 
 ### 2022.07.15
-* Update content to a 'Video Ediitng' focus.
+* Update content to a "Video Ediitng" focus.
 * Update to RapidWeaver Classic project.
 
 ### 2022.01.05
@@ -70,11 +87,11 @@ git remote set-head origin -a
 
 ### 1.3.0
 * 31 March 2018.
-* Add 'Astray' trailer and 'Cold Light' to filmography.
+* Add "Astray" trailer and "Cold Light" to filmography.
 
 ### 1.2.0
 * 05 August 2017.
-* Add 'Choice Words' and 'Doppler Salad' to filmography.
+* Add "Choice Words" and "Doppler Salad" to filmography.
 * Update headshot.
 
 ### 1.1.1

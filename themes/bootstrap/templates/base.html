@@ -6,8 +6,11 @@
       <meta charset="utf-8" />
       <meta name="generator" content="Pelican" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      {% if STYLESHEET_URL %}
-        <link rel="stylesheet" type="text/css" href="{{ STYLESHEET_URL }}" />
+      {% if BOOTSTRAP_STYLESHEET_URL %}
+        <link rel="stylesheet" type="text/css" href="{{ BOOTSTRAP_STYLESHEET_URL }}" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      {% endif %}
+      {% if CODE_HIGHLIGHT_STYLESHEET_URL %}
+        <link rel="stylesheet" type="text/css" href="{{ CODE_HIGHLIGHT_STYLESHEET_URL }}" />
       {% endif %}
       {% if ICON_STYLESHEET_URL %}
         <link rel="stylesheet" type="text/css" href="{{ ICON_STYLESHEET_URL }}" />
@@ -89,5 +92,9 @@
         © {{ NOW|strftime("%Y") }} {{ SITENAME }}
       </p>
     </footer>
+    {% if CODE_HIGHLIGHT_COMMON_JS_URL %}
+      <script src="{{ CODE_HIGHLIGHT_COMMON_JS_URL }}"></script>
+      <script>hljs.highlightAll();</script>
+    {% endif %}
   </body>
 </html>
