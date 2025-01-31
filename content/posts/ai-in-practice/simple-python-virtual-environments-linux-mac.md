@@ -1,5 +1,5 @@
 Title: Simple Python Virtual Environments: Linux and Mac
-Date: 2025-01-30 00:17
+Date: 2025-01-30 17:32
 Category: AI in Practice
 Tags: python, virtual environments
 Slug: simple-python-virtual-environments-linux-mac
