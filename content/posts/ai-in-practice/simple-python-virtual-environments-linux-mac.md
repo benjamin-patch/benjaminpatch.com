@@ -30,7 +30,7 @@ This guide is written for setting up virtual environments on Linux and macOS bec
 > If you're in Windows, we recommend using @kirankotari's [pyenv-win](https://github.com/pyenv-win/pyenv-win) fork -- which does install native Windows Python versions.
 > 
 
-After `pyenv-win` is installed and running Python on your Windows machine, you should be able to join us later in this guide in the [Use venv to Create Virtual Environments](#) section since everything after that is done within Python itself.
+After `pyenv-win` is installed and running Python on your Windows machine, you should be able to join us later in this guide in the [Use venv to Create Virtual Environments](#use-venv-to-create-virtual-environments) section since everything after that is done within Python itself.
 
 Just keep in mind the syntax differences between running Python commands on Windows as compared to Linux and macOS. For example:
 
@@ -281,6 +281,7 @@ pyenv uninstall 3.9.17 # to uninstall Python version 3.9.17
 
 ---
 
+<a id="use-venv-to-create-virtual-environments"></a>
 ## Use venv to Create Virtual Environments
 
 Advantages of `venv` over the older `virtualenv` option:
