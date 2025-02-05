@@ -1,5 +1,6 @@
 Title: Simple Python Virtual Environments: Linux and Mac
 Date: 2025-01-30 17:32
+Modified: 2025-02-04 23:50
 Category: AI in Practice
 Tags: python, virtual environments, best practices
 Slug: simple-python-virtual-environments-linux-mac
@@ -24,11 +25,27 @@ Perhaps that old project only needs a few minor tweaks to run in modern environm
 
 This guide is written for setting up virtual environments on Linux and macOS because that is where I spend most of my time. While some of these tools will work on Windows, it is not recommended. As noted in the documentation for the first tool we will be discussing, `pyenv`:
 
-> pyenv does not officially support Windows and does not work in Windows outside the Windows Subsystem for Linux. Moreover, even there, the Pythons it installs are not native Windows versions but rather Linux versions running in a virtual machine -- so you won't get Windows-specific functionality.
-> 
+<style>
+blockquote {
+    overflow: hidden;
+    padding: 0 0 0 26px;
+    position: relative;
+}
+blockquote:before {
+    content: "";
+    border-left: 6px solid #0d6efd;
+    position: absolute;
+    bottom: 8px;
+    top: 0px;
+    left: 0;
+}
+</style>
+
+> `pyenv` does not officially support Windows and does not work in Windows outside the Windows Subsystem for Linux. Moreover, even there, the Pythons it installs are not native Windows versions but rather Linux versions running in a virtual machine -- so you won't get Windows-specific functionality.
+>
 > 
 > If you're in Windows, we recommend using @kirankotari's [pyenv-win](https://github.com/pyenv-win/pyenv-win) fork -- which does install native Windows Python versions.
-> 
+>
 
 After `pyenv-win` is installed and running Python on your Windows machine, you should be able to join us later in this guide in the [Use venv to Create Virtual Environments](#use-venv-to-create-virtual-environments) section since everything after that is done within Python itself.
 
@@ -390,7 +407,7 @@ For managing multiple Python versions on your system while creating isolated dev
 
 This guide has helped us create a simple, clean, and flexible virtual development environment.
 
-If you found this helpful and would like me to write guides for more advanced dependency management with tools like [Pipenv](https://packaging.python.org/en/latest/tutorials/managing-dependencies/) or [Poetry](https://python-poetry.org/), please contact me [@benjaminpatch on Bluesky](https://bsky.app/profile/benjaminpatch.bsky.social).
+If you found this helpful and would like me to write guides for more advanced dependency management with tools like [Pipenv](https://packaging.python.org/en/latest/tutorials/managing-dependencies/) or [Poetry](https://python-poetry.org/), please contact me on Bluesky [@benjaminpatch.com](https://bsky.app/profile/benjaminpatch.com).
 
 Thanks for reading and I wish you the best in creating and managing all of your Python virtual environments!
 

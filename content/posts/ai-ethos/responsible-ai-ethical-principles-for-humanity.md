@@ -1,5 +1,6 @@
 Title: Responsible AI: Ethical Principles for Humanity
 Date: 2024-12-11 10:07
+Modified: 2025-02-04 23:50
 Category: AI Ethos
 Tags: best practices, algorithmic bias, machine learning, generative ai
 Description: This article offers a roadmap for developing AI that amplifies human potential while safeguarding our fundamental values.
@@ -76,7 +77,7 @@ The future of artificial intelligence is not predetermined. It will be shaped by
 
 My personal commitment to ethically responsible AI development will remain a strong guiding principle as I develop real-world applications and training materials alike. I strongly encourage you to do the same and draw attention to oversights you might be exposed to. Our future can be extraordinarily bright so long as we develop AI responsibly today.
 
-What are your thoughts on responsible AI development? Feel free to reach me [@benjaminpatch on Bluesky](https://bsky.app/profile/benjaminpatch.bsky.social). Thanks for reading and please code responsibly.
+What are your thoughts on responsible AI development? Please share your thoughts with me on Bluesky [@benjaminpatch.com](https://bsky.app/profile/benjaminpatch.com). Thanks for reading and please code responsibly.
 
 ## Additional References and Sources
 

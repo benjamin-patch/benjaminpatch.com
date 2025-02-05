@@ -1,5 +1,5 @@
 Title: About
-Date: 2024-12-11 12:01
+Date: 2025-02-04 23:50
 
 ![Photo of Benjamin Patch](/images/benjamin-patch-400x400-2019.jpg "Benjamin Patch"){: .rounded-5 .float-end .w-50 .p-2}
 
@@ -7,4 +7,4 @@ Hi there, and thanks for visiting my artificial intelligence blog! My name is Be
 
 I currently live in Southern California with my beautiful wife and playful dog. When I’m not programming or blogging, I write feature-length screenplays.
 
-If you have any questions about my articles or would like to suggest future topics, please reach out to me [@benjaminpatch on Bluesky](https://bsky.app/profile/benjaminpatch.bsky.social).
+If you have any questions about my articles or would like to suggest future topics, please reach out to me on Bluesky [@benjaminpatch.com](https://bsky.app/profile/benjaminpatch.com).

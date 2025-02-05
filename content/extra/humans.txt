@@ -4,8 +4,8 @@
 # TEAM
 
     Web Developer: Benjamin Patch
-    Bluesky: @benjaminpatch
+    Bluesky: @benjaminpatch.com
 
 # TECHNOLOGY COLOPHON
 
-    Pelican, Bootstrap
+    Python, Pelican, Bootstrap, highlight.js
