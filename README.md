@@ -41,7 +41,7 @@ git remote set-head origin -a
 
 ### 2025.02.04
 * Update Bluesky links to [@benjaminpatch.com](https://bsky.app/profile/benjaminpatch.com).
-* Improve styling of `blockquotes`.
+* Improve styling of blockquotes.
 
 ### 2025.01.30
 * Publish article "Simple Python Virtual Environments: Linux and Mac."
