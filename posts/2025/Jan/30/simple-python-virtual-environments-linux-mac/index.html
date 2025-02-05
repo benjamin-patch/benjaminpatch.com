@@ -52,6 +52,9 @@
       <p>Published: <time datetime="2025-01-30T17:32:00-08:00">
         Thu 30 January 2025
       </time></p>
+        <p>Last updated: <time datetime="2025-02-04T23:50:00-08:00">
+          Tue 04 February 2025
+        </time></p>
     </header>
     <hr>
     <p>Python is the most widely used programming language for projects involving artificial intelligence and machine learning. But regardless of what you use Python for, virtual environments are critical to essentially all development workflows. In this guide, you will learn why virtual environments are important and how to create and manage them.</p>
@@ -63,8 +66,24 @@
 <p>Perhaps that old project only needs a few minor tweaks to run in modern environments. Maybe it will become more performant and secure with the upgrade. Virtual development environments can help you find out.</p>
 <h2>A Note for My Windows Friends</h2>
 <p>This guide is written for setting up virtual environments on Linux and macOS because that is where I spend most of my time. While some of these tools will work on Windows, it is not recommended. As noted in the documentation for the first tool we will be discussing, <code>pyenv</code>:</p>
+<style>
+blockquote {
+    overflow: hidden;
+    padding: 0 0 0 26px;
+    position: relative;
+}
+blockquote:before {
+    content: "";
+    border-left: 6px solid #0d6efd;
+    position: absolute;
+    bottom: 8px;
+    top: 0px;
+    left: 0;
+}
+</style>
+
 <blockquote>
-<p>pyenv does not officially support Windows and does not work in Windows outside the Windows Subsystem for Linux. Moreover, even there, the Pythons it installs are not native Windows versions but rather Linux versions running in a virtual machine -- so you won't get Windows-specific functionality.</p>
+<p><code>pyenv</code> does not officially support Windows and does not work in Windows outside the Windows Subsystem for Linux. Moreover, even there, the Pythons it installs are not native Windows versions but rather Linux versions running in a virtual machine -- so you won't get Windows-specific functionality.</p>
 <p>If you're in Windows, we recommend using @kirankotari's <a href="https://github.com/pyenv-win/pyenv-win">pyenv-win</a> fork -- which does install native Windows Python versions.
 </p>
 </blockquote>
@@ -297,7 +316,7 @@ pyenv<span class="w"> </span><span class="nb">local</span><span class="w"> </spa
 <h2>In Summary</h2>
 <p>For managing multiple Python versions on your system while creating isolated development environments, using <code>pyenv</code> along with <code>venv</code> is the recommended and most straightforward approach. Once the virtual environment is running, using <code>pip</code> to create and update the <code>requirements.txt</code> file is a simple way to ensure all dependencies can easily be reproduced.</p>
 <p>This guide has helped us create a simple, clean, and flexible virtual development environment.</p>
-<p>If you found this helpful and would like me to write guides for more advanced dependency management with tools like <a href="https://packaging.python.org/en/latest/tutorials/managing-dependencies/">Pipenv</a> or <a href="https://python-poetry.org/">Poetry</a>, please contact me <a href="https://bsky.app/profile/benjaminpatch.bsky.social">@benjaminpatch on Bluesky</a>.</p>
+<p>If you found this helpful and would like me to write guides for more advanced dependency management with tools like <a href="https://packaging.python.org/en/latest/tutorials/managing-dependencies/">Pipenv</a> or <a href="https://python-poetry.org/">Poetry</a>, please contact me on Bluesky <a href="https://bsky.app/profile/benjaminpatch.com">@benjaminpatch.com</a>.</p>
 <p>Thanks for reading and I wish you the best in creating and managing all of your Python virtual environments!</p>
 <h2>Additional Information and Sources</h2>
 <ul>
@@ -312,6 +331,9 @@ pyenv<span class="w"> </span><span class="nb">local</span><span class="w"> </spa
       <p>Published: <time datetime="2025-01-30T17:32:00-08:00">
         Thu 30 January 2025
       </time></p>
+        <p>Last updated: <time datetime="2025-02-04T23:50:00-08:00">
+          Tue 04 February 2025
+        </time></p>
         <p>
           Category: <a href="https://www.benjaminpatch.com/category/ai-in-practice/">AI in Practice</a>
         </p>
