@@ -39,6 +39,9 @@ git remote set-head origin -a
 
 ## Release Notes
 
+### 2025.02.14
+* Publish article "DeepSeek-R1: The Promise and Peril..."
+
 ### 2025.02.04
 * Update Bluesky links to [@benjaminpatch.com](https://bsky.app/profile/benjaminpatch.com).
 * Improve styling of blockquotes.
