@@ -6,7 +6,7 @@ Code syntax highlighting provided by [highlight.js](https://highlightjs.org/).
 
 ## Pelican Site Updates
 
-Built and tested in a `Python 3.13.1` venv.
+Built and tested in a `Python 3.13.2` venv.
 
 Dependency declaration in `requirements.txt`. Rebuid by running:
 
