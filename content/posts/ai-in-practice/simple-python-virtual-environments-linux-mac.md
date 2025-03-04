@@ -1,6 +1,6 @@
 Title: Simple Python Virtual Environments: Linux and Mac
 Date: 2025-01-30 17:32
-Modified: 2025-02-04 23:50
+Modified: 2025-03-03 16:58
 Category: AI in Practice
 Tags: python, virtual environments, best practices
 Slug: simple-python-virtual-environments-linux-mac
@@ -65,7 +65,7 @@ py --version      # run the same Python command on Windows
 On your Linux distro of choice, run the following terminal command:
 
 ```bash
-curl -fsSL <https://pyenv.run> | bash
+curl -fsSL https://pyenv.run | bash
 ```
 
 ### macOS
@@ -189,7 +189,7 @@ exec "$SHELL"
 
 Please only apply the following instructions for your OS and skip the others.
 
-### macOS
+### macOS (Homebrew)
 
 If you haven't already done so, please install Xcode Command Line Tools (`xcode-select --install`) and [Homebrew](http://brew.sh/). Then run:
 
@@ -198,27 +198,25 @@ brew update
 brew install openssl readline sqlite3 xz zlib tcl-tk@8
 ```
 
-### Fedora 22+
+### Debian / Ubuntu / Linux Mint (apt)
 
 ```bash
-sudo dnf install make gcc patch zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel tk-devel libffi-devel xz-devel libuuid-devel gdbm-libs libnsl2
-```
-
-### Fedora Silverblue
-
-```bash
-toolbox enter
-sudo dnf update vte-profile  # <https://github.com/containers/toolbox/issues/390>
-sudo dnf install "@Development Tools" zlib-devel bzip2 bzip2-devel readline-devel sqlite \\
-sqlite-devel openssl-devel xz xz-devel libffi-devel findutils tk-devel
-```
-
-### Ubuntu / Debian / Mint
-
-```bash
-sudo apt update; sudo apt install build-essential libssl-dev zlib1g-dev \\
-libbz2-dev libreadline-dev libsqlite3-dev curl git \\
+sudo apt update
+sudo apt install build-essential libssl-dev zlib1g-dev \
+libbz2-dev libreadline-dev libsqlite3-dev curl git \
 libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+```
+
+### Fedora 22+ (dnf)
+
+```bash
+dnf install make gcc patch zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel tk-devel libffi-devel xz-devel libuuid-devel gdbm-libs libnsl2
+```
+
+### Arch Linux (pacman)
+
+```bash
+pacman -S --needed base-devel openssl zlib xz tk
 ```
 
 If your OS is not listed here, please see the [complete documentation of suggested build environments](https://github.com/pyenv/pyenv/wiki#suggested-build-environment) from the developers of `pyenv` itself.
@@ -238,7 +236,7 @@ pyenv install --list | grep "3\\.1[234]"
 Once you have found your desired version(s) of Python, it/they can be installed with a single command:
 
 ```bash
-pyenv install 3.13.1 # installs Python version 3.13.1
+pyenv install 3.13.2 # installs Python version 3.13.2
 pyenv install 3.9.17 # installs Python version 3.9.17
 ```
 
@@ -258,7 +256,7 @@ The `*` indicates which version is set to run by default. For example:
 
 ```bash
 * system (set by /path/to/your/.pyenv/version)
-  3.13.1
+  3.13.2
   3.9.17
 ```
 
@@ -267,7 +265,7 @@ The `*` indicates which version is set to run by default. For example:
 If desired, you can make this new version of Python the global or local default.
 
 ```bash
-pyenv global 3.13.1  # set a global default
+pyenv global 3.13.2  # set a global default
 # OR
 pyenv local 3.9.17   # set for a specific project directory
 ```
@@ -276,7 +274,7 @@ Run `pyenv versions` again, and you will see the output has changed to your sele
 
 ```bash
   system
-* 3.13.1 (set by /path/to/your/.pyenv/version)
+* 3.13.2 (set by /path/to/your/.pyenv/version)
   3.9.17
 ```
 
@@ -323,7 +321,7 @@ For Linux and macOS, run:
 python3 -m venv .venv[-optional-python-version-number]
 ```
 
-This creates a new directory called `.venv-3.13.1` (for example) at the top level of your project. I like to add the Python version number after `.venv` so it is clear exactly which version of Python this virtual environment runs.
+This creates a new directory called `.venv-3.13.2` (for example) at the top level of your project. I like to add the Python version number after `.venv` so it is clear exactly which version of Python this virtual environment runs.
 
 You can choose to name this directory anything you would like. But some variant of `.venv` is recommended.
 
