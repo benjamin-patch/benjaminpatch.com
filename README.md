@@ -39,6 +39,10 @@ git remote set-head origin -a
 
 ## Release Notes
 
+### 2025.03.03
+* Update to Python 3.13.2 build.
+* Correct and adjust content in "Python venv" article.
+
 ### 2025.02.14
 * Publish article "DeepSeek-R1: The Promise and Peril..."
 
