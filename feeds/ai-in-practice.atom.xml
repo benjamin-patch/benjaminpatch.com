@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Benjamin Patch - AI in Practice</title><link href="https://www.benjaminpatch.com/" rel="alternate"></link><link href="https://www.benjaminpatch.com/feeds/ai-in-practice.atom.xml" rel="self"></link><id>https://www.benjaminpatch.com/</id><updated>2025-02-04T23:50:00-08:00</updated><subtitle>Guides for Building Ethical &amp; Impactful AI Software</subtitle><entry><title>Simple Python Virtual Environments: Linux and Mac</title><link href="https://www.benjaminpatch.com/posts/2025/Jan/30/simple-python-virtual-environments-linux-mac/" rel="alternate"></link><published>2025-01-30T17:32:00-08:00</published><updated>2025-02-04T23:50:00-08:00</updated><author><name>Benjamin Patch</name></author><id>tag:www.benjaminpatch.com,2025-01-30:/posts/2025/Jan/30/simple-python-virtual-environments-linux-mac/</id><summary type="html">&lt;p&gt;Python is the most widely used programming language for projects involving artificial intelligence and machine learning. But regardless of what you use Python for, virtual environments are critical to essentially all development workflows. In this guide, you will learn why virtual environments are important and how to create and manage them.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Python is the most widely used programming language for projects involving artificial intelligence and machine learning. But regardless of what you use Python for, virtual environments are critical to essentially all development workflows. In this guide, you will learn why virtual environments are important and how to create and manage them.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Benjamin Patch - AI in Practice</title><link href="https://www.benjaminpatch.com/" rel="alternate"></link><link href="https://www.benjaminpatch.com/feeds/ai-in-practice.atom.xml" rel="self"></link><id>https://www.benjaminpatch.com/</id><updated>2025-03-03T16:58:00-08:00</updated><subtitle>Guides for Building Ethical &amp; Impactful AI Software</subtitle><entry><title>Simple Python Virtual Environments: Linux and Mac</title><link href="https://www.benjaminpatch.com/posts/2025/Jan/30/simple-python-virtual-environments-linux-mac/" rel="alternate"></link><published>2025-01-30T17:32:00-08:00</published><updated>2025-03-03T16:58:00-08:00</updated><author><name>Benjamin Patch</name></author><id>tag:www.benjaminpatch.com,2025-01-30:/posts/2025/Jan/30/simple-python-virtual-environments-linux-mac/</id><summary type="html">&lt;p&gt;Python is the most widely used programming language for projects involving artificial intelligence and machine learning. But regardless of what you use Python for, virtual environments are critical to essentially all development workflows. In this guide, you will learn why virtual environments are important and how to create and manage them.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Python is the most widely used programming language for projects involving artificial intelligence and machine learning. But regardless of what you use Python for, virtual environments are critical to essentially all development workflows. In this guide, you will learn why virtual environments are important and how to create and manage them.&lt;/p&gt;
 &lt;p&gt;Specifically, we will cover the installation, configuration, and basic use of &lt;code&gt;pyenv&lt;/code&gt; to manage numerous versions of Python on your system. We will also explain how to use &lt;code&gt;venv&lt;/code&gt; to create, activate, deactivate, and remove virtual Python environments. Finally, we will cover the management of external dependencies with &lt;code&gt;pip&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;The combination of these three tools will help us create simple, clean, and flexible virtual environments for a wide range of Python projects. Let’s walk through the process together.&lt;/p&gt;
 &lt;h2&gt;Why Virtual Environments?&lt;/h2&gt;
@@ -39,7 +39,7 @@ py&lt;span class="w"&gt; &lt;/span&gt;--version&lt;span class="w"&gt;      &lt;/
 &lt;p&gt;&lt;code&gt;pyenv&lt;/code&gt; is the gold standard for managing multiple Python versions on your system. It allows you to easily install and switch between different Python interpreters globally or on a per-project level. It is simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well. Let's start by getting &lt;code&gt;pyenv&lt;/code&gt; installed.&lt;/p&gt;
 &lt;h3&gt;Linux&lt;/h3&gt;
 &lt;p&gt;On your Linux distro of choice, run the following terminal command:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;curl&lt;span class="w"&gt; &lt;/span&gt;-fsSL&lt;span class="w"&gt; &lt;/span&gt;&amp;lt;https://pyenv.run&amp;gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;|&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;bash
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;curl&lt;span class="w"&gt; &lt;/span&gt;-fsSL&lt;span class="w"&gt; &lt;/span&gt;https://pyenv.run&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;|&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;bash
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h3&gt;macOS&lt;/h3&gt;
@@ -118,27 +118,25 @@ fish_add_path&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;$PYENV_R
 &lt;h2&gt;Install Python Build Dependencies&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;pyenv&lt;/code&gt; will try its best to download and compile the desired Python version. Still, sometimes the compilation fails because of unmet system dependencies, or the compilation succeeds but the new Python version exhibits strange failures at runtime. The following instructions are the developer's recommendations for a sane build environment.&lt;/p&gt;
 &lt;p&gt;Please only apply the following instructions for your OS and skip the others.&lt;/p&gt;
-&lt;h3&gt;macOS&lt;/h3&gt;
+&lt;h3&gt;macOS (Homebrew)&lt;/h3&gt;
 &lt;p&gt;If you haven't already done so, please install Xcode Command Line Tools (&lt;code&gt;xcode-select --install&lt;/code&gt;) and &lt;a href="http://brew.sh/"&gt;Homebrew&lt;/a&gt;. Then run:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;brew&lt;span class="w"&gt; &lt;/span&gt;update
 brew&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;openssl&lt;span class="w"&gt; &lt;/span&gt;readline&lt;span class="w"&gt; &lt;/span&gt;sqlite3&lt;span class="w"&gt; &lt;/span&gt;xz&lt;span class="w"&gt; &lt;/span&gt;zlib&lt;span class="w"&gt; &lt;/span&gt;tcl-tk@8
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;h3&gt;Fedora 22+&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;dnf&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;make&lt;span class="w"&gt; &lt;/span&gt;gcc&lt;span class="w"&gt; &lt;/span&gt;patch&lt;span class="w"&gt; &lt;/span&gt;zlib-devel&lt;span class="w"&gt; &lt;/span&gt;bzip2&lt;span class="w"&gt; &lt;/span&gt;bzip2-devel&lt;span class="w"&gt; &lt;/span&gt;readline-devel&lt;span class="w"&gt; &lt;/span&gt;sqlite&lt;span class="w"&gt; &lt;/span&gt;sqlite-devel&lt;span class="w"&gt; &lt;/span&gt;openssl-devel&lt;span class="w"&gt; &lt;/span&gt;tk-devel&lt;span class="w"&gt; &lt;/span&gt;libffi-devel&lt;span class="w"&gt; &lt;/span&gt;xz-devel&lt;span class="w"&gt; &lt;/span&gt;libuuid-devel&lt;span class="w"&gt; &lt;/span&gt;gdbm-libs&lt;span class="w"&gt; &lt;/span&gt;libnsl2
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h3&gt;Fedora Silverblue&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;toolbox&lt;span class="w"&gt; &lt;/span&gt;enter
-sudo&lt;span class="w"&gt; &lt;/span&gt;dnf&lt;span class="w"&gt; &lt;/span&gt;update&lt;span class="w"&gt; &lt;/span&gt;vte-profile&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;# &amp;lt;https://github.com/containers/toolbox/issues/390&amp;gt;&lt;/span&gt;
-sudo&lt;span class="w"&gt; &lt;/span&gt;dnf&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;@Development Tools&amp;quot;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;zlib-devel&lt;span class="w"&gt; &lt;/span&gt;bzip2&lt;span class="w"&gt; &lt;/span&gt;bzip2-devel&lt;span class="w"&gt; &lt;/span&gt;readline-devel&lt;span class="w"&gt; &lt;/span&gt;sqlite&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\\&lt;/span&gt;
-sqlite-devel&lt;span class="w"&gt; &lt;/span&gt;openssl-devel&lt;span class="w"&gt; &lt;/span&gt;xz&lt;span class="w"&gt; &lt;/span&gt;xz-devel&lt;span class="w"&gt; &lt;/span&gt;libffi-devel&lt;span class="w"&gt; &lt;/span&gt;findutils&lt;span class="w"&gt; &lt;/span&gt;tk-devel
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h3&gt;Ubuntu / Debian / Mint&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;apt&lt;span class="w"&gt; &lt;/span&gt;update&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;apt&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;build-essential&lt;span class="w"&gt; &lt;/span&gt;libssl-dev&lt;span class="w"&gt; &lt;/span&gt;zlib1g-dev&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\\&lt;/span&gt;
-libbz2-dev&lt;span class="w"&gt; &lt;/span&gt;libreadline-dev&lt;span class="w"&gt; &lt;/span&gt;libsqlite3-dev&lt;span class="w"&gt; &lt;/span&gt;curl&lt;span class="w"&gt; &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\\&lt;/span&gt;
+&lt;h3&gt;Debian / Ubuntu / Linux Mint (apt)&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;apt&lt;span class="w"&gt; &lt;/span&gt;update
+sudo&lt;span class="w"&gt; &lt;/span&gt;apt&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;build-essential&lt;span class="w"&gt; &lt;/span&gt;libssl-dev&lt;span class="w"&gt; &lt;/span&gt;zlib1g-dev&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+libbz2-dev&lt;span class="w"&gt; &lt;/span&gt;libreadline-dev&lt;span class="w"&gt; &lt;/span&gt;libsqlite3-dev&lt;span class="w"&gt; &lt;/span&gt;curl&lt;span class="w"&gt; &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
 libncursesw5-dev&lt;span class="w"&gt; &lt;/span&gt;xz-utils&lt;span class="w"&gt; &lt;/span&gt;tk-dev&lt;span class="w"&gt; &lt;/span&gt;libxml2-dev&lt;span class="w"&gt; &lt;/span&gt;libxmlsec1-dev&lt;span class="w"&gt; &lt;/span&gt;libffi-dev&lt;span class="w"&gt; &lt;/span&gt;liblzma-dev
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;Fedora 22+ (dnf)&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;dnf&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;make&lt;span class="w"&gt; &lt;/span&gt;gcc&lt;span class="w"&gt; &lt;/span&gt;patch&lt;span class="w"&gt; &lt;/span&gt;zlib-devel&lt;span class="w"&gt; &lt;/span&gt;bzip2&lt;span class="w"&gt; &lt;/span&gt;bzip2-devel&lt;span class="w"&gt; &lt;/span&gt;readline-devel&lt;span class="w"&gt; &lt;/span&gt;sqlite&lt;span class="w"&gt; &lt;/span&gt;sqlite-devel&lt;span class="w"&gt; &lt;/span&gt;openssl-devel&lt;span class="w"&gt; &lt;/span&gt;tk-devel&lt;span class="w"&gt; &lt;/span&gt;libffi-devel&lt;span class="w"&gt; &lt;/span&gt;xz-devel&lt;span class="w"&gt; &lt;/span&gt;libuuid-devel&lt;span class="w"&gt; &lt;/span&gt;gdbm-libs&lt;span class="w"&gt; &lt;/span&gt;libnsl2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;Arch Linux (pacman)&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pacman&lt;span class="w"&gt; &lt;/span&gt;-S&lt;span class="w"&gt; &lt;/span&gt;--needed&lt;span class="w"&gt; &lt;/span&gt;base-devel&lt;span class="w"&gt; &lt;/span&gt;openssl&lt;span class="w"&gt; &lt;/span&gt;zlib&lt;span class="w"&gt; &lt;/span&gt;xz&lt;span class="w"&gt; &lt;/span&gt;tk
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;If your OS is not listed here, please see the &lt;a href="https://github.com/pyenv/pyenv/wiki#suggested-build-environment"&gt;complete documentation of suggested build environments&lt;/a&gt; from the developers of &lt;code&gt;pyenv&lt;/code&gt; itself.&lt;/p&gt;
@@ -150,7 +148,7 @@ libncursesw5-dev&lt;span class="w"&gt; &lt;/span&gt;xz-utils&lt;span class="w"&g
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Once you have found your desired version(s) of Python, it/they can be installed with a single command:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pyenv&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;.13.1&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# installs Python version 3.13.1&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pyenv&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;.13.2&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# installs Python version 3.13.2&lt;/span&gt;
 pyenv&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;.9.17&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# installs Python version 3.9.17&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
@@ -163,20 +161,20 @@ pyenv&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span
 
 &lt;p&gt;The &lt;code&gt;*&lt;/code&gt; indicates which version is set to run by default. For example:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;*&lt;span class="w"&gt; &lt;/span&gt;system&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;set&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;by&lt;span class="w"&gt; &lt;/span&gt;/path/to/your/.pyenv/version&lt;span class="o"&gt;)&lt;/span&gt;
-&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;.13.1
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;.13.2
 &lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;.9.17
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h2&gt;Set a Global or Local Python Version&lt;/h2&gt;
 &lt;p&gt;If desired, you can make this new version of Python the global or local default.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pyenv&lt;span class="w"&gt; &lt;/span&gt;global&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;.13.1&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;# set a global default&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pyenv&lt;span class="w"&gt; &lt;/span&gt;global&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;.13.2&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;# set a global default&lt;/span&gt;
 &lt;span class="c1"&gt;# OR&lt;/span&gt;
 pyenv&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;local&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;.9.17&lt;span class="w"&gt;   &lt;/span&gt;&lt;span class="c1"&gt;# set for a specific project directory&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Run &lt;code&gt;pyenv versions&lt;/code&gt; again, and you will see the output has changed to your selected version of Python. For example:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="w"&gt;  &lt;/span&gt;system
-*&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;.13.1&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;set&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;by&lt;span class="w"&gt; &lt;/span&gt;/path/to/your/.pyenv/version&lt;span class="o"&gt;)&lt;/span&gt;
+*&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;.13.2&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;set&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;by&lt;span class="w"&gt; &lt;/span&gt;/path/to/your/.pyenv/version&lt;span class="o"&gt;)&lt;/span&gt;
 &lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;.9.17
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
@@ -210,7 +208,7 @@ pyenv&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;local&lt;/span&g
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;python3&lt;span class="w"&gt; &lt;/span&gt;-m&lt;span class="w"&gt; &lt;/span&gt;venv&lt;span class="w"&gt; &lt;/span&gt;.venv&lt;span class="o"&gt;[&lt;/span&gt;-optional-python-version-number&lt;span class="o"&gt;]&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;This creates a new directory called &lt;code&gt;.venv-3.13.1&lt;/code&gt; (for example) at the top level of your project. I like to add the Python version number after &lt;code&gt;.venv&lt;/code&gt; so it is clear exactly which version of Python this virtual environment runs.&lt;/p&gt;
+&lt;p&gt;This creates a new directory called &lt;code&gt;.venv-3.13.2&lt;/code&gt; (for example) at the top level of your project. I like to add the Python version number after &lt;code&gt;.venv&lt;/code&gt; so it is clear exactly which version of Python this virtual environment runs.&lt;/p&gt;
 &lt;p&gt;You can choose to name this directory anything you would like. But some variant of &lt;code&gt;.venv&lt;/code&gt; is recommended.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Activate the Virtual Environment&lt;/h2&gt;

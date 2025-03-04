@@ -52,8 +52,8 @@
       <p>Published: <time datetime="2025-01-30T17:32:00-08:00">
         Thu 30 January 2025
       </time></p>
-        <p>Last updated: <time datetime="2025-02-04T23:50:00-08:00">
-          Tue 04 February 2025
+        <p>Last updated: <time datetime="2025-03-03T16:58:00-08:00">
+          Mon 03 March 2025
         </time></p>
     </header>
     <hr>
@@ -97,7 +97,7 @@ py<span class="w"> </span>--version<span class="w">      </span><span class="c1"
 <p><code>pyenv</code> is the gold standard for managing multiple Python versions on your system. It allows you to easily install and switch between different Python interpreters globally or on a per-project level. It is simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well. Let's start by getting <code>pyenv</code> installed.</p>
 <h3>Linux</h3>
 <p>On your Linux distro of choice, run the following terminal command:</p>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-fsSL<span class="w"> </span>&lt;https://pyenv.run&gt;<span class="w"> </span><span class="p">|</span><span class="w"> </span>bash
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-fsSL<span class="w"> </span>https://pyenv.run<span class="w"> </span><span class="p">|</span><span class="w"> </span>bash
 </code></pre></div>
 
 <h3>macOS</h3>
@@ -176,27 +176,25 @@ fish_add_path<span class="w"> </span><span class="nv">$PYENV_ROOT</span>/bin
 <h2>Install Python Build Dependencies</h2>
 <p><code>pyenv</code> will try its best to download and compile the desired Python version. Still, sometimes the compilation fails because of unmet system dependencies, or the compilation succeeds but the new Python version exhibits strange failures at runtime. The following instructions are the developer's recommendations for a sane build environment.</p>
 <p>Please only apply the following instructions for your OS and skip the others.</p>
-<h3>macOS</h3>
+<h3>macOS (Homebrew)</h3>
 <p>If you haven't already done so, please install Xcode Command Line Tools (<code>xcode-select --install</code>) and <a href="http://brew.sh/">Homebrew</a>. Then run:</p>
 <div class="highlight"><pre><span></span><code>brew<span class="w"> </span>update
 brew<span class="w"> </span>install<span class="w"> </span>openssl<span class="w"> </span>readline<span class="w"> </span>sqlite3<span class="w"> </span>xz<span class="w"> </span>zlib<span class="w"> </span>tcl-tk@8
 </code></pre></div>
 
-<h3>Fedora 22+</h3>
-<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>dnf<span class="w"> </span>install<span class="w"> </span>make<span class="w"> </span>gcc<span class="w"> </span>patch<span class="w"> </span>zlib-devel<span class="w"> </span>bzip2<span class="w"> </span>bzip2-devel<span class="w"> </span>readline-devel<span class="w"> </span>sqlite<span class="w"> </span>sqlite-devel<span class="w"> </span>openssl-devel<span class="w"> </span>tk-devel<span class="w"> </span>libffi-devel<span class="w"> </span>xz-devel<span class="w"> </span>libuuid-devel<span class="w"> </span>gdbm-libs<span class="w"> </span>libnsl2
-</code></pre></div>
-
-<h3>Fedora Silverblue</h3>
-<div class="highlight"><pre><span></span><code>toolbox<span class="w"> </span>enter
-sudo<span class="w"> </span>dnf<span class="w"> </span>update<span class="w"> </span>vte-profile<span class="w">  </span><span class="c1"># &lt;https://github.com/containers/toolbox/issues/390&gt;</span>
-sudo<span class="w"> </span>dnf<span class="w"> </span>install<span class="w"> </span><span class="s2">&quot;@Development Tools&quot;</span><span class="w"> </span>zlib-devel<span class="w"> </span>bzip2<span class="w"> </span>bzip2-devel<span class="w"> </span>readline-devel<span class="w"> </span>sqlite<span class="w"> </span><span class="se">\\</span>
-sqlite-devel<span class="w"> </span>openssl-devel<span class="w"> </span>xz<span class="w"> </span>xz-devel<span class="w"> </span>libffi-devel<span class="w"> </span>findutils<span class="w"> </span>tk-devel
-</code></pre></div>
-
-<h3>Ubuntu / Debian / Mint</h3>
-<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>update<span class="p">;</span><span class="w"> </span>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>build-essential<span class="w"> </span>libssl-dev<span class="w"> </span>zlib1g-dev<span class="w"> </span><span class="se">\\</span>
-libbz2-dev<span class="w"> </span>libreadline-dev<span class="w"> </span>libsqlite3-dev<span class="w"> </span>curl<span class="w"> </span>git<span class="w"> </span><span class="se">\\</span>
+<h3>Debian / Ubuntu / Linux Mint (apt)</h3>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>update
+sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>build-essential<span class="w"> </span>libssl-dev<span class="w"> </span>zlib1g-dev<span class="w"> </span><span class="se">\</span>
+libbz2-dev<span class="w"> </span>libreadline-dev<span class="w"> </span>libsqlite3-dev<span class="w"> </span>curl<span class="w"> </span>git<span class="w"> </span><span class="se">\</span>
 libncursesw5-dev<span class="w"> </span>xz-utils<span class="w"> </span>tk-dev<span class="w"> </span>libxml2-dev<span class="w"> </span>libxmlsec1-dev<span class="w"> </span>libffi-dev<span class="w"> </span>liblzma-dev
+</code></pre></div>
+
+<h3>Fedora 22+ (dnf)</h3>
+<div class="highlight"><pre><span></span><code>dnf<span class="w"> </span>install<span class="w"> </span>make<span class="w"> </span>gcc<span class="w"> </span>patch<span class="w"> </span>zlib-devel<span class="w"> </span>bzip2<span class="w"> </span>bzip2-devel<span class="w"> </span>readline-devel<span class="w"> </span>sqlite<span class="w"> </span>sqlite-devel<span class="w"> </span>openssl-devel<span class="w"> </span>tk-devel<span class="w"> </span>libffi-devel<span class="w"> </span>xz-devel<span class="w"> </span>libuuid-devel<span class="w"> </span>gdbm-libs<span class="w"> </span>libnsl2
+</code></pre></div>
+
+<h3>Arch Linux (pacman)</h3>
+<div class="highlight"><pre><span></span><code>pacman<span class="w"> </span>-S<span class="w"> </span>--needed<span class="w"> </span>base-devel<span class="w"> </span>openssl<span class="w"> </span>zlib<span class="w"> </span>xz<span class="w"> </span>tk
 </code></pre></div>
 
 <p>If your OS is not listed here, please see the <a href="https://github.com/pyenv/pyenv/wiki#suggested-build-environment">complete documentation of suggested build environments</a> from the developers of <code>pyenv</code> itself.</p>
@@ -208,7 +206,7 @@ libncursesw5-dev<span class="w"> </span>xz-utils<span class="w"> </span>tk-dev<s
 </code></pre></div>
 
 <p>Once you have found your desired version(s) of Python, it/they can be installed with a single command:</p>
-<div class="highlight"><pre><span></span><code>pyenv<span class="w"> </span>install<span class="w"> </span><span class="m">3</span>.13.1<span class="w"> </span><span class="c1"># installs Python version 3.13.1</span>
+<div class="highlight"><pre><span></span><code>pyenv<span class="w"> </span>install<span class="w"> </span><span class="m">3</span>.13.2<span class="w"> </span><span class="c1"># installs Python version 3.13.2</span>
 pyenv<span class="w"> </span>install<span class="w"> </span><span class="m">3</span>.9.17<span class="w"> </span><span class="c1"># installs Python version 3.9.17</span>
 </code></pre></div>
 
@@ -221,20 +219,20 @@ pyenv<span class="w"> </span>install<span class="w"> </span><span class="m">3</s
 
 <p>The <code>*</code> indicates which version is set to run by default. For example:</p>
 <div class="highlight"><pre><span></span><code>*<span class="w"> </span>system<span class="w"> </span><span class="o">(</span><span class="nb">set</span><span class="w"> </span>by<span class="w"> </span>/path/to/your/.pyenv/version<span class="o">)</span>
-<span class="w">  </span><span class="m">3</span>.13.1
+<span class="w">  </span><span class="m">3</span>.13.2
 <span class="w">  </span><span class="m">3</span>.9.17
 </code></pre></div>
 
 <h2>Set a Global or Local Python Version</h2>
 <p>If desired, you can make this new version of Python the global or local default.</p>
-<div class="highlight"><pre><span></span><code>pyenv<span class="w"> </span>global<span class="w"> </span><span class="m">3</span>.13.1<span class="w">  </span><span class="c1"># set a global default</span>
+<div class="highlight"><pre><span></span><code>pyenv<span class="w"> </span>global<span class="w"> </span><span class="m">3</span>.13.2<span class="w">  </span><span class="c1"># set a global default</span>
 <span class="c1"># OR</span>
 pyenv<span class="w"> </span><span class="nb">local</span><span class="w"> </span><span class="m">3</span>.9.17<span class="w">   </span><span class="c1"># set for a specific project directory</span>
 </code></pre></div>
 
 <p>Run <code>pyenv versions</code> again, and you will see the output has changed to your selected version of Python. For example:</p>
 <div class="highlight"><pre><span></span><code><span class="w">  </span>system
-*<span class="w"> </span><span class="m">3</span>.13.1<span class="w"> </span><span class="o">(</span><span class="nb">set</span><span class="w"> </span>by<span class="w"> </span>/path/to/your/.pyenv/version<span class="o">)</span>
+*<span class="w"> </span><span class="m">3</span>.13.2<span class="w"> </span><span class="o">(</span><span class="nb">set</span><span class="w"> </span>by<span class="w"> </span>/path/to/your/.pyenv/version<span class="o">)</span>
 <span class="w">  </span><span class="m">3</span>.9.17
 </code></pre></div>
 
@@ -268,7 +266,7 @@ pyenv<span class="w"> </span><span class="nb">local</span><span class="w"> </spa
 <div class="highlight"><pre><span></span><code>python3<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>.venv<span class="o">[</span>-optional-python-version-number<span class="o">]</span>
 </code></pre></div>
 
-<p>This creates a new directory called <code>.venv-3.13.1</code> (for example) at the top level of your project. I like to add the Python version number after <code>.venv</code> so it is clear exactly which version of Python this virtual environment runs.</p>
+<p>This creates a new directory called <code>.venv-3.13.2</code> (for example) at the top level of your project. I like to add the Python version number after <code>.venv</code> so it is clear exactly which version of Python this virtual environment runs.</p>
 <p>You can choose to name this directory anything you would like. But some variant of <code>.venv</code> is recommended.</p>
 <hr>
 <h2>Activate the Virtual Environment</h2>
@@ -331,8 +329,8 @@ pyenv<span class="w"> </span><span class="nb">local</span><span class="w"> </spa
       <p>Published: <time datetime="2025-01-30T17:32:00-08:00">
         Thu 30 January 2025
       </time></p>
-        <p>Last updated: <time datetime="2025-02-04T23:50:00-08:00">
-          Tue 04 February 2025
+        <p>Last updated: <time datetime="2025-03-03T16:58:00-08:00">
+          Mon 03 March 2025
         </time></p>
         <p>
           Category: <a href="https://www.benjaminpatch.com/category/ai-in-practice/">AI in Practice</a>
