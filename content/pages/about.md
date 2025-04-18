@@ -1,5 +1,6 @@
 Title: About
 Date: 2025-02-04 23:50
+Description: Benjamin Patch is a Python programmer specializing in AI and ML web applications in Southern California.
 
 ![Photo of Benjamin Patch](/images/benjamin-patch-400x400-2019.jpg "Benjamin Patch"){: .rounded-5 .float-end .w-50 .p-2}
 

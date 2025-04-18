@@ -10,6 +10,11 @@
   {% if translations.entry_hreflang(page) %}
     {{ translations.entry_hreflang(page) }}
   {% endif %}
+
+  {% if page.description %}
+    <meta name="description" content="{{ page.description }}" />
+  {% endif %}
+
 {% endblock %}
 
 {% block content %}
