@@ -1,4 +1,14 @@
 {% extends "base.html" %}
+
+{% block head %}
+  {{ super() }}
+
+  {% if SITESUBTITLE %}
+    <meta name="description" content="{{ SITESUBTITLE }}" />
+  {% endif %}
+
+{% endblock %}
+
 {% block content %}
     {% block content_title %}
         <h2>All Articles</h2>
