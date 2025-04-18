@@ -39,8 +39,11 @@ git remote set-head origin -a
 
 ## Release Notes
 
-### 2025.04.18
+### 2025.04.17
 * Update to a Python 3.13.3 build.
+* Update Bootstrap CSS to version 5.3.5.
+* Add controllable meta descriptions for all pages.
+* Refactor all templates to consistently use 2 spaces.
 
 ### 2025.03.03
 * Update to Python 3.13.2 build.
