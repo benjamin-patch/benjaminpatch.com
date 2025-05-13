@@ -39,8 +39,9 @@ git remote set-head origin -a
 
 ## Release Notes
 
-### 2025.05.12
-* Set Python version for pyenv
+### 2025.05.13
+* Publish "When Vibe Coding Fails: Python Kickstart (part 1)" article.
+* Set Python version for pyenv.
 
 ### 2025.04.17
 * Update to a Python 3.13.3 build.
