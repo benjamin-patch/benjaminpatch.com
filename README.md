@@ -39,6 +39,9 @@ git remote set-head origin -a
 
 ## Release Notes
 
+### 2025.05.12
+* Set Python version for pyenv
+
 ### 2025.04.17
 * Update to a Python 3.13.3 build.
 * Update Bootstrap CSS to version 5.3.5.
