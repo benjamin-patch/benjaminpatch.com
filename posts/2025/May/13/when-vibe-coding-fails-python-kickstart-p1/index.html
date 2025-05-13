@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>When Vibe Coding Fails: Python Kickstart (part 1) - Benjamin Patch</title>
+      <meta charset="utf-8" />
+      <meta name="generator" content="Pelican" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+        <link href="https://www.benjaminpatch.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Benjamin Patch Full Atom Feed" />
+        <link href="https://www.benjaminpatch.com/feeds/ai-in-practice.atom.xml" type="application/atom+xml" rel="alternate" title="Benjamin Patch Categories Atom Feed" />
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-0DHY8WE47S"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-0DHY8WE47S');
+        </script>
+
+
+
+    <meta name="description" content="Python Kickstart: Part One. Why should you learn Python in the age of vibe coding? Then get your feet wet by learning how to start writing Python code." />
+
+    <meta name="tags" content="python" />
+    <meta name="tags" content="python kickstart" />
+    <meta name="tags" content="virtual environments" />
+    <meta name="tags" content="best practices" />
+    <meta name="tags" content="vibe coding" />
+    <meta name="tags" content="open-source" />
+    <meta name="tags" content="generative ai" />
+
+  </head>
+
+  <body class="container">
+    <header class="text-center p-3 m-1 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
+      <hgroup><h1><a class="link-offset-2 link-offset-2-hover link-underline link-underline-opacity-0 link-underline-opacity-100-hover"
+        href="https://www.benjaminpatch.com/"><i class="bi bi-house-door"></i> Benjamin Patch</a></h1><p>Guides for Building Ethical & Impactful AI Software</p></hgroup>
+      <nav><ul class="nav nav-underline nav-justified">
+            <li class="nav-item"><a href="https://www.benjaminpatch.com/about/"  class="nav-link" >About</a></li>
+            <li class="nav-item"><a href="https://www.benjaminpatch.com/category/ai-ethos/"  class="nav-link" >AI Ethos</a></li>
+            <li class="nav-item"><a href="https://www.benjaminpatch.com/category/ai-fundamentals/"  class="nav-link" >AI Fundamentals</a></li>
+            <li class="nav-item"><a href="https://www.benjaminpatch.com/category/ai-in-practice/"  class="nav-link active" aria-current="page" >AI in Practice</a></li>
+      </ul></nav>
+    </header>
+    <main class="col-md-8 offset-md-2 col-xl-6 offset-xl-3 p-1">
+  <article>
+    <header>
+      <h1>When Vibe Coding Fails: Python Kickstart (part 1)</h1>
+      
+      <p>
+        Written by         <a href="https://www.benjaminpatch.com/author/benjamin-patch/">Benjamin Patch</a>
+      </p>
+      <p>Published: <time datetime="2025-05-13T00:17:00-07:00">
+        Tue 13 May 2025
+      </time></p>
+    </header>
+    <hr>
+    <h2>Why Learn Python?</h2>
+<p>From web development to data science to machine learning applications, Python has become one of today's most in-demand programming languages. Being skilled with it opens countless possibilities for your career. Its clean syntax and logical structure make it easy to learn and even fun to use!</p>
+<p>Python's massive number of powerful modules, packages, and frameworks extend the language into virtually any domain of interest. Not to mention this is all fully open-source, making it free to use, modify, and redistribute - including for commercial purposes.</p>
+<h2>Why Isn't Vibe Coding the Answer?</h2>
+<p>Now, you may have heard some AI startup CEOs proclaim it is essentially a “waste of time to learn how to code in 2025.”<sup><a href="#works-cited">1</a></sup> I strongly disagree with these comments for several reasons. To start, I have first-hand experience asking LLMs (Large Language Models) to write and/or edit various types of code on my behalf. And while their speed and general capabilities can be astonishing, like people, they still make mistakes. And these mistakes can lead to broken and/or highly unmaintainable codebases.</p>
+<p>To catch and correct mistakes from LLM-generated code (AKA vibe coding), you need to understand the fundamentals of the programming languages, modules, packages, and frameworks your application requires. Otherwise, it’s like asking an LLM a general question in English and receiving a response in Japanese. If you have no understanding of Japanese, you will be hard-pressed to refine any output it produces.</p>
+<p>Plus, let's not forget those AI startup CEOs have a vested interest in you being totally reliant on their products. Knowledge is power. Please don't outsource your critical thinking skills to AI. It's a tool, not a replacement for your brain.</p>
+<h2>Is There a Place for AI in Coding?</h2>
+<p>Even with that being said, there absolutely is a place for AI-assisted coding. Once you understand the basics, AI tools can supercharge your productivity - even acting as a paired-programming partner. The key is understanding what these LLMs excel at, and when you need to take the lead.</p>
+<p>The first step in getting to that point is understanding the fundamentals of Python - or any programming language for that matter. As I recently read, "Vibe coding is fun, but <strong>vibe refactoring</strong> pays the bills."<sup><a href="#works-cited">2</a></sup></p>
+<p>With that in mind, let’s kickstart our knowledge of Python programming!</p>
+<h2>Install Python 3</h2>
+<p>If you don’t already have a Python development environment set up, there are several ways you can do this. The method I recommend is creating a virtual environment using <code>pyenv</code>. If you’re not familiar with installing Python via <code>pyenv</code>, please reference <a href="https://www.benjaminpatch.com/posts/2025/Jan/30/simple-python-virtual-environments-linux-mac/">Simple Python Virtual Environments: Linux and Mac</a> where I explain the benefits of this approach and walk you through the necessary steps to get rolling.</p>
+<p>As noted in the linked article above, Windows users should use <a href="https://github.com/pyenv-win/pyenv-win">pyenv-win</a> instead.</p>
+<p>Because this <strong>Python Kickstart</strong> series of articles is an introduction to the basic principles and syntax of the language, any currently supported version of Python 3 is sufficient to install. Support for all versions of Python 2 were sunset in January 2020<sup><a href="#works-cited">3</a></sup>, and it is quite different. So please use Python 3.</p>
+<p>I generally recommend choosing the most current stable release (<code>3.13</code> as of this writing) unless your project specifically requires something older.</p>
+<p>With Python 3 installed and running on your system, let’s get started with this incredible programming language!</p>
+<h2>Run Python Code in Your Terminal</h2>
+<p>There are many ways to execute (or run) Python code, but for the purposes of learning the basics, I recommend using a combination of your system's terminal and a code editor. Let's start with your terminal, then we'll bring a code editor into the mix.</p>
+<p>To run Python code in your terminal, simply type:</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># Linux and Mac:</span>
+python3<span class="w"> </span><span class="c1"># or just &#39;python&#39; if pyenv was used to install Python</span>
+
+<span class="c1"># or on Windows:</span>
+py
+</code></pre></div>
+
+<p>Press <code>enter</code> and the Python interpreter will open. It will look something like this (colors will vary based on your shell configuration):</p>
+<div class="highlight"><pre><span></span><code><span class="n">Python</span> <span class="p">[</span><span class="n">version</span> <span class="n">number</span><span class="p">]</span> <span class="p">(</span><span class="n">plus</span> <span class="n">info</span> <span class="n">about</span> <span class="n">your</span> <span class="n">system</span><span class="p">)</span>
+<span class="n">Type</span> <span class="s2">&quot;help&quot;</span><span class="p">,</span> <span class="s2">&quot;copyright&quot;</span><span class="p">,</span> <span class="s2">&quot;credits&quot;</span> <span class="ow">or</span> <span class="s2">&quot;license&quot;</span> <span class="k">for</span> <span class="n">more</span> <span class="n">information</span><span class="o">.</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="c1"># Python code goes here</span>
+</code></pre></div>
+
+<p>From here, you can run any Python code. To exit the interpreter, type <code>ctrl-d</code> on Linux/Mac or <code>ctrl-z</code> on Windows, followed by <code>enter</code>. If that doesn’t work, you can also exit by typing: <code>quit()</code> or <code>exit</code>, followed by <code>enter</code>.</p>
+<h2>Variables</h2>
+<div class="highlight"><pre><span></span><code><span class="n">greeting</span> <span class="o">=</span> <span class="s2">&quot;Hello, Python!&quot;</span>
+</code></pre></div>
+
+<p>In the example above, <code>greeting</code> is the variable, and it is set to the <code>string</code> (a sequence of characters inside quotes) <code>Hello, Python!</code> The equals sign (<code>=</code>) is called an <strong>assignment operator</strong>. A few rules to keep in mind:</p>
+<ul>
+<li>Variables cannot start with a number. So <code>x1</code> is a valid variable, but <code>1x</code> is not valid and will throw a syntax error.</li>
+<li>Variables also cannot contain spaces or special characters other than an underscore (<code>_</code>).</li>
+<li>Traditionally, variables start with lowercase letters so they are not confused with a <code>class</code>. More on classes later in this series.</li>
+</ul>
+<p>In Python, variables can be assigned to just about anything the language supports - as we will see moving forward.</p>
+<h2>Python's print() Function</h2>
+<p>If we open the Python interpreter in our terminal (<code>python3</code> on Linux/Mac or <code>py</code> on Windows), and enter the following two lines of code:</p>
+<div class="highlight"><pre><span></span><code><span class="n">greeting</span> <span class="o">=</span> <span class="s2">&quot;Hello, Python!&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">greeting</span><span class="p">)</span>
+</code></pre></div>
+
+<p>The output will be:</p>
+<div class="highlight"><pre><span></span><code>Hello, Python!
+</code></pre></div>
+
+<p>The <code>print()</code> function is built into Python and displays the specified message on screen. Anything inside the <code>()</code> becomes the output. We’ll be using the <code>print()</code> function extensively so you gain a better understanding of what the code is doing.</p>
+<h2>Jump into a Code Editor</h2>
+<p>Writing and running code in the Python interpreter is fine for simple checks, but anything longer than a few lines should be written to a <code>.py</code> (Python) file with your preferred code editor.</p>
+<p>If you don’t yet have a preferred code editor, I recommend starting with <a href="https://code.visualstudio.com/">Visual Studio Code</a>. It’s free, has excellent Python support (with a few free extensions), and runs well on Linux, Mac, and Windows.</p>
+<p>If you would like to follow along with the following code examples, feel free to create a <code>.py</code> file in your code editor. As long as it ends with <code>.py</code>, it can be called almost anything you would like, I’ll go with <code>python_kickstart.py</code>. Like variables, spaces and special characters (other than underscores) are not allowed. Your filename also cannot start with a number.</p>
+<p>Now in our <code>.py</code> file, write the following code:</p>
+<div class="highlight"><pre><span></span><code><span class="n">x</span> <span class="o">=</span> <span class="mi">4</span> <span class="o">+</span> <span class="mi">3</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</code></pre></div>
+
+<p>Save your <code>python_kickstart.py</code> file.</p>
+<p>Next, go back to your terminal and, if it is still running, exit the Python interpreter (<code>ctrl-d</code> on Linux/Mac or <code>ctrl-z</code> on Windows).</p>
+<p>Then <code>cd</code> (change directory) into the location where <code>python_kickstart.py</code> lives. And run:</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># Linux and Mac:</span>
+python3<span class="w"> </span>python_kickstart.py
+
+<span class="c1"># or on Windows:</span>
+py<span class="w"> </span>python_kickstart.py
+</code></pre></div>
+
+<p>And your terminal will return:</p>
+<div class="highlight"><pre><span></span><code><span class="mf">7</span>
+</code></pre></div>
+
+<p>Great job! You just asked Python to run the code in <code>python_kickstart.py</code> and return the results. In this case, Python didn't simply print <code>4 + 3</code> but it did the arithmetic and only printed the result.</p>
+<p>Going forward, I encourage you to manually write out (refrain from copy and paste) and execute the code examples for the topics we'll be covering. Then create a few more samples following the same patterns but with different content. I find this to be the most effective way to retain, understand, and eventually apply these foundational Python programming concepts.</p>
+<h2>Python Errors</h2>
+<p>We all make mistakes. And when mistakes happen within your code, Python might throw an error message. This is nothing to be afraid of because Python error messages routinely provide helpful information - guiding you to narrow down the problem. For example, Python will point to the location where an error occurred with one or more <code>^</code> characters like this:</p>
+<div class="highlight"><pre><span></span><code><span class="n">python_error</span> <span class="o">=</span> <span class="s2">&quot;Let&#39;s see if this works.&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">python_error</span>
+</code></pre></div>
+
+<p>output:</p>
+<div class="highlight"><pre><span></span><code>  <span class="n">File</span> <span class="s2">&quot;.../python_kickstart.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">2</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">python_error</span>
+         <span class="o">^</span>
+<span class="ne">SyntaxError</span><span class="p">:</span> <span class="s1">&#39;(&#39;</span> <span class="n">was</span> <span class="n">never</span> <span class="n">closed</span>
+</code></pre></div>
+
+<p>This is called a <code>SyntaxError</code>, which means there is something wrong with the way our program is written — punctuation that does not belong, a command where it is not expected, or a missing parenthesis (as seen above) can all trigger a <code>SyntaxError</code>.</p>
+<p>Between the specific line number being noted, the <code>^</code> pointing, and the and the message, this makes it very clear what we did wrong. Thanks, Python!</p>
+<p>Another common error type is called a <code>NameError</code>:</p>
+<div class="highlight"><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="n">best_movie</span><span class="p">)</span>
+</code></pre></div>
+
+<p>With no further context, this Python code will output:</p>
+<div class="highlight"><pre><span></span><code><span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
+  <span class="n">File</span> <span class="s2">&quot;.../python_kickstart.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">best_movie</span><span class="p">)</span>
+          <span class="o">^^^^^^^^^^</span>
+<span class="ne">NameError</span><span class="p">:</span> <span class="n">name</span> <span class="s1">&#39;best_movie&#39;</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">defined</span>
+</code></pre></div>
+
+<p>A <code>NameError</code> occurs when the Python interpreter sees a word it does not recognize. Code that contains something that looks like a variable but was never defined (as seen above) will throw such an error.</p>
+<p>Again, this detailed feedback makes simple debugging much easier than the code simply failing and maybe outputting some cryptic message. Good programmers read and try to decipher error messages. Python tries to help where it can - going well beyond many other programming languages in this regard.</p>
+<h2>Python Comments</h2>
+<p>You may have already noticed the use of <code>#</code>. In Python, <code>#</code> indicates anything that follows on the same line, is a comment. Python ignores all comments when running code, so they do not affect the output.</p>
+<p>Comments can be thought of as notes for people. In fact, many programmers use comments as a form of documentation. Stating the intended purpose of a function, for example, can help other developers (or your future self) follow the logic of the program.</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># This is a single-line comment</span>
+
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">This is a multi-line comment</span>
+
+<span class="sd">Anything inside the triple quotes is also ignored by the Python interpreter </span>
+<span class="sd">&quot;&quot;&quot;</span>
+</code></pre></div>
+
+<p>A set of three single quotes also works:</p>
+<div class="highlight"><pre><span></span><code><span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">Multi-line comments can also be surrounded by a set of three single quotes</span>
+
+<span class="sd">The end result is the same as using a set of three double quotes</span>
+<span class="sd">&#39;&#39;&#39;</span>
+</code></pre></div>
+
+<p>Comments are a great way of explaining existing code or to outline future plans. Code comments are incredibly helpful and I encourage you to use them.</p>
+<p>In fact, if you ever need to ask an AI model to generate code for you (in the future, only after you learn the basics), direct it to document the output with code comments. This way, even when the code is broken, you'll have a better idea what the AI was trying to do. Then you can use your Python skills to refactor and fix it!</p>
+<h2>Basic Python Data Types</h2>
+<p>In Python, there are three basic data types:</p>
+<ul>
+<li>Strings</li>
+<li>Numbers</li>
+<li>Booleans</li>
+</ul>
+<p>Coming up in this <strong>Python Kickstart</strong> series, we'll be diving into basic data types and structures. To ensure you don't miss it, please subscribe to <a href="https://www.benjaminpatch.com/feeds/all.atom.xml">this blog's RSS feed</a> and follow me on Bluesky: <a href="https://bsky.app/profile/benjaminpatch.com">@benjaminpatch.com</a>. Thanks for your interest in learning Python, and I'll catch you next time!</p>
+<p><a id="works-cited"></a></p>
+<h2>Works Cited</h2>
+<ol>
+<li><a href="https://www.ndtv.com/feature/replit-ceo-explains-why-learning-to-code-is-pointless-in-ai-era-instead-learn-how-to-8039962">Replit CEO Explains Why Learning To Code Is Pointless In AI Era</a> - NDTV, accessed May 12, 2025.</li>
+<li><a href="https://dawidmakowski.com/en/2025/04/vibe-coding-is-fun-but-vibe-refactoring-pays-the-bills/">Vibe Coding Is Fun - But Vibe Refactoring Pays the Bills</a> - Dawid Makowski, accessed May 12, 2025.</li>
+<li><a href="https://www.python.org/doc/sunset-python-2/">Sunsetting Python 2</a> - python.org, accessed May 12, 2025.</li>
+</ol>
+    <hr>
+    <footer>
+      <p>Published: <time datetime="2025-05-13T00:17:00-07:00">
+        Tue 13 May 2025
+      </time></p>
+        <p>
+          Category: <a href="https://www.benjaminpatch.com/category/ai-in-practice/">AI in Practice</a>
+        </p>
+        <p>
+          Tags:
+            <a href="https://www.benjaminpatch.com/tag/python/">python</a>
+            <a href="https://www.benjaminpatch.com/tag/python-kickstart/">python kickstart</a>
+            <a href="https://www.benjaminpatch.com/tag/virtual-environments/">virtual environments</a>
+            <a href="https://www.benjaminpatch.com/tag/best-practices/">best practices</a>
+            <a href="https://www.benjaminpatch.com/tag/vibe-coding/">vibe coding</a>
+            <a href="https://www.benjaminpatch.com/tag/open-source/">open-source</a>
+            <a href="https://www.benjaminpatch.com/tag/generative-ai/">generative ai</a>
+        </p>
+    </footer>
+  </article>
+    </main>
+    <footer class="text-center p-3 m-1 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
+      <p>
+        Powered by <a class="link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-100-hover"
+          rel="noopener noreferrer" href="https://getpelican.com/">Pelican <i class="bi bi-box-arrow-up-right"></i></a>
+        and <a class="link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-100-hover"
+          rel="noopener noreferrer" href="https://getbootstrap.com/">Bootstrap <i class="bi bi-box-arrow-up-right"></i></a>
+      </p>
+      </a>
+      <p>
+        Designed and Coded by Benjamin Patch
+      </p>
+      <p>
+        © 2025 Benjamin Patch
+      </p>
+    </footer>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script>
+  </body>
+</html>

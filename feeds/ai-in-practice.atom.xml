@@ -1,5 +1,151 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Benjamin Patch - AI in Practice</title><link href="https://www.benjaminpatch.com/" rel="alternate"></link><link href="https://www.benjaminpatch.com/feeds/ai-in-practice.atom.xml" rel="self"></link><id>https://www.benjaminpatch.com/</id><updated>2025-03-03T16:58:00-08:00</updated><subtitle>Guides for Building Ethical &amp; Impactful AI Software</subtitle><entry><title>Simple Python Virtual Environments: Linux and Mac</title><link href="https://www.benjaminpatch.com/posts/2025/Jan/30/simple-python-virtual-environments-linux-mac/" rel="alternate"></link><published>2025-01-30T17:32:00-08:00</published><updated>2025-03-03T16:58:00-08:00</updated><author><name>Benjamin Patch</name></author><id>tag:www.benjaminpatch.com,2025-01-30:/posts/2025/Jan/30/simple-python-virtual-environments-linux-mac/</id><summary type="html">&lt;p&gt;Python is the most widely used programming language for projects involving artificial intelligence and machine learning. But regardless of what you use Python for, virtual environments are critical to essentially all development workflows. In this guide, you will learn why virtual environments are important and how to create and manage them.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Python is the most widely used programming language for projects involving artificial intelligence and machine learning. But regardless of what you use Python for, virtual environments are critical to essentially all development workflows. In this guide, you will learn why virtual environments are important and how to create and manage them.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Benjamin Patch - AI in Practice</title><link href="https://www.benjaminpatch.com/" rel="alternate"></link><link href="https://www.benjaminpatch.com/feeds/ai-in-practice.atom.xml" rel="self"></link><id>https://www.benjaminpatch.com/</id><updated>2025-05-13T00:17:00-07:00</updated><subtitle>Guides for Building Ethical &amp; Impactful AI Software</subtitle><entry><title>When Vibe Coding Fails: Python Kickstart (part 1)</title><link href="https://www.benjaminpatch.com/posts/2025/May/13/when-vibe-coding-fails-python-kickstart-p1/" rel="alternate"></link><published>2025-05-13T00:17:00-07:00</published><updated>2025-05-13T00:17:00-07:00</updated><author><name>Benjamin Patch</name></author><id>tag:www.benjaminpatch.com,2025-05-13:/posts/2025/May/13/when-vibe-coding-fails-python-kickstart-p1/</id><summary type="html">&lt;p&gt;Welcome to part one of my Python Kickstart series! Let's discuss why you should still learn Python in the age of vibe coding. Then we'll get our feet wet by learning about running Python code. An introduction to variables, the print function, basic errors, and code comments. Let's get started!&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Why Learn Python?&lt;/h2&gt;
+&lt;p&gt;From web development to data science to machine learning applications, Python has become one of today's most in-demand programming languages. Being skilled with it opens countless possibilities for your career. Its clean syntax and logical structure make it easy to learn and even fun to use!&lt;/p&gt;
+&lt;p&gt;Python's massive number of powerful modules, packages, and frameworks extend the language into virtually any domain of interest. Not to mention this is all fully open-source, making it free to use, modify, and redistribute - including for commercial purposes.&lt;/p&gt;
+&lt;h2&gt;Why Isn't Vibe Coding the Answer?&lt;/h2&gt;
+&lt;p&gt;Now, you may have heard some AI startup CEOs proclaim it is essentially a “waste of time to learn how to code in 2025.”&lt;sup&gt;&lt;a href="#works-cited"&gt;1&lt;/a&gt;&lt;/sup&gt; I strongly disagree with these comments for several reasons. To start, I have first-hand experience asking LLMs (Large Language Models) to write and/or edit various types of code on my behalf. And while their speed and general capabilities can be astonishing, like people, they still make mistakes. And these mistakes can lead to broken and/or highly unmaintainable codebases.&lt;/p&gt;
+&lt;p&gt;To catch and correct mistakes from LLM-generated code (AKA vibe coding), you need to understand the fundamentals of the programming languages, modules, packages, and frameworks your application requires. Otherwise, it’s like asking an LLM a general question in English and receiving a response in Japanese. If you have no understanding of Japanese, you will be hard-pressed to refine any output it produces.&lt;/p&gt;
+&lt;p&gt;Plus, let's not forget those AI startup CEOs have a vested interest in you being totally reliant on their products. Knowledge is power. Please don't outsource your critical thinking skills to AI. It's a tool, not a replacement for your brain.&lt;/p&gt;
+&lt;h2&gt;Is There a Place for AI in Coding?&lt;/h2&gt;
+&lt;p&gt;Even with that being said, there absolutely is a place for AI-assisted coding. Once you understand the basics, AI tools can supercharge your productivity - even acting as a paired-programming partner. The key is understanding what these LLMs excel at, and when you need to take the lead.&lt;/p&gt;
+&lt;p&gt;The first step in getting to that point is understanding the fundamentals of Python - or any programming language for that matter. As I recently read, "Vibe coding is fun, but &lt;strong&gt;vibe refactoring&lt;/strong&gt; pays the bills."&lt;sup&gt;&lt;a href="#works-cited"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;With that in mind, let’s kickstart our knowledge of Python programming!&lt;/p&gt;
+&lt;h2&gt;Install Python 3&lt;/h2&gt;
+&lt;p&gt;If you don’t already have a Python development environment set up, there are several ways you can do this. The method I recommend is creating a virtual environment using &lt;code&gt;pyenv&lt;/code&gt;. If you’re not familiar with installing Python via &lt;code&gt;pyenv&lt;/code&gt;, please reference &lt;a href="https://www.benjaminpatch.com/posts/2025/Jan/30/simple-python-virtual-environments-linux-mac/"&gt;Simple Python Virtual Environments: Linux and Mac&lt;/a&gt; where I explain the benefits of this approach and walk you through the necessary steps to get rolling.&lt;/p&gt;
+&lt;p&gt;As noted in the linked article above, Windows users should use &lt;a href="https://github.com/pyenv-win/pyenv-win"&gt;pyenv-win&lt;/a&gt; instead.&lt;/p&gt;
+&lt;p&gt;Because this &lt;strong&gt;Python Kickstart&lt;/strong&gt; series of articles is an introduction to the basic principles and syntax of the language, any currently supported version of Python 3 is sufficient to install. Support for all versions of Python 2 were sunset in January 2020&lt;sup&gt;&lt;a href="#works-cited"&gt;3&lt;/a&gt;&lt;/sup&gt;, and it is quite different. So please use Python 3.&lt;/p&gt;
+&lt;p&gt;I generally recommend choosing the most current stable release (&lt;code&gt;3.13&lt;/code&gt; as of this writing) unless your project specifically requires something older.&lt;/p&gt;
+&lt;p&gt;With Python 3 installed and running on your system, let’s get started with this incredible programming language!&lt;/p&gt;
+&lt;h2&gt;Run Python Code in Your Terminal&lt;/h2&gt;
+&lt;p&gt;There are many ways to execute (or run) Python code, but for the purposes of learning the basics, I recommend using a combination of your system's terminal and a code editor. Let's start with your terminal, then we'll bring a code editor into the mix.&lt;/p&gt;
+&lt;p&gt;To run Python code in your terminal, simply type:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# Linux and Mac:&lt;/span&gt;
+python3&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# or just &amp;#39;python&amp;#39; if pyenv was used to install Python&lt;/span&gt;
+
+&lt;span class="c1"&gt;# or on Windows:&lt;/span&gt;
+py
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Press &lt;code&gt;enter&lt;/code&gt; and the Python interpreter will open. It will look something like this (colors will vary based on your shell configuration):&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;Python&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;version&lt;/span&gt; &lt;span class="n"&gt;number&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;plus&lt;/span&gt; &lt;span class="n"&gt;info&lt;/span&gt; &lt;span class="n"&gt;about&lt;/span&gt; &lt;span class="n"&gt;your&lt;/span&gt; &lt;span class="n"&gt;system&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;Type&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;help&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;copyright&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;credits&amp;quot;&lt;/span&gt; &lt;span class="ow"&gt;or&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;license&amp;quot;&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;more&lt;/span&gt; &lt;span class="n"&gt;information&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="c1"&gt;# Python code goes here&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;From here, you can run any Python code. To exit the interpreter, type &lt;code&gt;ctrl-d&lt;/code&gt; on Linux/Mac or &lt;code&gt;ctrl-z&lt;/code&gt; on Windows, followed by &lt;code&gt;enter&lt;/code&gt;. If that doesn’t work, you can also exit by typing: &lt;code&gt;quit()&lt;/code&gt; or &lt;code&gt;exit&lt;/code&gt;, followed by &lt;code&gt;enter&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;Variables&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;greeting&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Hello, Python!&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;In the example above, &lt;code&gt;greeting&lt;/code&gt; is the variable, and it is set to the &lt;code&gt;string&lt;/code&gt; (a sequence of characters inside quotes) &lt;code&gt;Hello, Python!&lt;/code&gt; The equals sign (&lt;code&gt;=&lt;/code&gt;) is called an &lt;strong&gt;assignment operator&lt;/strong&gt;. A few rules to keep in mind:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Variables cannot start with a number. So &lt;code&gt;x1&lt;/code&gt; is a valid variable, but &lt;code&gt;1x&lt;/code&gt; is not valid and will throw a syntax error.&lt;/li&gt;
+&lt;li&gt;Variables also cannot contain spaces or special characters other than an underscore (&lt;code&gt;_&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Traditionally, variables start with lowercase letters so they are not confused with a &lt;code&gt;class&lt;/code&gt;. More on classes later in this series.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In Python, variables can be assigned to just about anything the language supports - as we will see moving forward.&lt;/p&gt;
+&lt;h2&gt;Python's print() Function&lt;/h2&gt;
+&lt;p&gt;If we open the Python interpreter in our terminal (&lt;code&gt;python3&lt;/code&gt; on Linux/Mac or &lt;code&gt;py&lt;/code&gt; on Windows), and enter the following two lines of code:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;greeting&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Hello, Python!&amp;quot;&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;greeting&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The output will be:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;Hello, Python!
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The &lt;code&gt;print()&lt;/code&gt; function is built into Python and displays the specified message on screen. Anything inside the &lt;code&gt;()&lt;/code&gt; becomes the output. We’ll be using the &lt;code&gt;print()&lt;/code&gt; function extensively so you gain a better understanding of what the code is doing.&lt;/p&gt;
+&lt;h2&gt;Jump into a Code Editor&lt;/h2&gt;
+&lt;p&gt;Writing and running code in the Python interpreter is fine for simple checks, but anything longer than a few lines should be written to a &lt;code&gt;.py&lt;/code&gt; (Python) file with your preferred code editor.&lt;/p&gt;
+&lt;p&gt;If you don’t yet have a preferred code editor, I recommend starting with &lt;a href="https://code.visualstudio.com/"&gt;Visual Studio Code&lt;/a&gt;. It’s free, has excellent Python support (with a few free extensions), and runs well on Linux, Mac, and Windows.&lt;/p&gt;
+&lt;p&gt;If you would like to follow along with the following code examples, feel free to create a &lt;code&gt;.py&lt;/code&gt; file in your code editor. As long as it ends with &lt;code&gt;.py&lt;/code&gt;, it can be called almost anything you would like, I’ll go with &lt;code&gt;python_kickstart.py&lt;/code&gt;. Like variables, spaces and special characters (other than underscores) are not allowed. Your filename also cannot start with a number.&lt;/p&gt;
+&lt;p&gt;Now in our &lt;code&gt;.py&lt;/code&gt; file, write the following code:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Save your &lt;code&gt;python_kickstart.py&lt;/code&gt; file.&lt;/p&gt;
+&lt;p&gt;Next, go back to your terminal and, if it is still running, exit the Python interpreter (&lt;code&gt;ctrl-d&lt;/code&gt; on Linux/Mac or &lt;code&gt;ctrl-z&lt;/code&gt; on Windows).&lt;/p&gt;
+&lt;p&gt;Then &lt;code&gt;cd&lt;/code&gt; (change directory) into the location where &lt;code&gt;python_kickstart.py&lt;/code&gt; lives. And run:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# Linux and Mac:&lt;/span&gt;
+python3&lt;span class="w"&gt; &lt;/span&gt;python_kickstart.py
+
+&lt;span class="c1"&gt;# or on Windows:&lt;/span&gt;
+py&lt;span class="w"&gt; &lt;/span&gt;python_kickstart.py
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And your terminal will return:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="mf"&gt;7&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Great job! You just asked Python to run the code in &lt;code&gt;python_kickstart.py&lt;/code&gt; and return the results. In this case, Python didn't simply print &lt;code&gt;4 + 3&lt;/code&gt; but it did the arithmetic and only printed the result.&lt;/p&gt;
+&lt;p&gt;Going forward, I encourage you to manually write out (refrain from copy and paste) and execute the code examples for the topics we'll be covering. Then create a few more samples following the same patterns but with different content. I find this to be the most effective way to retain, understand, and eventually apply these foundational Python programming concepts.&lt;/p&gt;
+&lt;h2&gt;Python Errors&lt;/h2&gt;
+&lt;p&gt;We all make mistakes. And when mistakes happen within your code, Python might throw an error message. This is nothing to be afraid of because Python error messages routinely provide helpful information - guiding you to narrow down the problem. For example, Python will point to the location where an error occurred with one or more &lt;code&gt;^&lt;/code&gt; characters like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;python_error&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Let&amp;#39;s see if this works.&amp;quot;&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;python_error&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;output:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;  &lt;span class="n"&gt;File&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;.../python_kickstart.py&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;python_error&lt;/span&gt;
+         &lt;span class="o"&gt;^&lt;/span&gt;
+&lt;span class="ne"&gt;SyntaxError&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;(&amp;#39;&lt;/span&gt; &lt;span class="n"&gt;was&lt;/span&gt; &lt;span class="n"&gt;never&lt;/span&gt; &lt;span class="n"&gt;closed&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This is called a &lt;code&gt;SyntaxError&lt;/code&gt;, which means there is something wrong with the way our program is written — punctuation that does not belong, a command where it is not expected, or a missing parenthesis (as seen above) can all trigger a &lt;code&gt;SyntaxError&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Between the specific line number being noted, the &lt;code&gt;^&lt;/code&gt; pointing, and the and the message, this makes it very clear what we did wrong. Thanks, Python!&lt;/p&gt;
+&lt;p&gt;Another common error type is called a &lt;code&gt;NameError&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;best_movie&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;With no further context, this Python code will output:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;Traceback&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;most&lt;/span&gt; &lt;span class="n"&gt;recent&lt;/span&gt; &lt;span class="n"&gt;call&lt;/span&gt; &lt;span class="n"&gt;last&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+  &lt;span class="n"&gt;File&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;.../python_kickstart.py&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;module&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;best_movie&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+          &lt;span class="o"&gt;^^^^^^^^^^&lt;/span&gt;
+&lt;span class="ne"&gt;NameError&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;name&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;best_movie&amp;#39;&lt;/span&gt; &lt;span class="ow"&gt;is&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="n"&gt;defined&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;A &lt;code&gt;NameError&lt;/code&gt; occurs when the Python interpreter sees a word it does not recognize. Code that contains something that looks like a variable but was never defined (as seen above) will throw such an error.&lt;/p&gt;
+&lt;p&gt;Again, this detailed feedback makes simple debugging much easier than the code simply failing and maybe outputting some cryptic message. Good programmers read and try to decipher error messages. Python tries to help where it can - going well beyond many other programming languages in this regard.&lt;/p&gt;
+&lt;h2&gt;Python Comments&lt;/h2&gt;
+&lt;p&gt;You may have already noticed the use of &lt;code&gt;#&lt;/code&gt;. In Python, &lt;code&gt;#&lt;/code&gt; indicates anything that follows on the same line, is a comment. Python ignores all comments when running code, so they do not affect the output.&lt;/p&gt;
+&lt;p&gt;Comments can be thought of as notes for people. In fact, many programmers use comments as a form of documentation. Stating the intended purpose of a function, for example, can help other developers (or your future self) follow the logic of the program.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# This is a single-line comment&lt;/span&gt;
+
+&lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+&lt;span class="sd"&gt;This is a multi-line comment&lt;/span&gt;
+
+&lt;span class="sd"&gt;Anything inside the triple quotes is also ignored by the Python interpreter &lt;/span&gt;
+&lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;A set of three single quotes also works:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="sd"&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class="sd"&gt;Multi-line comments can also be surrounded by a set of three single quotes&lt;/span&gt;
+
+&lt;span class="sd"&gt;The end result is the same as using a set of three double quotes&lt;/span&gt;
+&lt;span class="sd"&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Comments are a great way of explaining existing code or to outline future plans. Code comments are incredibly helpful and I encourage you to use them.&lt;/p&gt;
+&lt;p&gt;In fact, if you ever need to ask an AI model to generate code for you (in the future, only after you learn the basics), direct it to document the output with code comments. This way, even when the code is broken, you'll have a better idea what the AI was trying to do. Then you can use your Python skills to refactor and fix it!&lt;/p&gt;
+&lt;h2&gt;Basic Python Data Types&lt;/h2&gt;
+&lt;p&gt;In Python, there are three basic data types:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Strings&lt;/li&gt;
+&lt;li&gt;Numbers&lt;/li&gt;
+&lt;li&gt;Booleans&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Coming up in this &lt;strong&gt;Python Kickstart&lt;/strong&gt; series, we'll be diving into basic data types and structures. To ensure you don't miss it, please subscribe to &lt;a href="https://www.benjaminpatch.com/feeds/all.atom.xml"&gt;this blog's RSS feed&lt;/a&gt; and follow me on Bluesky: &lt;a href="https://bsky.app/profile/benjaminpatch.com"&gt;@benjaminpatch.com&lt;/a&gt;. Thanks for your interest in learning Python, and I'll catch you next time!&lt;/p&gt;
+&lt;p&gt;&lt;a id="works-cited"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Works Cited&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="https://www.ndtv.com/feature/replit-ceo-explains-why-learning-to-code-is-pointless-in-ai-era-instead-learn-how-to-8039962"&gt;Replit CEO Explains Why Learning To Code Is Pointless In AI Era&lt;/a&gt; - NDTV, accessed May 12, 2025.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://dawidmakowski.com/en/2025/04/vibe-coding-is-fun-but-vibe-refactoring-pays-the-bills/"&gt;Vibe Coding Is Fun - But Vibe Refactoring Pays the Bills&lt;/a&gt; - Dawid Makowski, accessed May 12, 2025.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.python.org/doc/sunset-python-2/"&gt;Sunsetting Python 2&lt;/a&gt; - python.org, accessed May 12, 2025.&lt;/li&gt;
+&lt;/ol&gt;</content><category term="AI in Practice"></category><category term="python"></category><category term="python kickstart"></category><category term="virtual environments"></category><category term="best practices"></category><category term="vibe coding"></category><category term="open-source"></category><category term="generative ai"></category></entry><entry><title>Simple Python Virtual Environments: Linux and Mac</title><link href="https://www.benjaminpatch.com/posts/2025/Jan/30/simple-python-virtual-environments-linux-mac/" rel="alternate"></link><published>2025-01-30T17:32:00-08:00</published><updated>2025-03-03T16:58:00-08:00</updated><author><name>Benjamin Patch</name></author><id>tag:www.benjaminpatch.com,2025-01-30:/posts/2025/Jan/30/simple-python-virtual-environments-linux-mac/</id><summary type="html">&lt;p&gt;Python is the most widely used programming language for projects involving artificial intelligence and machine learning. But regardless of what you use Python for, virtual environments are critical to essentially all development workflows. In this guide, you will learn why virtual environments are important and how to create and manage them.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Python is the most widely used programming language for projects involving artificial intelligence and machine learning. But regardless of what you use Python for, virtual environments are critical to essentially all development workflows. In this guide, you will learn why virtual environments are important and how to create and manage them.&lt;/p&gt;
 &lt;p&gt;Specifically, we will cover the installation, configuration, and basic use of &lt;code&gt;pyenv&lt;/code&gt; to manage numerous versions of Python on your system. We will also explain how to use &lt;code&gt;venv&lt;/code&gt; to create, activate, deactivate, and remove virtual Python environments. Finally, we will cover the management of external dependencies with &lt;code&gt;pip&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;The combination of these three tools will help us create simple, clean, and flexible virtual environments for a wide range of Python projects. Let’s walk through the process together.&lt;/p&gt;
 &lt;h2&gt;Why Virtual Environments?&lt;/h2&gt;
