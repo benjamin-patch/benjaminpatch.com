@@ -3,8 +3,8 @@ Date: 2025-05-13 00:17
 Category: AI in Practice
 Tags: python, python kickstart, virtual environments, best practices, vibe coding, open-source, generative ai
 Slug: when-vibe-coding-fails-python-kickstart-p1
-Description: Python Kickstart: Part One. Why should you learn Python in the age of vibe coding? Then get your feet wet by learning how to start writing Python.
-Summary: Part one of my Python Kickstart series! Why should you learn Python in the age of vibe coding? Then get your feet wet by learning about running Python code. An introduction to variables, the print function, basic errors, and code comments. Let's get started!
+Description: Python Kickstart: Part One. Why should you learn Python in the age of vibe coding? Then get your feet wet by learning how to start writing Python code.
+Summary: Welcome to part one of my Python Kickstart series! Let's discuss why you should still learn Python in the age of vibe coding. Then we'll get our feet wet by learning about running Python code. An introduction to variables, the print function, basic errors, and code comments. Let's get started!
 
 ## Why Learn Python?
 
