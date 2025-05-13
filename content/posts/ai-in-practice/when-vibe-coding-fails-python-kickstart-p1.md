@@ -219,6 +219,6 @@ Coming up in this **Python Kickstart** series, we'll be diving into basic data t
 <a id="works-cited"></a>
 ## Works Cited
 
-1. Replit CEO Explains Why Learning To Code Is Pointless In AI Era - NDTV, accessed May 12, 2025, https://www.ndtv.com/feature/replit-ceo-explains-why-learning-to-code-is-pointless-in-ai-era-instead-learn-how-to-8039962
-2. Vibe Coding Is Fun - But Vibe Refactoring Pays the Bills - Dawid Makowski, accessed May 12, 2025, https://dawidmakowski.com/en/2025/04/vibe-coding-is-fun-but-vibe-refactoring-pays-the-bills/
-3. Sunsetting Python 2 - python.org, accessed May 12, 2025, https://www.python.org/doc/sunset-python-2/
+1. [Replit CEO Explains Why Learning To Code Is Pointless In AI Era](https://www.ndtv.com/feature/replit-ceo-explains-why-learning-to-code-is-pointless-in-ai-era-instead-learn-how-to-8039962) - NDTV, accessed May 12, 2025.
+2. [Vibe Coding Is Fun - But Vibe Refactoring Pays the Bills](https://dawidmakowski.com/en/2025/04/vibe-coding-is-fun-but-vibe-refactoring-pays-the-bills/) - Dawid Makowski, accessed May 12, 2025.
+3. [Sunsetting Python 2](https://www.python.org/doc/sunset-python-2/) - python.org, accessed May 12, 2025.
