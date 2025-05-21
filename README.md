@@ -46,7 +46,7 @@ git remote set-head origin -a
 
 ### 2025.05.21
 
-- Correct a typo in "When Vibe Coding Fails" article.
+- Correct a typo in "When Vibe Coding Fails."
 - Move to to `uv` as our Python package and project manager.
 
 ### 2025.05.13
