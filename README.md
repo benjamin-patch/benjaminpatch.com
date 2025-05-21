@@ -7,20 +7,20 @@ Code syntax highlighting provided by [highlight.js](https://highlightjs.org/).
 
 ## Pelican Site Updates
 
-Built and tested in a `Python 3.13.3` venv.
+This project's Python environment is managed by
+[uv](https://docs.astral.sh/uv/).
 
-Dependency declaration in `requirements.txt`. Rebuild by running:
-
-```bash
-pip install -r requirements.txt
-```
+- `uv sync`: Sync the project's dependencies with the environment.
+- `uv add`: Add a dependency to the project.
+- `uv remove`: Remove a dependency from the project.
+- `uv run`: Run a command in the project environment.
 
 ### Development
 
 ```bash
 rm -rf output/*
-invoke regenerate
-invoke livereload
+uv run invoke regenerate
+uv run invoke livereload
 ```
 
 ### Production
@@ -43,6 +43,11 @@ git remote set-head origin -a
 ```
 
 ## Release Notes
+
+### 2025.05.21
+
+- Correct a typo in "When Vibe Coding Fails" article.
+- Move to to `uv` as our Python package and project manager.
 
 ### 2025.05.13
 
