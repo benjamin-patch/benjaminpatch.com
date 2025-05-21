@@ -9,7 +9,7 @@ Code syntax highlighting provided by [highlight.js](https://highlightjs.org/).
 
 Built and tested in a `Python 3.13.3` venv.
 
-Dependency declaration in `requirements.txt`. Rebuid by running:
+Dependency declaration in `requirements.txt`. Rebuild by running:
 
 ```bash
 pip install -r requirements.txt
