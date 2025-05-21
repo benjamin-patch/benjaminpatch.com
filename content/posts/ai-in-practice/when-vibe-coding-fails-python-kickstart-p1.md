@@ -154,7 +154,7 @@ SyntaxError: '(' was never closed
 
 This is called a `SyntaxError`, which means there is something wrong with the way our program is written — punctuation that does not belong, a command where it is not expected, or a missing parenthesis (as seen above) can all trigger a `SyntaxError`.
 
-Between the specific line number being noted, the `^` pointing, and the and the message, this makes it very clear what we did wrong. Thanks, Python!
+Between the specific line number being noted, the `^` pointing, and the `SyntaxError` message, this all makes it very clear what we did wrong. Thanks, Python!
 
 Another common error type is called a `NameError`:
 
